@@ -1,0 +1,1065 @@
+2017-07-09 00:06:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1499530010</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-09 00:06:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1499530010',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499530010',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 00:06:48 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 11:03:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4UpkGW7oKJPpXWk7ZtlFPY]]></FromUserName>
+<CreateTime>1499569429</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-09 14:57:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is0HSpNu_LBYICikhT5KVun8]]></FromUserName>
+<CreateTime>1499583441</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【行李箱 万向轮旅行箱 女密码箱 男20寸登机箱子皮箱牛津布 拉杆箱】http://c.b1yt.com/h.OY4Od2?cv=iNgWGWvqOj&sm=f28156 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥iNgWGWvqOj￥]]></Content>
+<MsgId>6440661837138004770</MsgId>
+</xml>
+
+2017-07-09 14:57:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'createtime' => '1499583441',
+    'msgtype' => 'text',
+    'content' => '【行李箱 万向轮旅行箱 女密码箱 男20寸登机箱子皮箱牛津布 拉杆箱】http://c.b1yt.com/h.OY4Od2?cv=iNgWGWvqOj&sm=f28156 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥iNgWGWvqOj￥',
+    'msgid' => '6440661837138004770',
+    'from' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499583441',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 14:57:20 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is0HSpNu_LBYICikhT5KVun8 ;
+MsgType : text ;
+Content : Hi,十七岁的夏天
+该商品暂无优惠,请查看其他商品 ;
+
+2017-07-09 16:05:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499587560</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-09 16:05:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499587560',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499587560',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 16:05:59 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 16:06:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499587615</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-07-09 16:06:54 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499587615',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499587615',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'basic',
+  'rule' => '38',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '80',
+    'rid' => '38',
+    'uniacid' => '2',
+    'module' => 'basic',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 16:06:54 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 添加客服微信号：zdxkf001 
+客服工作时间为工作日
+9：00~11：30 和14：30~17：30。 ;
+
+2017-07-09 17:03:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is12Nwvp8gKKGYQkYdhz330k]]></FromUserName>
+<CreateTime>1499591017</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（荣欣堂太谷饼2100g整箱特产美食传统零食批发面包手撕小吃糕点心），快来和我一起瓜分红包】http://c.b1yt.com/h.Oct6BP?cv=0isjGWwTAn&sm=ed97ee 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥0isjGWwTAn￥]]></Content>
+<MsgId>6440694375810244365</MsgId>
+</xml>
+
+2017-07-09 17:03:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is12Nwvp8gKKGYQkYdhz330k',
+    'createtime' => '1499591017',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（荣欣堂太谷饼2100g整箱特产美食传统零食批发面包手撕小吃糕点心），快来和我一起瓜分红包】http://c.b1yt.com/h.Oct6BP?cv=0isjGWwTAn&sm=ed97ee 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥0isjGWwTAn￥',
+    'msgid' => '6440694375810244365',
+    'from' => 'oRy3is12Nwvp8gKKGYQkYdhz330k',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499591017',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 17:03:40 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is12Nwvp8gKKGYQkYdhz330k ;
+MsgType : text ;
+Content : 昵称：李 
+商品名称：荣欣堂太谷饼2100g整箱特产美食传统零食批发面包手撕小吃糕点心 
+原价：29.9 
+优惠券：0  
+返现：4.10 
+优惠金额：4.1 
+优惠价：25.8 
+淘口令：￥XGZP0aOVmjP￥           复制此条消息，打开淘宝。 ;
+
+2017-07-09 19:03:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszjbL8rK5Q0QuCyvaI9-QaY]]></FromUserName>
+<CreateTime>1499598233</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-09 19:03:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'createtime' => '1499598233',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499598233',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 19:03:52 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 19:05:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszjbL8rK5Q0QuCyvaI9-QaY]]></FromUserName>
+<CreateTime>1499598311</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-09 19:05:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'createtime' => '1499598311',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499598311',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 19:05:10 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 19:06:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszjbL8rK5Q0QuCyvaI9-QaY]]></FromUserName>
+<CreateTime>1499598414</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-09 19:06:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'createtime' => '1499598414',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499598414',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 19:06:53 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 19:07:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszjbL8rK5Q0QuCyvaI9-QaY]]></FromUserName>
+<CreateTime>1499598422</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-09 19:07:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'createtime' => '1499598422',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499598422',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 19:07:00 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 19:07:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszjbL8rK5Q0QuCyvaI9-QaY]]></FromUserName>
+<CreateTime>1499598428</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://i.eqxiu.com/s/H8eS5oEM]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-09 19:07:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'createtime' => '1499598428',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'menuid' => '416162317',
+    'from' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499598428',
+    'type' => 'text',
+    'content' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 19:07:07 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 19:07:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszjbL8rK5Q0QuCyvaI9-QaY]]></FromUserName>
+<CreateTime>1499598434</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-09 19:07:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'createtime' => '1499598434',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iszjbL8rK5Q0QuCyvaI9-QaY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499598434',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 19:07:12 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 22:28:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4xIP66pR_4p_nPknDQ-sFE]]></FromUserName>
+<CreateTime>1499610483</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【7.2斤单筒单桶宝宝半全自动家用迷你洗衣机小型婴儿童带甩干脱水】，点击链接再选择浏览器打开http://c.b1yt.com/h.OePVD1?cv=v4dH0aowWJl&sm=ba347f ，或复制这条信息￥v4dH0aowWJl￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440777981643637752</MsgId>
+</xml>
+
+2017-07-09 22:28:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4xIP66pR_4p_nPknDQ-sFE',
+    'createtime' => '1499610483',
+    'msgtype' => 'text',
+    'content' => '【7.2斤单筒单桶宝宝半全自动家用迷你洗衣机小型婴儿童带甩干脱水】，点击链接再选择浏览器打开http://c.b1yt.com/h.OePVD1?cv=v4dH0aowWJl&sm=ba347f ，或复制这条信息￥v4dH0aowWJl￥后打开👉手机淘宝👈',
+    'msgid' => '6440777981643637752',
+    'from' => 'oRy3is4xIP66pR_4p_nPknDQ-sFE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499610483',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 22:28:02 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4xIP66pR_4p_nPknDQ-sFE ;
+MsgType : text ;
+Content : Hi,A婷婷
+该商品暂无优惠,请查看其他商品 ;
+
+2017-07-09 23:04:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9BiBHwqGGUEVbEoG6XTTNE]]></FromUserName>
+<CreateTime>1499612658</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（六神沐浴露3重薄荷1000ml 劲凉酷爽冰凉沐浴液身体男女士沐浴露），快来和我一起瓜分红包】￥0ROtGWBZyA￥http://c.b1yt.com/h.OeDAT5?cv=0ROtGWBZyA&sm=f255d4]]></Content>
+<MsgId>6440787323197507152</MsgId>
+</xml>
+
+2017-07-09 23:04:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9BiBHwqGGUEVbEoG6XTTNE',
+    'createtime' => '1499612658',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（六神沐浴露3重薄荷1000ml 劲凉酷爽冰凉沐浴液身体男女士沐浴露），快来和我一起瓜分红包】￥0ROtGWBZyA￥http://c.b1yt.com/h.OeDAT5?cv=0ROtGWBZyA&sm=f255d4',
+    'msgid' => '6440787323197507152',
+    'from' => 'oRy3is9BiBHwqGGUEVbEoG6XTTNE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499612658',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 23:04:20 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is9BiBHwqGGUEVbEoG6XTTNE ;
+MsgType : text ;
+Content : 昵称：nu 
+商品名称：六神沐浴露3重薄荷1000ml 劲凉酷爽冰凉沐浴液身体男女士沐浴露 
+原价：29.9 
+优惠券：0  
+返现：0.34 
+优惠金额：0.34 
+优惠价：29.56 
+淘口令：￥7HrB0aL57IG￥           复制此条消息，打开淘宝。 ;
+
+2017-07-09 23:27:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5ULfur5alEfFn4D81QKqms]]></FromUserName>
+<CreateTime>1499614036</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-09 23:27:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'createtime' => '1499614036',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499614036',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '欢迎',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-09 23:27:14 response :
+------------
+Array:
+params : Array ;
+
+2017-07-09 23:27:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5ULfur5alEfFn4D81QKqms]]></FromUserName>
+<CreateTime>1499614052</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（GOLF合金数据线iPhone6 6S 7 plus苹果5手机5S加长i7认证充电器线），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.OVb2EH?cv=QBTF0aLja0Z&sm=fb85b4 ，或复制这条信息￥QBTF0aLja0Z￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440793310381918143</MsgId>
+</xml>
+
+2017-07-09 23:27:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'createtime' => '1499614052',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（GOLF合金数据线iPhone6 6S 7 plus苹果5手机5S加长i7认证充电器线），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.OVb2EH?cv=QBTF0aLja0Z&sm=fb85b4 ，或复制这条信息￥QBTF0aLja0Z￥后打开👉手机淘宝👈',
+    'msgid' => '6440793310381918143',
+    'from' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499614052',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 23:27:32 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5ULfur5alEfFn4D81QKqms ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-09 23:29:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5ULfur5alEfFn4D81QKqms]]></FromUserName>
+<CreateTime>1499614142</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（图拉斯苹果数据线iPhone6手机7plus快充6s充电线器5六6P加长2米5s），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.OVbwTg?cv=Jk1L0aLjkHV&sm=706cd9 ，或复制这条信息￥Jk1L0aLjkHV￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440793696928974798</MsgId>
+</xml>
+
+2017-07-09 23:29:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'createtime' => '1499614142',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（图拉斯苹果数据线iPhone6手机7plus快充6s充电线器5六6P加长2米5s），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.OVbwTg?cv=Jk1L0aLjkHV&sm=706cd9 ，或复制这条信息￥Jk1L0aLjkHV￥后打开👉手机淘宝👈',
+    'msgid' => '6440793696928974798',
+    'from' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499614142',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 23:29:03 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5ULfur5alEfFn4D81QKqms ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-09 23:29:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5ULfur5alEfFn4D81QKqms]]></FromUserName>
+<CreateTime>1499614168</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（第一卫iPhone6数据线6S充电线器苹果5手机plus加长5s六7P短2米i6），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.OVYOLR?cv=ZUrq0aLjLEi&sm=98aff4 ，或复制这条信息￥ZUrq0aLjLEi￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440793808598124501</MsgId>
+</xml>
+
+2017-07-09 23:29:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'createtime' => '1499614168',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（第一卫iPhone6数据线6S充电线器苹果5手机plus加长5s六7P短2米i6），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.OVYOLR?cv=ZUrq0aLjLEi&sm=98aff4 ，或复制这条信息￥ZUrq0aLjLEi￥后打开👉手机淘宝👈',
+    'msgid' => '6440793808598124501',
+    'from' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499614168',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 23:29:28 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5ULfur5alEfFn4D81QKqms ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-09 23:30:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5ULfur5alEfFn4D81QKqms]]></FromUserName>
+<CreateTime>1499614248</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【汉尼iPhone6数据线6s苹果5手机5s加长i6Plus五7P六ipad充电线器ip】，点击链接再选择浏览器打开http://c.b1yt.com/h.OV1cLP?cv=rgxH0aLQaX9&sm=f74655 ，或复制这条信息￥rgxH0aLQaX9￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440794152195508199</MsgId>
+</xml>
+
+2017-07-09 23:30:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'createtime' => '1499614248',
+    'msgtype' => 'text',
+    'content' => '【汉尼iPhone6数据线6s苹果5手机5s加长i6Plus五7P六ipad充电线器ip】，点击链接再选择浏览器打开http://c.b1yt.com/h.OV1cLP?cv=rgxH0aLQaX9&sm=f74655 ，或复制这条信息￥rgxH0aLQaX9￥后打开👉手机淘宝👈',
+    'msgid' => '6440794152195508199',
+    'from' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499614248',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 23:30:48 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5ULfur5alEfFn4D81QKqms ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-09 23:31:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5ULfur5alEfFn4D81QKqms]]></FromUserName>
+<CreateTime>1499614264</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【古尚古iPhone6数据线6s苹果5加长5s手机6Plus充电线器7P安卓ipad】，点击链接再选择浏览器打开http://c.b1yt.com/h.OV1QQn?cv=CF3Z0aLQWCK&sm=5ec193 ，或复制这条信息￥CF3Z0aLQWCK￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440794220914984938</MsgId>
+</xml>
+
+2017-07-09 23:31:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'createtime' => '1499614264',
+    'msgtype' => 'text',
+    'content' => '【古尚古iPhone6数据线6s苹果5加长5s手机6Plus充电线器7P安卓ipad】，点击链接再选择浏览器打开http://c.b1yt.com/h.OV1QQn?cv=CF3Z0aLQWCK&sm=5ec193 ，或复制这条信息￥CF3Z0aLQWCK￥后打开👉手机淘宝👈',
+    'msgid' => '6440794220914984938',
+    'from' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499614264',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 23:31:04 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5ULfur5alEfFn4D81QKqms ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-09 23:31:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5ULfur5alEfFn4D81QKqms]]></FromUserName>
+<CreateTime>1499614287</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【机乐堂iPhone6数据线6s苹果5加长5s手机i6Plus六7P五ipad充电线器】，点击链接再选择浏览器打开http://c.b1yt.com/h.OV1spy?cv=CIUr0aLQ48q&sm=0229ed ，或复制这条信息￥CIUr0aLQ48q￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440794319699232751</MsgId>
+</xml>
+
+2017-07-09 23:31:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'createtime' => '1499614287',
+    'msgtype' => 'text',
+    'content' => '【机乐堂iPhone6数据线6s苹果5加长5s手机i6Plus六7P五ipad充电线器】，点击链接再选择浏览器打开http://c.b1yt.com/h.OV1spy?cv=CIUr0aLQ48q&sm=0229ed ，或复制这条信息￥CIUr0aLQ48q￥后打开👉手机淘宝👈',
+    'msgid' => '6440794319699232751',
+    'from' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499614287',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 23:31:27 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5ULfur5alEfFn4D81QKqms ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-09 23:31:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5ULfur5alEfFn4D81QKqms]]></FromUserName>
+<CreateTime>1499614313</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【景为 iPhone6数据线6s苹果5s加长2米手机6Plus充电线器六7p可爱短】，点击链接再选择浏览器打开http://c.b1yt.com/h.OVcQmD?cv=BlPg0aLQRgl&sm=eb0aa0 ，或复制这条信息￥BlPg0aLQRgl￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440794431368382458</MsgId>
+</xml>
+
+2017-07-09 23:31:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'createtime' => '1499614313',
+    'msgtype' => 'text',
+    'content' => '【景为 iPhone6数据线6s苹果5s加长2米手机6Plus充电线器六7p可爱短】，点击链接再选择浏览器打开http://c.b1yt.com/h.OVcQmD?cv=BlPg0aLQRgl&sm=eb0aa0 ，或复制这条信息￥BlPg0aLQRgl￥后打开👉手机淘宝👈',
+    'msgid' => '6440794431368382458',
+    'from' => 'oRy3is5ULfur5alEfFn4D81QKqms',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499614313',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-09 23:31:53 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5ULfur5alEfFn4D81QKqms ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+

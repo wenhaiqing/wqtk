@@ -1,0 +1,1010 @@
+2017-07-24 00:27:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1500827225</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-24 00:27:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1500827225',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500827225',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 00:27:04 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 01:09:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_78vaHZrL_vTx7ugUKSgzo]]></FromUserName>
+<CreateTime>1500829761</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（三代人擀面皮凉皮陕西小吃正宗宝鸡岐山特产真空包装300g*5袋装），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.nUcLHt?cv=OGg00bpkdvN&sm=fe38fc ，或复制这条信息￥OGg00bpkdvN￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446014740778967127</MsgId>
+</xml>
+
+2017-07-24 01:09:23 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'createtime' => '1500829761',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（三代人擀面皮凉皮陕西小吃正宗宝鸡岐山特产真空包装300g*5袋装），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.nUcLHt?cv=OGg00bpkdvN&sm=fe38fc ，或复制这条信息￥OGg00bpkdvN￥后打开👉手机淘宝👈',
+    'msgid' => '6446014740778967127',
+    'from' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500829761',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 01:09:23 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_78vaHZrL_vTx7ugUKSgzo ;
+MsgType : text ;
+Content : 昵称：云淡风轻 
+商品名称：三代人擀面皮凉皮陕西小吃正宗宝鸡岐山特产真空包装300g*5袋装 
+原价：24.5 
+优惠券：0  
+返现：0.55 
+优惠金额：0.55 
+优惠价：23.95 
+淘口令：￥DhHY0bpkU3Y￥           复制此条消息，打开淘宝。 ;
+
+2017-07-24 01:11:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_78vaHZrL_vTx7ugUKSgzo]]></FromUserName>
+<CreateTime>1500829896</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（三包料 砂锅过桥粗米线 云南正宗调料批发真空袋装 3袋起优惠包邮），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.nU1jXO?cv=xHzJ0bpkP64&sm=78b6a4 ，或复制这条信息￥xHzJ0bpkP64￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446015320599552120</MsgId>
+</xml>
+
+2017-07-24 01:11:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'createtime' => '1500829896',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（三包料 砂锅过桥粗米线 云南正宗调料批发真空袋装 3袋起优惠包邮），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.nU1jXO?cv=xHzJ0bpkP64&sm=78b6a4 ，或复制这条信息￥xHzJ0bpkP64￥后打开👉手机淘宝👈',
+    'msgid' => '6446015320599552120',
+    'from' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500829896',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 01:11:38 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_78vaHZrL_vTx7ugUKSgzo ;
+MsgType : text ;
+Content : 昵称：云淡风轻 
+商品名称：三包料 砂锅过桥粗米线 云南正宗调料批发真空袋装 3袋起优惠包邮 
+原价：5.6 
+优惠券：0  
+返现：0.04 
+优惠金额：0.04 
+优惠价：5.56 
+淘口令：￥XUFW0bpklLT￥           复制此条消息，打开淘宝。 ;
+
+2017-07-24 01:18:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_78vaHZrL_vTx7ugUKSgzo]]></FromUserName>
+<CreateTime>1500830321</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（3袋装 正宗云南过桥砂锅粗米线麻辣口味 包邮 真空袋装批发三包料），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.nUcwq3?cv=4iXn0bpPRsz&sm=5d7cdf ，或复制这条信息￥4iXn0bpPRsz￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446017145960653003</MsgId>
+</xml>
+
+2017-07-24 01:18:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'createtime' => '1500830321',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（3袋装 正宗云南过桥砂锅粗米线麻辣口味 包邮 真空袋装批发三包料），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.nUcwq3?cv=4iXn0bpPRsz&sm=5d7cdf ，或复制这条信息￥4iXn0bpPRsz￥后打开👉手机淘宝👈',
+    'msgid' => '6446017145960653003',
+    'from' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500830321',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 01:18:43 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_78vaHZrL_vTx7ugUKSgzo ;
+MsgType : text ;
+Content : 昵称：云淡风轻 
+商品名称：3袋装 正宗云南过桥砂锅粗米线麻辣口味 包邮 真空袋装批发三包料 
+原价：15.9 
+优惠券：0  
+返现：0.14 
+优惠金额：0.14 
+优惠价：15.76 
+淘口令：￥338v0bpPhVk￥           复制此条消息，打开淘宝。 ;
+
+2017-07-24 12:02:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1500868925</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-24 12:02:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1500868925',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500868925',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 12:02:04 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 12:02:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1500868931</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-24 12:02:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1500868931',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500868931',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 12:02:10 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 13:49:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1500875390</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-24 13:49:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1500875390',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500875390',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 13:49:50 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 13:53:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1500875623</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-24 13:53:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1500875623',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500875623',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 13:53:42 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 17:29:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2AhIFygRRoE4rHLW14hIdU]]></FromUserName>
+<CreateTime>1500888596</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-24 17:29:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'createtime' => '1500888596',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500888596',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 17:29:55 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 17:30:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2AhIFygRRoE4rHLW14hIdU]]></FromUserName>
+<CreateTime>1500888637</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【卫生间挂墙式淋浴屏花洒套装卫浴恒温阀全铜龙头洗澡神器增压喷头】，点击链接再选择浏览器打开http://c.b1yt.com/h.n7Sw4M?cv=hEkW0bHKLzt&sm=369229 ，或复制这条信息￥hEkW0bHKLzt￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446267611273528434</MsgId>
+</xml>
+
+2017-07-24 17:30:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'createtime' => '1500888637',
+    'msgtype' => 'text',
+    'content' => '【卫生间挂墙式淋浴屏花洒套装卫浴恒温阀全铜龙头洗澡神器增压喷头】，点击链接再选择浏览器打开http://c.b1yt.com/h.n7Sw4M?cv=hEkW0bHKLzt&sm=369229 ，或复制这条信息￥hEkW0bHKLzt￥后打开👉手机淘宝👈',
+    'msgid' => '6446267611273528434',
+    'from' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500888637',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 17:30:39 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2AhIFygRRoE4rHLW14hIdU ;
+MsgType : text ;
+Content : 昵称：糖宝 
+商品名称：卫生间挂墙式淋浴屏花洒套装卫浴恒温阀全铜龙头洗澡神器增压喷头 
+原价：350 
+优惠券：0  
+返现：31.50 
+优惠金额：31.5 
+优惠价：318.5 
+淘口令：￥PWBt0bHtofZ￥           复制此条消息，打开淘宝。 ;
+
+2017-07-24 17:31:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2AhIFygRRoE4rHLW14hIdU]]></FromUserName>
+<CreateTime>1500888677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-24 17:31:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'createtime' => '1500888677',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500888677',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 17:31:16 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 17:31:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2AhIFygRRoE4rHLW14hIdU]]></FromUserName>
+<CreateTime>1500888683</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[邀人]]></EventKey>
+</xml>
+
+2017-07-24 17:31:23 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'createtime' => '1500888683',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '邀人',
+    'from' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500888683',
+    'type' => 'text',
+    'content' => '邀人',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '20',
+  'priority' => '254',
+  'keyword' => 
+  array (
+    'id' => '25',
+    'rid' => '20',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '邀人',
+    'type' => '1',
+    'displayorder' => '254',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 17:31:23 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2AhIFygRRoE4rHLW14hIdU ;
+MsgType : image ;
+Image : Array ;
+
+2017-07-24 17:31:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2ElrZmhT2iwW4C68i3ohe8]]></FromUserName>
+<CreateTime>1500888718</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[tiger_taoke1630]]></EventKey>
+<Ticket><![CDATA[gQG-8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeDNlczU0N0pieVAxMDAwMDAwN2EAAgSy2AZZAwQAAAAA]]></Ticket>
+</xml>
+
+2017-07-24 17:31:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2ElrZmhT2iwW4C68i3ohe8',
+    'createtime' => '1500888718',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'tiger_taoke1630',
+    'ticket' => 'gQG-8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeDNlczU0N0pieVAxMDAwMDAwN2EAAgSy2AZZAwQAAAAA',
+    'from' => 'oRy3is2ElrZmhT2iwW4C68i3ohe8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500888718',
+    'type' => 'text',
+    'scene' => 'tiger_taoke1630',
+    'redirection' => true,
+    'source' => 'qr',
+    'content' => '邀人',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 17:31:57 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 17:32:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2ElrZmhT2iwW4C68i3ohe8]]></FromUserName>
+<CreateTime>1500888740</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-24 17:32:19 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2ElrZmhT2iwW4C68i3ohe8',
+    'createtime' => '1500888740',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2ElrZmhT2iwW4C68i3ohe8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500888740',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 17:32:19 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 17:33:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2ElrZmhT2iwW4C68i3ohe8]]></FromUserName>
+<CreateTime>1500888804</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【卫生间挂墙式淋浴屏花洒套装卫浴恒温阀全铜龙头洗澡神器增压喷头】，点击链接再选择浏览器打开http://c.b1yt.com/h.n7Sw4M?cv=hEkW0bHKLzt&sm=369229 ，或复制这条信息￥hEkW0bHKLzt￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446268328533067055</MsgId>
+</xml>
+
+2017-07-24 17:33:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2ElrZmhT2iwW4C68i3ohe8',
+    'createtime' => '1500888804',
+    'msgtype' => 'text',
+    'content' => '【卫生间挂墙式淋浴屏花洒套装卫浴恒温阀全铜龙头洗澡神器增压喷头】，点击链接再选择浏览器打开http://c.b1yt.com/h.n7Sw4M?cv=hEkW0bHKLzt&sm=369229 ，或复制这条信息￥hEkW0bHKLzt￥后打开👉手机淘宝👈',
+    'msgid' => '6446268328533067055',
+    'from' => 'oRy3is2ElrZmhT2iwW4C68i3ohe8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500888804',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 17:33:26 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2ElrZmhT2iwW4C68i3ohe8 ;
+MsgType : text ;
+Content : 昵称：玲儿 
+商品名称：卫生间挂墙式淋浴屏花洒套装卫浴恒温阀全铜龙头洗澡神器增压喷头 
+原价：350 
+优惠券：0  
+返现：31.50 
+优惠金额：31.5 
+优惠价：318.5 
+淘口令：￥fsWM0bHurev￥           复制此条消息，打开淘宝。 ;
+
+2017-07-24 17:47:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4xIP66pR_4p_nPknDQ-sFE]]></FromUserName>
+<CreateTime>1500889649</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（天姿芳中厚款高侧比小胸聚拢调整型收副乳文胸刺绣蕾丝边女士内衣），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.n7Lw3A?cv=UvXG0bHxmbt&sm=db6940 ，或复制这条信息￥UvXG0bHxmbt￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446271957780433114</MsgId>
+</xml>
+
+2017-07-24 17:47:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4xIP66pR_4p_nPknDQ-sFE',
+    'createtime' => '1500889649',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（天姿芳中厚款高侧比小胸聚拢调整型收副乳文胸刺绣蕾丝边女士内衣），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.n7Lw3A?cv=UvXG0bHxmbt&sm=db6940 ，或复制这条信息￥UvXG0bHxmbt￥后打开👉手机淘宝👈',
+    'msgid' => '6446271957780433114',
+    'from' => 'oRy3is4xIP66pR_4p_nPknDQ-sFE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500889649',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 17:47:31 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4xIP66pR_4p_nPknDQ-sFE ;
+MsgType : text ;
+Content : 昵称：A婷婷 
+商品名称：天姿芳中厚款高侧比小胸聚拢调整型收副乳文胸刺绣蕾丝边女士内衣 
+原价：79 
+优惠券：0  
+返现：2.31 
+优惠金额：2.31 
+优惠价：76.69 
+淘口令：￥GzBd0bHzvXh￥           复制此条消息，打开淘宝。 ;
+
+2017-07-24 19:47:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IF0BJGKbyZO-5MFai0d7A]]></FromUserName>
+<CreateTime>1500896876</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【精品泰山石敢当开光镇宅补角化煞奇石原石天然观赏靠山石摆件包邮】，点击链接再选择浏览器打开http://c.b1yt.com/h.niB1hV?cv=x7jt0bGeliN&sm=d4bd1d ，或复制这条信息￥x7jt0bGeliN￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446302997509087570</MsgId>
+</xml>
+
+2017-07-24 19:47:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IF0BJGKbyZO-5MFai0d7A',
+    'createtime' => '1500896876',
+    'msgtype' => 'text',
+    'content' => '【精品泰山石敢当开光镇宅补角化煞奇石原石天然观赏靠山石摆件包邮】，点击链接再选择浏览器打开http://c.b1yt.com/h.niB1hV?cv=x7jt0bGeliN&sm=d4bd1d ，或复制这条信息￥x7jt0bGeliN￥后打开👉手机淘宝👈',
+    'msgid' => '6446302997509087570',
+    'from' => 'oRy3is2IF0BJGKbyZO-5MFai0d7A',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500896876',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 19:47:59 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IF0BJGKbyZO-5MFai0d7A ;
+MsgType : text ;
+Content : 昵称： 杨小杨 
+商品名称：精品泰山石敢当开光镇宅补角化煞奇石原石天然观赏靠山石摆件包邮 
+原价：115.2 
+优惠券：0  
+返现：5.18 
+优惠金额：5.18 
+优惠价：110.02 
+淘口令：￥IIkL0bGeH7Q￥           复制此条消息，打开淘宝。 ;
+
+2017-07-24 19:59:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is0HSpNu_LBYICikhT5KVun8]]></FromUserName>
+<CreateTime>1500897544</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【荣欣堂太谷饼2100g整箱山西特产老字号美食传统零食糕点早餐饼干】，点击链接再选择浏览器打开http://c.b1yt.com/h.nRY0g2?cv=w2g50bG66JS&sm=5fa03a ，或复制这条信息￥w2g50bG66JS￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446305866547241760</MsgId>
+</xml>
+
+2017-07-24 19:59:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'createtime' => '1500897544',
+    'msgtype' => 'text',
+    'content' => '【荣欣堂太谷饼2100g整箱山西特产老字号美食传统零食糕点早餐饼干】，点击链接再选择浏览器打开http://c.b1yt.com/h.nRY0g2?cv=w2g50bG66JS&sm=5fa03a ，或复制这条信息￥w2g50bG66JS￥后打开👉手机淘宝👈',
+    'msgid' => '6446305866547241760',
+    'from' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500897544',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-24 19:59:06 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is0HSpNu_LBYICikhT5KVun8 ;
+MsgType : text ;
+Content : 昵称：十七岁的夏天 
+商品名称：荣欣堂太谷饼2100g整箱山西特产老字号美食传统零食糕点早餐饼干 
+原价：29.9 
+优惠券：0  
+返现：0.27 
+优惠金额：0.27 
+优惠价：29.63 
+淘口令：￥tusT0bG6kcr￥           复制此条消息，打开淘宝。 ;
+
+2017-07-24 21:46:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is52gfProG3Tfo_4sPcHRGv0]]></FromUserName>
+<CreateTime>1500903987</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[威诺时正品 优雅时尚超薄女士手表女腕表复古精钢带防水石英表女]]></Content>
+<MsgId>6446333539021534663</MsgId>
+</xml>
+
+2017-07-24 21:46:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is52gfProG3Tfo_4sPcHRGv0',
+    'createtime' => '1500903987',
+    'msgtype' => 'text',
+    'content' => '威诺时正品 优雅时尚超薄女士手表女腕表复古精钢带防水石英表女',
+    'msgid' => '6446333539021534663',
+    'from' => 'oRy3is52gfProG3Tfo_4sPcHRGv0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500903987',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 21:46:27 response :
+------------
+Array:
+params : Array ;
+
+2017-07-24 21:46:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is52gfProG3Tfo_4sPcHRGv0]]></FromUserName>
+<CreateTime>1500904013</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[手表]]></Content>
+<MsgId>6446333650690684382</MsgId>
+</xml>
+
+2017-07-24 21:46:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is52gfProG3Tfo_4sPcHRGv0',
+    'createtime' => '1500904013',
+    'msgtype' => 'text',
+    'content' => '手表',
+    'msgid' => '6446333650690684382',
+    'from' => 'oRy3is52gfProG3Tfo_4sPcHRGv0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500904013',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-24 21:46:52 response :
+------------
+Array:
+params : Array ;
+

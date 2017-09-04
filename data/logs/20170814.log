@@ -1,0 +1,389 @@
+2017-08-14 00:09:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1502640544</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-14 00:09:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1502640544',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502640544',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-14 00:09:03 response :
+------------
+Array:
+params : Array ;
+
+2017-08-14 00:20:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is938-Pv0e78cOijrl_TIdaQ]]></FromUserName>
+<CreateTime>1502641239</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-14 11:39:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2AhIFygRRoE4rHLW14hIdU]]></FromUserName>
+<CreateTime>1502681980</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（太空步K3蓝牙苹果皮双卡双待6plus手机iphone7副卡touch双享号码），快来和我一起瓜分红包】，复制这条信息￥jNIa0XuFax0￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6453969960810069113</MsgId>
+</xml>
+
+2017-08-14 11:39:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'createtime' => '1502681980',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（太空步K3蓝牙苹果皮双卡双待6plus手机iphone7副卡touch双享号码），快来和我一起瓜分红包】，复制这条信息￥jNIa0XuFax0￥后打开👉手机淘宝👈',
+    'msgid' => '6453969960810069113',
+    'from' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502681980',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-14 11:39:41 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2AhIFygRRoE4rHLW14hIdU ;
+MsgType : text ;
+Content : Hi,糖宝
+系统繁忙！请稍后在试！ ;
+
+2017-08-14 11:40:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2AhIFygRRoE4rHLW14hIdU]]></FromUserName>
+<CreateTime>1502682007</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（太空步K3蓝牙苹果皮双卡双待6plus手机iphone7副卡touch双享号码），快来和我一起瓜分红包】，复制这条信息￥jNIa0XuFax0￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6453970076774186191</MsgId>
+</xml>
+
+2017-08-14 11:40:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'createtime' => '1502682007',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（太空步K3蓝牙苹果皮双卡双待6plus手机iphone7副卡touch双享号码），快来和我一起瓜分红包】，复制这条信息￥jNIa0XuFax0￥后打开👉手机淘宝👈',
+    'msgid' => '6453970076774186191',
+    'from' => 'oRy3is2AhIFygRRoE4rHLW14hIdU',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502682007',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-14 11:40:07 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2AhIFygRRoE4rHLW14hIdU ;
+MsgType : text ;
+Content : Hi,糖宝
+系统繁忙！请稍后在试！ ;
+
+2017-08-14 13:21:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9BiBHwqGGUEVbEoG6XTTNE]]></FromUserName>
+<CreateTime>1502688067</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（包邮男士游泳套装鲨鱼皮速干游泳衣时尚平角游泳裤加大码温泉泳裤），快来和我一起瓜分红包】，复制这条信息￥kJrL0XFy3Cp￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6453996104276007003</MsgId>
+</xml>
+
+2017-08-14 13:21:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9BiBHwqGGUEVbEoG6XTTNE',
+    'createtime' => '1502688067',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（包邮男士游泳套装鲨鱼皮速干游泳衣时尚平角游泳裤加大码温泉泳裤），快来和我一起瓜分红包】，复制这条信息￥kJrL0XFy3Cp￥后打开👉手机淘宝👈',
+    'msgid' => '6453996104276007003',
+    'from' => 'oRy3is9BiBHwqGGUEVbEoG6XTTNE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502688067',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-14 13:21:10 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is9BiBHwqGGUEVbEoG6XTTNE ;
+MsgType : text ;
+Content : Hi,nu
+系统繁忙！请稍后在试！ ;
+
+2017-08-14 13:21:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9BiBHwqGGUEVbEoG6XTTNE]]></FromUserName>
+<CreateTime>1502688078</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-14 13:21:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9BiBHwqGGUEVbEoG6XTTNE',
+    'createtime' => '1502688078',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is9BiBHwqGGUEVbEoG6XTTNE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502688078',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-14 13:21:17 response :
+------------
+Array:
+params : Array ;
+
+2017-08-14 13:21:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9BiBHwqGGUEVbEoG6XTTNE]]></FromUserName>
+<CreateTime>1502688112</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-14 13:21:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9BiBHwqGGUEVbEoG6XTTNE',
+    'createtime' => '1502688112',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is9BiBHwqGGUEVbEoG6XTTNE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502688112',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-14 13:21:52 response :
+------------
+Array:
+params : Array ;
+
+2017-08-14 16:48:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isyCGq47Ayzs3q7VUOyK-vvg]]></FromUserName>
+<CreateTime>1502700488</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-14 20:57:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is24VaA3hIAinRDtuRKZy38w]]></FromUserName>
+<CreateTime>1502715430</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（无钢圈性感女士内衣薄款调整型胸罩无痕夏季小胸加厚聚拢上托文胸），快来和我一起瓜分红包】￥yCnXG5RR2L￥http://c.b3za.com/h.pnq6MQ?cv=yCnXG5RR2L&sm=0483f9]]></Content>
+<MsgId>6454113627466154889</MsgId>
+</xml>
+
+2017-08-14 20:57:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is24VaA3hIAinRDtuRKZy38w',
+    'createtime' => '1502715430',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（无钢圈性感女士内衣薄款调整型胸罩无痕夏季小胸加厚聚拢上托文胸），快来和我一起瓜分红包】￥yCnXG5RR2L￥http://c.b3za.com/h.pnq6MQ?cv=yCnXG5RR2L&sm=0483f9',
+    'msgid' => '6454113627466154889',
+    'from' => 'oRy3is24VaA3hIAinRDtuRKZy38w',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502715430',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-14 20:57:13 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is24VaA3hIAinRDtuRKZy38w ;
+MsgType : text ;
+Content : 昵称：Super 〔若樱℡か〕招代理B 
+商品名称：无钢圈性感女士内衣薄款调整型胸罩无痕夏季小胸加厚聚拢上托文胸 
+原价：49.8 
+优惠券：0  
+返现：1.23 
+优惠金额：1.23 
+优惠价：48.57 
+淘口令：￥nYbp0XClqk8￥           复制此条消息，打开淘宝。 ;
+
+2017-08-14 22:26:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszJePqpEVdg1uz_iSN-PEBw]]></FromUserName>
+<CreateTime>1502720772</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

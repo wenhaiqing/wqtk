@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="utf-8">
+<title>{$cfg['wzname']}</title>
+<meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui" name="viewport">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta content="telephone=no" name="format-detection">
+<!-- 删除苹果默认的工具栏和菜单栏 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!-- 设置苹果工具栏颜色 -->
+<meta name="format-detection" content="telphone=no, email=no" />
+<link rel="stylesheet" href="{$_W['siteroot']}addons/tiger_taoke/css/reset.css?v=3"/>
+<link rel="stylesheet" href="{$_W['siteroot']}addons/tiger_taoke/css/register.css?v=3"/>
+<script type="text/javascript" src="{$_W['siteroot']}addons/tiger_taoke/js/zepto-v1.1.3.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/js/phonerm.js"></script>
+</head>
+<body>
+<div class="register pb30 pr min28">
+ <h3 class="title">用户验证</h3>
+  <form action="" method="post" class="form-horizontal form" enctype="multipart/form-data">
+    <section>
+      <label class="input">
+        <input class="valid validate" name="mobile" id="mobile" regex="^1\d{10}$" empty="请填写手机号" msg="手机格式不对"  placeholder="手机号" type="tel" maxlength="11">
+         </label><i></i>
+    </section>
+    <section class="mobileCode clearfix">
+         <label class="input error">
+            <input class="validate" name="smsCode"  regex="^[\0-9]{6}$" empty="短信验证码不能为空" msg="短信验证码格式不对" id="ValidateCode" placeholder="输入短信验证码" type="tel" maxlength="6" >
+         </label><i></i><a class="smsSend btn-sender" id="smsSend">获取短信验证码</a>
+    </section>
+    <!--section>
+          <label class="input error">
+            <input name="pwd" class="validate" regex="^.{6,18}$" empty="密码不能为空" msg="密码格式不对,请输入6-18位密码" placeholder="密码" type="password">
+             </label><i></i>
+    </section>
+    <section>
+      <label class="input">
+        <input name="checkpwd" class="validate" regex="^.{6,18}$" empty="确认密码不能为空" msg="确认密码格式不对,请输入6-18位密码"  placeholder="确认密码" type="password">
+         </label><i></i>
+    </section-->
+	<div class="but">
+        <input type="submit" name="submit" value="提 交"  style="color:#ffffff;padding:0;border-bottom:0"  />
+        <input type="hidden" name="token" value="{$_W['token']}"  />
+	</div>
+  </form>
+   <!--<p class="passexp">说明：注册表示您已同意<a href="#">《用户协议》</a></p>                 -->
+</div>
+</body>
+<script type="text/javascript" src="{$_W['siteroot']}addons/tiger_taoke/css/layer.js"></script>
+<script type="text/javascript">
+$(".btn-sender").click(function() {
+  			var reg = /^\d{11}$/;
+            //var re = new RegExp(reg);
+            var re = /(^1[3|4|5|7|8][0-9]{9}$)/;
+
+            var mobile = $.trim($("#mobile").val());
+            //var realname = $("#realname").val();
+  			if(mobile == '') {
+                alert('请输入手机号');
+                $("#mobile").focus();
+                return false;
+            }
+            /*
+            if(realname == '') {
+                alert('请输入姓名');
+                $("#realname").focus();
+                return false;
+            }*/
+            if(!re.test(mobile)) {
+                alert('手机号格式有误.');
+                $("#mobile").val('').focus();
+                return false;
+            }
+            $(this).attr("disabled", true);
+            var downcount = 60;
+            $(this).html(downcount + "秒后重新获取");
+            var timer = setInterval(function(){
+                downcount--;
+                if(downcount <= 0){
+                    clearInterval(timer);
+                    $("#mobile").attr("disabled", false);
+                    $(".glyphicon").show();
+                    $(".btn-sender").html("重新获取验证码");
+                    $(".btn-sender").attr("disabled", false);
+                    downcount = 60;
+                }else{
+                   $(".btn-sender").html(downcount + "秒后重新获取");
+                }
+            }, 1000);
+            $.ajax({
+                  url:"{php echo $this->createMobileUrl('sendsms')}",
+                  type:'post',
+                  data:{
+                     mobile:mobile,
+                     weid:"{$_W['uniacid']}",        
+                  },
+                  dataType:"json", 
+                  success:function(data){
+                        if(data.success==true){
+                            $('#smsSend').addClass('over');
+                            //$("#mobile").attr("disabled", false);
+                        }else{
+                           clearInterval(timer);
+                            $(".btn-sender").html("重新获取验证码");
+                            downcount = 60;
+                            alert(data.info);
+                        }
+          }
+        });
+
+
+
+
+
+
+
+
+
+  		});
+layer.msg = function(msg) {
+	layer.open({ content: msg ,skin: 'msg' ,time: 2  });
+}
+</script>
+</html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://bbs.bcb5.com" versionCode="0.52,0.6,0.7">
+	<application setting="true">
+		<name><![CDATA[员工地推系统]]></name>
+		<identifie><![CDATA[junsion_promotion]]></identifie>
+		<version><![CDATA[1.6.4]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[员工地推系统]]></ability>
+		<description><![CDATA[员工地推系统]]></description>
+		<author><![CDATA[不错吧]]></author>
+		<url><![CDATA[http://bbs.bcb5.com]]></url>
+	</application>
+	<platform>
+		<subscribes>
+			<message type="unsubscribe" />
+		</subscribes>
+		<handles>
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="员工入口" do="cover" state="" direct="false" />
+		</cover>
+		<menu>
+			<entry title="员工管理" do="staff" state="" direct="false" />
+			<entry title="粉丝管理" do="fans" state="" direct="false" />
+			<entry title="数据统计" do="stat" state="" direct="false" />
+			<entry title="其他参数" do="set" state="" direct="false" />
+		</menu>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[CREATE TABLE IF NOT EXISTS `ims_junsion_promotion_config` (
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `settings` text,
+  PRIMARY KEY (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `ims_junsion_promotion_fans` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `weid` int(11) DEFAULT '0',
+  `nickname` varchar(20) DEFAULT '',
+  `avatar` varchar(250) DEFAULT '',
+  `openid` varchar(50) DEFAULT '',
+  `pid` int(11) DEFAULT '0',
+  `hasDel` tinyint(1) DEFAULT '0',
+  `createtime` int(10) DEFAULT '0',
+  `cols` text,
+  PRIMARY KEY (`id`),
+  KEY `pid` (`pid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `ims_junsion_promotion_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `weid` int(11) DEFAULT '0',
+  `account` varchar(50) DEFAULT '',
+  `realname` varchar(50) DEFAULT '',
+  `nickname` varchar(20) DEFAULT '',
+  `avatar` varchar(250) DEFAULT '',
+  `openid` varchar(50) DEFAULT '',
+  `ticket` varchar(200) DEFAULT '',
+  `mobile` varchar(11) DEFAULT '',
+  `status` tinyint(1) DEFAULT '0',
+  `createtime` int(10) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+]]></install>
+	<uninstall><![CDATA[DROP TABLE IF EXISTS `ims_junsion_promotion_config`;
+DROP TABLE IF EXISTS `ims_junsion_promotion_fans`;
+DROP TABLE IF EXISTS `ims_junsion_promotion_info`;
+]]></uninstall>
+	<upgrade><![CDATA[update.php]]></upgrade>
+</manifest>

@@ -1,0 +1,472 @@
+2017-06-30 04:50:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5hXt8AkRMeSw62gjmrW1oE]]></FromUserName>
+<CreateTime>1498769414</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【创意挂式 厨房筷子笼 吸盘筷子筒 三格沥水筷子架筷笼子餐具架】，点击链接再选择浏览器打开http://c.b1yt.com/h.k84cAf?cv=WfKGZBwLBIz&sm=ee3294 ，或复制这条信息￥WfKGZBwLBIz￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437165617794516478</MsgId>
+</xml>
+
+2017-06-30 04:50:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'createtime' => '1498769414',
+    'msgtype' => 'text',
+    'content' => '【创意挂式 厨房筷子笼 吸盘筷子筒 三格沥水筷子架筷笼子餐具架】，点击链接再选择浏览器打开http://c.b1yt.com/h.k84cAf?cv=WfKGZBwLBIz&sm=ee3294 ，或复制这条信息￥WfKGZBwLBIz￥后打开👉手机淘宝👈',
+    'msgid' => '6437165617794516478',
+    'from' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498769414',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-30 04:50:17 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5hXt8AkRMeSw62gjmrW1oE ;
+MsgType : text ;
+Content : 昵称：娃娃 
+商品名称：创意挂式 厨房筷子笼 吸盘筷子筒 三格沥水筷子架筷笼子餐具架 
+原价：9.8 
+优惠券：0  
+返现：0.09 
+优惠金额：0.09 
+优惠价：9.71 
+淘口令：￥v8EoZBwLxfy￥           复制此条消息，打开淘宝。 ;
+
+2017-06-30 08:31:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1498782709</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-30 08:31:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1498782709',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498782709',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-30 08:31:48 response :
+------------
+Array:
+params : Array ;
+
+2017-06-30 09:12:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1498785173</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-30 09:12:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1498785173',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498785173',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-30 09:12:52 response :
+------------
+Array:
+params : Array ;
+
+2017-06-30 09:40:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_Hq0XARGcIqkEBUKFfAGgY]]></FromUserName>
+<CreateTime>1498786823</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（一字扣奶奶鞋浅口平底单鞋女夏2017新款韩版百搭玛丽珍豆豆孕妇鞋），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kjr9PH?cv=uejsZBxc4af&sm=c47b02 ，或复制这条信息￥uejsZBxc4af￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437240388880178405</MsgId>
+</xml>
+
+2017-06-30 09:40:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_Hq0XARGcIqkEBUKFfAGgY',
+    'createtime' => '1498786823',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（一字扣奶奶鞋浅口平底单鞋女夏2017新款韩版百搭玛丽珍豆豆孕妇鞋），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kjr9PH?cv=uejsZBxc4af&sm=c47b02 ，或复制这条信息￥uejsZBxc4af￥后打开👉手机淘宝👈',
+    'msgid' => '6437240388880178405',
+    'from' => 'oRy3is_Hq0XARGcIqkEBUKFfAGgY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498786823',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-30 09:40:25 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_Hq0XARGcIqkEBUKFfAGgY ;
+MsgType : text ;
+Content : 昵称：Ping儿 
+商品名称：一字扣奶奶鞋浅口平底单鞋女夏2017新款韩版百搭玛丽珍豆豆孕妇鞋 
+原价：88 
+优惠券：0  
+返现：7.92 
+优惠金额：7.92 
+优惠价：80.08 
+淘口令：￥bfnLZBxcmNc￥           复制此条消息，打开淘宝。 ;
+
+2017-06-30 15:59:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1498809582</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（香港遇见香芬香水沐浴露持久留香男女士保湿家庭装非美白滋润保湿），快来和我一起瓜分红包】￥QYkSG2yhfi￥http://c.b1yt.com/h.kmNJlC?cv=QYkSG2yhfi&sm=843cae]]></Content>
+<MsgId>6437338138040887966</MsgId>
+</xml>
+
+2017-06-30 15:59:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1498809582',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（香港遇见香芬香水沐浴露持久留香男女士保湿家庭装非美白滋润保湿），快来和我一起瓜分红包】￥QYkSG2yhfi￥http://c.b1yt.com/h.kmNJlC?cv=QYkSG2yhfi&sm=843cae',
+    'msgid' => '6437338138040887966',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498809582',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-30 15:59:45 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3iswtxppHgIPbV1IprFYlCCeI ;
+MsgType : text ;
+Content : 昵称：  D。 
+商品名称：香港遇见香芬香水沐浴露持久留香男女士保湿家庭装非美白滋润保湿 
+原价：29.8 
+优惠券：0  
+返现：0.27 
+优惠金额：0.27 
+优惠价：29.53 
+淘口令：￥yuVrZzaxPqQ￥           复制此条消息，打开淘宝。 ;
+
+2017-06-30 16:01:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1498809718</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（COCOVEL沐浴露 香水持久留香72小时男女士非美白补水保湿家庭装），快来和我一起瓜分红包】￥TW92G2yccs￥http://c.b1yt.com/h.kmpgqw?cv=TW92G2yccs&sm=bca324]]></Content>
+<MsgId>6437338722156440487</MsgId>
+</xml>
+
+2017-06-30 16:02:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1498809718',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（COCOVEL沐浴露 香水持久留香72小时男女士非美白补水保湿家庭装），快来和我一起瓜分红包】￥TW92G2yccs￥http://c.b1yt.com/h.kmpgqw?cv=TW92G2yccs&sm=bca324',
+    'msgid' => '6437338722156440487',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498809718',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-30 16:02:00 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3iswtxppHgIPbV1IprFYlCCeI ;
+MsgType : text ;
+Content : 昵称：  D。 
+商品名称：COCOVEL沐浴露 香水持久留香72小时男女士非美白补水保湿家庭装 
+原价：32.9 
+优惠券：0  
+返现：3.03 
+优惠金额：3.03 
+优惠价：29.87 
+淘口令：￥FUUOZzaBXzE￥           复制此条消息，打开淘宝。 ;
+
+2017-06-30 18:32:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is68qSI0IeFawhZpU_N1SW_o]]></FromUserName>
+<CreateTime>1498818771</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-30 22:40:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1498833624</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（大码母子装母女装2017新款夏一家三口亲子装夏 全家装亲子短袖t恤），快来和我一起瓜分红包】￥mrjvGdZoah￥http://c.b1yt.com/h.kKWewo?cv=mrjvGdZoah&sm=55d0f8]]></Content>
+<MsgId>6437441397644638242</MsgId>
+</xml>
+
+2017-06-30 22:40:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1498833624',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（大码母子装母女装2017新款夏一家三口亲子装夏 全家装亲子短袖t恤），快来和我一起瓜分红包】￥mrjvGdZoah￥http://c.b1yt.com/h.kKWewo?cv=mrjvGdZoah&sm=55d0f8',
+    'msgid' => '6437441397644638242',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498833624',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-30 22:40:27 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3iswtxppHgIPbV1IprFYlCCeI ;
+MsgType : text ;
+Content : 昵称：  D。 
+商品名称：大码母子装母女装2017新款夏一家三口亲子装夏 全家装亲子短袖t恤 
+原价：89 
+优惠券：0  
+返现：2.21 
+优惠金额：2.21 
+优惠价：86.79 
+淘口令：￥hjWbZzXRd6z￥           复制此条消息，打开淘宝。 ;
+
+2017-06-30 22:41:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1498833681</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【亲子装夏全家装一家三口2017新款潮母女装母子装短袖t恤韩版上衣】￥cYhbGdZP1T￥http://c.b1yt.com/h.kKWwk7?cv=cYhbGdZP1T&sm=20d11c]]></Content>
+<MsgId>6437441642457774147</MsgId>
+</xml>
+
+2017-06-30 22:41:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1498833681',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【亲子装夏全家装一家三口2017新款潮母女装母子装短袖t恤韩版上衣】￥cYhbGdZP1T￥http://c.b1yt.com/h.kKWwk7?cv=cYhbGdZP1T&sm=20d11c',
+    'msgid' => '6437441642457774147',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498833681',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-30 22:41:22 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3iswtxppHgIPbV1IprFYlCCeI ;
+MsgType : text ;
+Content : Hi,  D。
+该商品暂无优惠,请查看其他商品 ;
+
+2017-06-30 23:04:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is6dau97jZ35SfxYjBAYbyTw]]></FromUserName>
+<CreateTime>1498835073</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

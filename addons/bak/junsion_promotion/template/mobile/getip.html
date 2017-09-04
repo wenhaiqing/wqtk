@@ -1,0 +1,35 @@
+<script src="../app/resource/js/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5PESLgvMcSbSUbPjmDKgvGZ3"></script>
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<title>{$_W['account']['name']}</title>
+<div style="text-align: center;  margin-top: 50%;">
+<div style=" height: 40px; color: orangered;">正在定位...</div>
+<div style="  margin-bottom: 5px;">定位完成将自动关闭</div>
+<div>若长时间未关闭，请手动关闭网页</div>
+</div>
+{php echo register_jssdk(false);}
+<script>
+{if $msg['limit'] == 2}
+var geolocation = new BMap.Geolocation();
+
+geolocation.getCurrentPosition(function(r) {
+	var address = r.address;
+	$.ajax({
+		url:'{php echo $this->createMobileUrl("getip",array("msg"=>$msg))}',
+		type:'post',
+		data:{province:address.province,city:address.city},
+	});
+	wx.ready(function () {
+		wx.hideOptionMenu();
+		wx.closeWindow();
+	});
+}, {
+    enableHighAccuracy: true
+});
+{else}
+wx.ready(function () {
+	wx.hideOptionMenu();
+	wx.closeWindow();
+});
+{/if}
+</script>

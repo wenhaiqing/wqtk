@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+		<title>个人中心</title>
+		<link type="text/css" rel="stylesheet" href="{RES}js/base.css" />
+		<link type="text/css" rel="stylesheet" href="{RES}js/style.css" />
+		<link href="./resource/css/font-awesome.min.css" rel="stylesheet">
+		<script src="../app/resource/js/lib/jquery-1.11.1.min.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<div class="businessCenterHead">
+			<span class="business_img">
+				<img src="{$staff['avatar']}" />
+			</span>
+			<dl>
+				<dt>
+					<span>{$staff['realname']}</span>
+				</dt>
+				<dd>
+					<span>{$staff['account']}</span>
+					<em>{$staff['mobile']}</em>
+					{if $creditname}<em style="float: right;color: white;">{$creditname}：{$credit}</em>{/if}
+				</dd>
+			</dl>
+		</div>
+		<div class="businessCenterOuter">
+		{if $cfg['notice']}
+			<div class="businessCenterTips">
+				<span class="tips_img">
+					<img src="{RES}images/notice.png" />
+				</span>
+				<p>
+					<marquee direction="left" scrollamount="5">{$cfg['notice']}</marquee>
+				</p>
+			</div>
+		{/if}
+			<div class="businessCenterTabs">
+				<ul>
+					<li>
+						<a href="{php echo $this->createMobileUrl('record',array('type'=>1))}" class="businessCenterTabs_1">
+							<dl>
+								<dt><span>{$today}</span></dt>
+								<dd><span>今日推广</span></dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="{php echo $this->createMobileUrl('record')}" class="businessCenterTabs_2">
+							<dl>
+								<dt><span>{$all}</span></dt>
+								<dd><span>总推广数</span></dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="{php echo $this->createMobileUrl('rank')}" class="businessCenterTabs_3">
+							<dl>
+								<dt><span><img src="{RES}/images/rank.png"></span></dt>
+								<dd><span>推广排行</span></dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a onclick="{if $qrcode}$('.qrcode_poster').show();{elseif $_W['account']['level']==4}onQrcode(){else}$('.qrcode_bg').show();{/if}" class="businessCenterTabs_4">
+							<dl>
+								<dt><span><img src="{RES}/images/qrcode.png"></span></dt>
+								<dd><span>专属二维码</span></dd>
+							</dl>
+						</a>
+					</li>
+					{loop $cfg['btns'] $b}
+					<li>
+						<a href="{$b['link']}" class="businessCenterTabs_4" style="background: {$b['color']}">
+							<dl>
+								<dt><span><i class="{$b['icon']}" style="font-size: 32px;"></i></span></dt>
+								<dd><span>{$b['title']}</span></dd>
+							</dl>
+						</a>
+					</li>
+					{/loop}
+				</ul>
+			</div>
+		</div>
+{if $cfg['copyright']}<div style="text-align: center;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">{$cfg['copyright']}</div>{/if}
+<div class="qrcode_bg" onclick="$(this).hide();">
+	<div class='qrcode_con'>
+	{if $_W['account']['level']==4}
+		<img>
+		<p style="text-align: center;font-size: 18px">专属二维码</p>
+	{else}
+	<img src="{$_W['account']['qrcode']}">
+	<p style="text-align: center;font-size: 18px">粉丝关注后输入你的{$acc_name}</p>
+	<p style="text-align: center;font-size: 18px">【{$staff['account']}】</p>
+	<p style="text-align: center;font-size: 18px">即可完成推广</p>
+	{/if}
+	</div>
+</div>
+<img class="qrcode_poster" onclick="$(this).hide();" src="{$qrcode}">
+<script>
+function onQrcode(){
+	var img = $('.qrcode_bg .qrcode_con img');
+	$.ajax({
+		url:"{php echo $this->createMobileUrl('getqrcode',array('openid'=>$staff['openid']))}",
+		type:'post',
+		success:function(url){
+			img.attr('src',url);
+			$('.qrcode_bg').show();
+		}
+	});
+}
+</script>
+	</body>
+</html>

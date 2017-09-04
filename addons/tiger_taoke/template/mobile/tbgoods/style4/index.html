@@ -1,0 +1,784 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+<!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+<title>{$cfg['copyright']}</title>
+
+<link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/amazeui/2.7.2/css/amazeui.css"/>
+<link rel="stylesheet" type="text/css" href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style4/css/style.css?t=4" />
+
+<script type="text/javascript" src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/amazeui/2.7.2/js/amazeui.min.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+<script>$(function() {FastClick.attach(document.body);});</script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+<!-- 微信自定义接口 -->
+<script>
+        var appid = "{$_W['account']['jssdkconfig']['appId']}";
+        var timestamp = "{$_W['account']['jssdkconfig']['timestamp']}";
+        var nonceStr = "{$_W['account']['jssdkconfig']['nonceStr']}";
+        var signature = "{$_W['account']['jssdkconfig']['signature']}";
+        wx.config({
+            debug: false,
+            appId: appid,
+            timestamp: timestamp,
+            nonceStr: nonceStr,
+            signature: signature,
+            jsApiList: [
+                "onMenuShareAppMessage",
+                "onMenuShareTimeline",
+                "chooseImage",
+                "uploadImage",
+                "downloadImage"
+            ]
+        });
+
+	wx.ready(function(){
+		wx.onMenuShareAppMessage({
+			title: "{$cfg['fxtitle']}",
+			desc: "{$cfg['fxcontent']}",
+			link: window.location.href ,
+			imgUrl: "{php echo tomedia($cfg['fxpicurl'])}"
+		}); 
+		wx.onMenuShareTimeline({
+			title: "{$cfg['fxtitle']}",
+			desc: "{$cfg['fxcontent']}",
+			link: window.location.href ,
+			imgUrl: "{php echo tomedia($cfg['fxpicurl'])}"
+		});
+	});
+</script>
+<!-- 微信自定义接口 -->
+
+</head>
+
+<body>
+
+<div class="am-modal am-modal-alert" tabindex="-1" id="fq_alert">
+  <div class="am-modal-dialog">
+    <div class="am-modal-hd" id="fq_alert_title"></div>
+    <div class="am-modal-bd" id="fq_alert_info">
+    </div>
+    <div class="am-modal-footer">
+      <span class="am-modal-btn">确定</span>
+    </div>
+  </div>
+</div>
+
+<div class="am-modal am-modal-confirm" tabindex="-1" id="fq_confirm">
+  <div class="am-modal-dialog">
+    <div class="am-modal-hd" id="fq_confirm_title"></div>
+    <div class="am-modal-bd" id="fq_confirm_info"></div>
+    <div class="am-modal-footer">
+      <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style4/css/index.css?t=1478719862" />
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1473419621_481219.css" />
+
+<style>
+    body {
+        color: #3d0505;
+    }
+
+    .iconfont {
+        font-size: 24px;
+    }
+
+    .fq-image {
+        width: 124px;
+        height: 124px;
+    }
+
+    .line-clamp {
+        height: 38px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 1.4;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .fq-color-gray {
+        color: #8f8f8f;
+    }
+
+    .fq-color-danger {
+        color: #f54d23;
+    }
+
+    .fq-free {
+        background: #40d514;
+    }
+
+    .am-u-sm-4 {
+        border-right-color: #eeeeee;
+        border-right-style: dashed;
+    }
+
+    .fq-background-red {
+        background: #f54d23;
+    }
+
+    .first-found {
+        position: relative;
+        top: -18px;
+        width: 22px;
+        height: 22px;
+        background: #eeeeee;
+    }
+
+    .second-found {
+        position: relative;
+        top: 8px;
+        width: 22px;
+        height: 22px;
+        background: #eeeeee;
+    }
+
+    .fq-img {
+        width: 146px;
+        height: 146px;
+    }
+
+    .fq-goods-border {
+        border: .2rem #f3e7e3 dashed;
+    }
+
+    .fq-coupon-border {
+        border: .2rem #f3e7e3 solid;
+    }
+
+    .am-form-field {
+        border: 0;
+    }
+
+        .am-form-field:focus {
+            background: 0;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+    .fq-explain {
+        position: absolute;
+        width: 180px;
+        margin-top: -22px;
+        right: 20%;
+        left: 20%;
+        color: #f54d23;
+    }
+
+    .line-clamp {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /*这里修改为要显示的行数*/
+        -webkit-box-orient: vertical;
+        line-height: 1.4;
+        max-height: 38px;
+        min-height: 38px;
+    }
+
+    .fq-reason,
+    .fq-price {
+        color: #f54d23;
+    }
+
+    .fq-title,
+    .fq-title:hover,
+    .fq-title:focus {
+        color: #3d0505;
+    }
+
+    .fq-a-focus:hover,
+    .fq-a-focus:focus {
+        color: white;
+    }
+
+    .fq-lose {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+    }
+
+        .fq-lose div:first-child {
+            border: #6A6161 .2rem solid;
+            border-radius: 6px;
+            width: 70%;
+        }
+
+</style>
+
+<div class="header_content am-padding-vertical-xs">
+    <div class="am-g">
+
+        <div class="am-u-sm-2">
+            <a class="am-inline-block fq-text-sm am-fl">
+            <a href="{php echo $this->createMobileUrl('index')}"><i class="am-icon-home fq-text-white header_img" style="font-size: 2rem;"></i></a>
+        </div>
+
+        <div class="am-u-sm-8 am-padding-0">
+            <form action="{php echo $this->createMobileUrl('index')}" method="get" class="am-form am-text-sm">
+                                <input type="hidden" name="i" value="{$_W['uniacid']}">
+                                <input type="hidden" name="c" value="entry">
+                                <input type="hidden" name="m" value="tiger_taoke">
+                                <input type="hidden" name="do" value="index">
+                <input id="key" name="key" type="text" class="fq-text am-radius am-padding-horizontal-xs fq-text-white" placeholder="输入关键词搜索" value="">
+                <i class="am-icon-search am-vertical-align-middle fq-text-sm" onclick="search();"></i>
+            </form>
+        </div>
+
+        <div class="am-u-sm-2">
+            <div class="am-inline-block  fq-text-sm am-fr" data-am-modal="{target:'#qrcode_large'}">
+                <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style2/images/qr_code.png" class="am-block" style="width: 28px; height: 28px" />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="main">
+
+    <!--导航栏-->
+    <nav class="am-padding-top-xs fq-background-white">
+        <ul class="am-avg-sm-4">
+            <li class="am-text-center column_list">
+                    <a class="am-block {if $tj==''}active{/if}" href="{php echo $this->createMobileUrl('index')}">
+                    <i class="iconfont am-block icon-newfont"></i>
+                    <span class="am-text-sm am-block">最新推荐</span>
+                    </a>
+                </li>
+
+                <li class="am-text-center column_list">
+                    <a class="am-block {if $tj==1}active{/if}" href="{php echo $this->createMobileUrl('index',array('tj'=>1))}" >
+                   
+                    <i class="iconfont icon-miaoshaweidianji am-block" ></i>
+                    <span class="am-text-sm am-block ">9.9专场</span>
+                    </a>
+                </li>
+
+                <li class="am-text-center column_list">
+                    <a class="am-block {if $tj==2}active{/if}" href="{php echo $this->createMobileUrl('index',array('tj'=>2))}">
+                    <i class="iconfont icon-paixingbang am-block"></i> 
+                    <span class="am-text-sm am-block">19.9专场</span>
+                    </a>
+                </li>
+            
+                <li class="am-text-center">
+                    <a class="am-block fq-classify" id="all_list" href="javascript:void(0)">
+
+                    <i class="icon-fenlei2 iconfont am-block"></i>
+                    <span class="am-text-sm am-block">全部分类</span>
+                    </a>
+                </li>
+        </ul>
+
+    </nav>
+    <!--导航栏-->
+    <!--全部分类详细-->
+    <div class="fq-type">
+        <ul class="am-avg-sm-4 am-text-center am-text-sm">
+            {loop $fzlist $v}
+            <li class="am-padding-vertical-xs "><a href="{php echo $this->createMobileUrl('index',array('typeid'=>$v['id']))}">{$v[title]}</a></li>
+            {/loop}                     
+        </ul>
+    </div>
+    <!--全部分类详细-->
+    <!--banner-->
+    <div data-am-widget="slider" class="am-slider am-slider-a1 banner" style="margin-top:1rem;">
+                <ul class="am-slides mybanner">
+                    {loop $ad $a}
+                        <li><a href="{$a['url']}"><img src="{php echo tomedia($a['pic'])}" /></a></li>
+                    {/loop}         
+                </ul>
+            </div>    <!--banner-->
+    <!-- 单独推荐商品开始 -->
+    
+        <!-- 单独推荐商品结束 -->
+
+
+
+               <!----->
+    {if $zdgoods}
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style7/css/style.css" rel="stylesheet" />
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style7/css/swipper.css" rel="stylesheet" />
+    
+    <div id="containter index_goods" style="margin-top:10px;">
+        <div class="contain-product relative" style="border-top:0">
+            <div class="index_list_title">
+               <span class="intro_title"><i>今日专享</i> <em>疯狂抢购</em></span>
+               <!--span class="index_list_eachall"><a href="/Commodity/ListByCustomCategory?category=1">全部</a></span-->
+            </div>
+        <div class="contain--product-list swiper2"  style="width:100%;">
+            <ul class="swiper-wrapper">
+                {loop $zdgoods $v}
+                <li class="relative swiper-slide">
+                    <div class="contain-prolist-in">
+                        <a href="{php echo $this->createMobileUrl('view',array('id'=>$v['id']))}" class="ImgOut">
+                            <div class="allpreContainer">
+                                <img style="height:146px;width:146px;" src="{php echo tomedia($v['pic_url'])}_240x240.jpg" >
+                            </div>
+                        </a>
+                        <div class="contain-prolist-text">
+                            <h1><a href="{php echo $this->createMobileUrl('view',array('id'=>$v['id']))}">{$v['title']}</a></h1>
+                            <h2>
+                                <span>&yen;{$v['price']}</span>
+                                <font>&yen;{$v['org_price']}</font>
+                            </h2>
+                        </div>
+                        <a href="javascript:;" class="new-coupon" data-img="{php echo tomedia($v['pic_url'])}_240x240.jpg" data-id="{$v['id']}"><span>领劵</span><span>立减{$v['coupons_price']}元</span></a>
+                    </div>
+                </li>
+                {/loop}
+            </ul>
+         </div>
+       </div>
+    </div>
+    {/if}
+   <!-----> 
+    <!-- 全部商品列表开始 -->
+
+    <div class="content" id="pageCon">  
+        <div class="item_list">
+                 <!--   {loop $list $l}
+                   <div class="fq-background-white am-margin-top">
+                         <div class="am-padding-xs">
+                             <div class="am-inline-block" style="width:40%">
+                                 <a href="{php echo $this->createMobileUrl('view',array('id'=>$l['id']))}">
+                                     <img src="{php echo tomedia($l['pic_url'])}" class="fq-image">
+                                 </a>
+                             </div>
+                             <ul class="am-avg-sm-2 am-fr" style="width:60%; height:124px;">
+                                 <li class="am-padding-horizontal-xs" style="border-right:.1rem dashed #eeeeee">
+                                     <strong data-id="{$l['id']}" class="line-clamp am-text-sm" id="item_details">{$l['title']}</strong>
+                                     <div class="am-text-xs fq-color-gray" style="text-decoration:line-through">在售价{$l['org_price']}</div>
+                                     <div class="fq-color-danger ">
+                                         <span class="am-text-xs">券后</span>
+                                         <strong class="am-text-lg price"> {$l['price']}</strong>
+                                                </div>
+                                     <div>
+                                         <span class="am-text-xs fq-free fq-text-white am-radius">包邮</span>
+                                     </div>
+                                     <div class="am-text-xs fq-color-gray">销量{if $l['goods_sale']<>''}{$l['goods_sale']}{else}451{/if}</div>
+                                 </li>
+                                 <li class="am-text-center">
+                                     <div class="am-vertical-align-middle " style="line-height:1.2">
+                                         <div class="am-round first-found am-inline-block am-text-center"></div>
+                                         <div>
+                                                 <span class="am-text-sm fq-color-danger">￥</span>
+                                                 <span class="am-text-xl fq-color-danger">{$l['coupons_price']}</span>
+                                             </div>
+                                             <span class="am-text-xs" style="color:rgba(0,0,0,0.5);">优惠券</span>
+                                              <br />
+                                               <a href="{php echo $this->createMobileUrl('view',array('id'=>$l['id']))}" class="am-text-sm fq-text-white fq-background-red am-radius am-block am-padding-xs am-margin-top-sm fq-a-focus">领券购买</a>
+                                               <div class="am-round second-found am-inline-block am-text-center"></div>
+                                     </div>
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+                     {/loop}-->
+        
+        </div>
+        <div id="list_more" class="loading" style="margin-top:10px;text-align:center">
+           <span onclick="get_list(0);">查看更多</span>
+         </div>
+    </div>
+    <!-- 全部商品列表结束 -->
+
+    
+
+</div>
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+    <a class="fq-top">
+        <i class="am-gotop-icon am-icon-chevron-up am-round"></i>
+    </a>
+</div>
+
+<script>
+
+    $("#all_list").click(function () {
+
+        //激活状态
+        $("#fq-classify").addClass("active");
+        $("#all_list").attr("class","am-block fq-classify active");
+        $("#all_list").css("color","#f54d23");
+        $(".column_list a").removeClass("active");
+
+        //分类展示
+        $(".fq-type").slideToggle();
+
+    });
+
+    //平滑滚动回顶部
+    $('.main').on('scroll',function(){
+
+        $('.am-gotop-fixed').css('display','block');
+
+
+        if ($('.main').scrollTop() === 0) {
+            // 滚动到底部了
+            $('.am-gotop-fixed').css('display','none');
+        }
+
+    });
+
+    $('.fq-top').click(function(){
+        $('.main').animate({
+            scrollTop:$('.header_content').offset().top}, 800);
+    });
+
+
+    $('.fq-confirm').click(function(){
+        $('.fq-lose').css('display','none');
+    });
+
+
+
+</script>
+
+
+<div class="menu">
+        <ul class="am-avg-sm-3 am-text-center am-padding-top-xs">
+            <li class="am-vertical-align">
+                <a href="{php echo $this->createMobileUrl('index')}">
+                    <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style2/images/home-page-act.png" class="am-text-center am-vertical-align-middle"/>
+                    <br />               
+                    <span class=" am-text-center am-vertical-align-middle">首页</span>
+                </a>
+            </li>
+            <li  class="am-vertical-align">
+                <a href="{php echo $this->createMobileUrl('sdindex')}">
+                    <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style2/images/Inordertoshare-unact.png" class="am-text-center am-vertical-align-middle" />
+                    <br />
+                    <span class=" am-text-center am-vertical-align-middle">晒单广场</span>
+                </a>
+            </li>
+            {if $cfg['huiyuanurl']}
+            <li  class="am-vertical-align">
+                <a href="{$cfg['huiyuanurl']}">
+                    <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style2/images/per-center-unact.png" class="am-text-center am-vertical-align-middle" />
+                    <br />
+                    <span class=" am-text-center am-vertical-align-middle">用户中心</span>
+                </a>
+            </li>
+            {else}
+            <li  class="am-vertical-align">
+                <a href="{php echo $this->createMobileUrl('member')}">
+                    <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style2/images/per-center-unact.png" class="am-text-center am-vertical-align-middle" />
+                    <br />
+                    <span class=" am-text-center am-vertical-align-middle">用户中心</span>
+                </a>
+            </li>
+            {/if}
+        </ul>
+    </div>
+	<style>
+		.main{
+			bottom:40px;
+		}
+	</style>
+<style>
+.menu{
+        width:100%;
+        position:absolute;
+        position:fixed;
+
+        bottom:0;
+        background:#fff;
+        border-top:.1rem solid #F3E7E3;
+        z-index:999;
+    }
+    .menu img {
+        width:1.5rem;
+        height:1.5rem;
+        margin-bottom:.2rem;
+    }
+
+    .menu a {
+        display:inline-block;
+        color:#3d0505;
+
+    }
+
+    .menu a span {
+        font-size:1.2rem;
+    }
+	
+	
+</style>
+
+<div class="am-modal am-modal-no-btn" tabindex="-1" id="qrcode_large">
+    <div class="am-modal-dialog">
+        <div class="am-modal-hd">
+            <span class="am-text-sm">↓点击二维码放大后长按关注↓</span>
+            <a href="javascript: void(0)" class="am-close" style="top: -5px;right: 0px;" data-am-modal-close>&times;</a>
+        </div>
+        <div class="am-g">
+            <figure data-am-widget="figure" class="am am-figure" data-am-figure="{pureview:'true'}">
+                <divclass="am-u-sm-6"><img id="qrcode_img_large" src="{php echo tomedia($cfg['gzewm'])}" data-rel="{php echo tomedia($cfg['gzewm'])}" style="width:100%;"><span class="am-text-xs am-text-danger" style="top: -2px;position: relative;">关注公众号</span></div>                <divclass="am-u-sm-6"><img id="qrcode_img_large" src="{php echo tomedia($cfg['kfewm'])}" data-rel="{php echo tomedia($cfg['kfewm'])}" style="width:100%;"><span class="am-text-xs am-text-danger" style="top: -2px;position: relative;">客服微信</span></div>            </figure>
+                    </div>
+    </div>
+</div>
+<link rel="stylesheet" href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/css/dropload.css">
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/js/dropload.min.js"></script>
+<script type="text/javascript">
+
+var limit = 1;
+function get_list(ty){
+    
+    if(ty==1){
+	   $("#pageCon .item_list").html('');
+	}else{
+	   $("#list_more").html('<div class="loading"><span > 卖命加载中...</span></div>');	   
+	}
+	
+	$.ajax({
+	    type : "post",
+	    url : "{php echo $this->createMobileUrl('indexpost')}"+"&tj={$tj}&key={$key}&typeid={$typeid}",
+	    data : {
+	    	limit:limit,
+	    },
+        dataType : "json",		
+	    success : function(data) {
+        //alert("{$key}");
+	    	if(data.status==1){
+						var list = data.content;
+						var content = '';
+						for(var i=0; i<list.length; i++){
+
+        content +='<div class="fq-background-white am-margin-top">';
+         content +='<div class="am-padding-xs">';
+             content +='<div class="am-inline-block" style="width:40%">';
+                 content +='<a href="{php echo $this->createMobileUrl("view")}'+'&id='+list[i].id+'">';
+                     content +='<img src="'+list[i].pic_url+'" class="fq-image">';
+                 content +='</a>';
+             content +='</div>';
+             content +='<ul class="am-avg-sm-2 am-fr" style="width:60%; height:124px;">';
+                 content +='<li class="am-padding-horizontal-xs" style="border-right:.1rem dashed #eeeeee">';
+                     content +='<strong data-id="'+list[i].id+'" class="line-clamp am-text-sm" id="item_details">'+list[i].title+'</strong>';
+                     content +='<div class="am-text-xs fq-color-gray" style="text-decoration:line-through">在售价'+list[i].org_price+'</div>';
+                     content +='<div class="fq-color-danger ">';
+                         content +='<span class="am-text-xs">券后</span>';
+                         content +='<strong class="am-text-lg price">'+list[i].price+'</strong>';
+                                content +='</div>';
+                     content +='<div>';
+                         content +='<span class="am-text-xs fq-free fq-text-white am-radius">包邮</span>';
+                     content +='</div>';
+                     content +='<div class="am-text-xs fq-color-gray">销量'+list[i].goods_sale+'</div>';
+                 content +='</li>';
+                 content +='<li class="am-text-center">';
+                     content +='<div class="am-vertical-align-middle " style="line-height:1.2">';
+                         content +='<div class="am-round first-found am-inline-block am-text-center"></div>';
+                         content +='<div>';
+                                 content +='<span class="am-text-sm fq-color-danger">￥</span>';
+                                 content +='<span class="am-text-xl fq-color-danger">'+list[i].coupons_price+'</span>';
+                             content +='</div>';
+                             content +='<span class="am-text-xs" style="color:rgba(0,0,0,0.5);">优惠券</span>';
+                              content +='<br />';
+                               content +='<a href="{php echo $this->createMobileUrl("view")}'+'&id='+list[i].id+'" class="am-text-sm fq-text-white fq-background-red am-radius am-block am-padding-xs am-margin-top-sm fq-a-focus">领券购买</a>';
+                               content +='<div class="am-round second-found am-inline-block am-text-center"></div>';
+                                     content +='</div>';
+                                 content +='</li>';
+                             content +='</ul>';
+                         content +='</div>';
+                     content +='</div>';
+
+
+						}
+                        $(".content .item_list").append(content);
+						var aa = $(".goods-list li").innerWidth();
+                        $(".goods-list li img").css('height',aa);
+						if(list.length>1){
+							$("#list_more").html('<span onclick="get_list(0);">点击查看更多</span>');
+						}else{
+							$("#list_more").html('<span></span>');
+							$("#list_more").fadeOut(500);
+						}		
+	                    limit++;
+
+		    }else if(data.status==2){
+	    		$("#list_more").html('<span>没有更多记录！</span>');
+				//dialog("没有更多记录！");
+				$("#list_more").fadeOut(500);
+
+	    	}else{
+			    $("#list_more").html('<span>没有更多记录！</span>');
+				//dialog("没有更多记录！！");
+				$("#list_more").fadeOut(500);
+			}    	
+	    },
+	    error : function(xhr, type) {
+
+	    }
+	});
+	    
+
+}
+get_list(0);
+
+
+//==============自动加载=============
+//获取滚动条当前的位置 
+function getScrollTop() { 
+var scrollTop = 0; 
+if (document.documentElement && document.documentElement.scrollTop) { 
+scrollTop = document.documentElement.scrollTop; 
+} 
+else if (document.body) { 
+scrollTop = document.body.scrollTop; 
+} 
+return scrollTop; 
+} 
+
+//获取当前可是范围的高度 
+function getClientHeight() { 
+var clientHeight = 0; 
+if (document.body.clientHeight && document.documentElement.clientHeight) { 
+clientHeight = Math.min(document.body.clientHeight, document.documentElement.clientHeight); 
+} 
+else { 
+clientHeight = Math.max(document.body.clientHeight, document.documentElement.clientHeight); 
+} 
+return clientHeight; 
+} 
+
+//获取文档完整的高度 
+function getScrollHeight() { 
+return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight); 
+} 
+
+
+$(window).scroll(function () { 
+if (getScrollTop() + getClientHeight() == getScrollHeight()) { 
+//alert("到达底部"); 
+get_list(0);
+} 
+});
+
+//==============自动加载=============  
+</script>
+<script>
+
+function search(){
+        var key = $('#key').val();
+        window.location.href="{php echo $this->createMobileUrl('index')}"+"&key="+key;
+    }
+</script>
+
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/jquery-1.7.2.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/tool.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/asynloading.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/idangerous.swiper.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/common_phone.js"></script>
+{if $cfg['lbtx']==1}
+<style>
+.useract {
+    position: fixed;
+    opacity: 0;
+    color: #fff;
+    border-radius: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    left: 0.2rem;
+    padding-right: 10px;
+    top: 3rem;
+    z-index: 2000;
+    background: #000;
+}
+
+.useract img {
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    vertical-align: -10px;
+    margin-right: 8px;
+}
+
+.useractshow {
+    opacity: 0.8;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+</style>
+
+<script>
+
+var fixeddata = [
+{loop $msg $v}
+    {
+        name: "{$v['title']}",
+        content: "{$v['content']}",
+        headerportarit: "{php echo tomedia($v['picurl'])}"
+    },
+{/loop}
+
+];
+</script>
+{/if}
+
+<script>        
+      var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                loop: true,
+                effect:'flip',
+                autoplay:5000,
+            });
+      var swiper2 = new Swiper('.swiper2', {
+                slidesPerView: 'auto',
+                paginationClickable: true,
+                freeMode: true,
+                autoplay:3000,
+                pagination: '.swiper-pagination',
+                
+      });
+
+
+//弹出领券
+    $(document).delegate(".new-coupon,.goodsget", "click", function () {        
+        var $this = $(this);
+        //alert($this.attr("data-img"));
+        var id = $this.data("id");
+        $.ajax({
+            type: "post",
+            url: "{php echo $this->createMobileUrl('GetCoupon')}",
+            dataType: "json",
+            data: { id: id },
+            success: function (data) {
+                if (data.msg == "申请失败") {
+                    popTao($this.attr("data-img"), "淘口令", "您暂无权限领取该优惠券，请先升级会员");
+                    $(".taokaobox").html("<div class='popwcc'><a href='javascript:;' onclick='location.href=\"/Customer/Upgrade\"' class='popwcomfirm'>去升级</a></div>");
+                    //location.href = "/Customer/Upgrade";
+                }
+                else {
+                    popTao($this.attr("data-img"), "淘口令", data.url);
+                }
+                selection()
+            }
+        });
+    })
+    </script>
+</body>
+</html>

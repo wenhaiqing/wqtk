@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*CSS reset*/ 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{ margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, th, var { font-style: normal; font-weight: normal }
+strong{ font-style: normal;}
+th{font-weight:bold;}
+input{ outline:0;}
+ol, ul { list-style: none }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+q:before, q:after { content: '' }
+abbr, acronym { border: 0 }
+a { text-decoration: none;color:#666666;outline:none;cursor: pointer;}
+.none{ display: none;}
+a:active,a:hover,a:visited{border:none; color: #666;}
+html{*overflow:auto;}
+textarea{resize:none;}
+select{-webkit-appearance: none;}
+body{ font:12px/1.5 tahoma,arial,"微软雅黑"; width:100%; min-width:320px; background: #eee;}
+.fl{ float: left;}
+.fr{ float: right;}
+/**********padding**********/
+.p4{ padding: 4px;}
+.p8{ padding: 8px;}
+/**********margin**********/
+.m4{ padding: 4px;}
+.m8{ padding: 8px;}
+.mt8{ margin-top: 8px;}
+.mt12{ margin-top: 12px;}
+.mt30{ margin-top: 30px;}
+/**********text-align**********/
+.tc{ text-align: center;}
+/**********background**********/
+.bg_f{ background: #fff;}
+/**********color**********/
+.col_9{ color: #999;}
+.col_0af{color:#00aaff;}
+.col_f60{color:#f60;}
+.col_985{ color: #998855;}
+.col_ff8{ color: #ff8b03;}

@@ -1,0 +1,687 @@
+
+<!doctype html>
+<html class="no-js">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+<title>{$cfg['copyright']}</title>
+
+<link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/amazeui/2.7.2/css/amazeui.css"/>
+<link rel="stylesheet" type="text/css" href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style8/css/style.css?t=4" />
+<link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style7/css/style.css" rel="stylesheet" />
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style7/css/swipper.css" rel="stylesheet" />
+
+<script type="text/javascript" src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/amazeui/2.7.2/js/amazeui.min.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+<script>$(function() {FastClick.attach(document.body);});</script>
+<script type="text/javascript" src="//res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+  <!-- 微信自定义接口 -->
+{if $views==''}
+<script>
+        var appid = "{$_W['account']['jssdkconfig']['appId']}";
+        var timestamp = "{$_W['account']['jssdkconfig']['timestamp']}";
+        var nonceStr = "{$_W['account']['jssdkconfig']['nonceStr']}";
+        var signature = "{$_W['account']['jssdkconfig']['signature']}";
+        wx.config({
+            debug: false,
+            appId: appid,
+            timestamp: timestamp,
+            nonceStr: nonceStr,
+            signature: signature,
+            jsApiList: [
+                "onMenuShareAppMessage",
+                "onMenuShareTimeline",
+                "chooseImage",
+                "uploadImage",
+                "downloadImage"
+            ]
+        });
+
+	wx.ready(function(){
+		wx.onMenuShareAppMessage({
+			title: "{$cfg['fxtitle']}",
+			desc: "{$cfg['fxcontent']}",
+			link: window.location.href ,
+			imgUrl: "{php echo tomedia($cfg['fxpicurl'])}"
+		}); 
+		wx.onMenuShareTimeline({
+			title: "{$cfg['fxtitle']}",
+			desc: "{$cfg['fxcontent']}",
+			link: window.location.href ,
+			imgUrl: "{php echo tomedia($cfg['fxpicurl'])}"
+		});
+	});
+</script>
+{/if}
+<!-- 微信自定义接口 -->
+
+</head>
+
+<body>
+<!---->
+<div class="app-other" style="position:fixed;top:0;z-index:10002">
+        <ul>
+         <li class="search">
+              <div id="search-box">
+                   <form id="search-form" action="{php echo $this->createMobileUrl('index')}" method="get">
+                     <div class="box-search">
+                        <input type="hidden" name="i" value="{$_W['uniacid']}">
+                        <input type="hidden" name="c" value="entry">
+                        <input type="hidden" name="m" value="tiger_taoke">
+                        <input type="hidden" name="do" value="index">
+                     <input type="text" id="keyword" name="key" x-webkit-speech="" placeholder="搜索商品" autocomplete="off" value="" style="background:#ffffff"/>
+                     <a href="javascript:;" class="del"><img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/images/del.png" /></a>
+                    </div>
+                    <button id="search-submit" type="submit" onclick="document.getElementById('keyword').value=encodeURI(document.getElementById('keyword').value);getId('search-form').submit()"><img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/images/search.png" /></button>
+                   </form>
+              </div>
+         </li>
+         <div style="clear:both"></div>
+         <li class="normal active "><a href="{php echo $this->createMobileUrl('index')}"><em class="home"></em>首页</a></li>
+         {loop $fzlist $f}
+         <li class="normal  "><a href="{php echo $this->createMobileUrl('index',array('typeid'=>$f['id']))}"><em class=" fushi"></em>{$f['title']}</a></li>
+         {/loop} 
+        </ul>
+        <p>
+        {if $cfg['huiyuanurl']}
+        <a href="{$cfg['huiyuanurl']}"><em class="icon-user"></em><br />个人中心</a><a href="{php echo $this->createMobileUrl('index')}"><em class="icon-about"></em><br />商城首页</a>
+        {else}
+        <a href="{php echo $this->createMobileUrl('member')}"><em class="icon-user"></em><br />个人中心</a><a href="{php echo $this->createMobileUrl('index')}"><em class="icon-about"></em><br />商城首页</a>
+        {/if}
+        
+        </p>
+   </div>
+<header id="head" class="head" style="height:60px;position:fixed;top:0;z-index:10001">
+     <div class="fixtop">
+      <span id="classify" class="classify"><a href="javascript:;" class="btn btn-left btn-type"></a></span>
+      <span id="index"><i class="logo" style="font-size:20px;color:#ffffff">{$cfg['copyright']}</i></span>
+      <span id="user"><a href="javascript:" onclick="gzrwm()" class="sign_btna btn btn-right btn-sign"></a></span>
+     </div>
+</header>
+<!---->
+
+{if $typeid==''}
+    <div class="index_w" style="margin-top:40px;">
+     <ul class="category" style="height:200px">
+     {loop $fzlist7 $k=>$f}
+      <li class="huamei_1" data-url="{php echo $this->createMobileUrl('index',array('typeid'=>$f['id']))}" _hover-ignore="1"><span><img src="{php echo tomedia($f['picurl'])}" alt="{$f['title']}" style="-webkit-border-radius: 50%;" /></span><strong>{$f['title']}</strong></li>
+     {/loop}  
+      <li class="all_o" onclick="$(&quot;.classify .btn-type&quot;).click()"><span><img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/images/more.png?ts=201509081903a00" alt="更多" /></span><strong>更多</strong></li>
+
+     </ul>   
+     
+    </div> 
+  <script type="text/javascript">    $(".huamei_1").off("click").on("click",function(){
+       window.location.href = $(this).attr("data-url");
+    });
+</script>
+
+    
+                  <!----->
+    {if $zdgoods}
+    
+    
+    <div id="containter index_goods" style="margin-top:10px;">
+        <div class="contain-product relative" style="border-top:0">
+            <div class="index_list_title">
+               <span class="intro_title"><i>今日专享</i> <em>疯狂抢购</em></span>
+               <!--span class="index_list_eachall"><a href="/Commodity/ListByCustomCategory?category=1">全部</a></span-->
+            </div>
+        <div class="contain--product-list swiper2"  style="width:100%;">
+            <ul class="swiper-wrapper">
+                {loop $zdgoods $v}
+                <li class="relative swiper-slide">
+                    <div class="contain-prolist-in">
+                        <a href="javascript:;"  data-img="{php echo tomedia($v['pic_url'])}_240x240.jpg" data-id="{$v['id']}" class="ImgOut aget">
+                            <div class="allpreContainer">
+                                <img style="height:146px;width:146px;" src="{php echo tomedia($v['pic_url'])}_240x240.jpg" >
+                            </div>
+                        </a>
+                        <div class="contain-prolist-text">
+                            <h1><a href="javascript:;"  data-img="{php echo tomedia($v['pic_url'])}_240x240.jpg" data-id="{$v['id']}"   class="aget">{$v['title']}</a></h1>
+                            <h2>
+                                <span>&yen;{$v['price']}</span>
+                                <font>&yen;{$v['org_price']}</font>
+                            </h2>
+                        </div>
+                        <a href="javascript:;" class="new-coupon" data-img="{php echo tomedia($v['pic_url'])}_240x240.jpg" data-id="{$v['id']}"><span>领劵</span><span>立减{$v['coupons_price']}元</span></a>
+                    </div>
+                </li>
+                {/loop}
+            </ul>
+         </div>
+       </div>
+    </div>
+    {/if}
+   <!-----> 
+{/if}
+<link rel="stylesheet" type="text/css" href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style8/css/index.css?t=1478719862" />
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1473419621_481219.css" />
+<link rel="stylesheet" href="//at.alicdn.com/t/font_mh5vxpfqeycfpqfr.css">
+
+<style>
+    body {
+        color: #3d0505;
+    }
+
+    .iconfont {
+        font-size: 24px;
+    }
+
+    .fq-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .line-clamp {
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .fq-color-gray {
+        color: #8f8f8f;
+    }
+
+    .fq-prize {
+        background: #f73e38;
+        background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 5px, #f73e38 5px);
+        background-size: 15px 15px;
+        background-position: 8px;
+    }
+
+    .fq-color-danger {
+        color: #f54d23;
+    }
+
+    .fq-background-red {
+        background: #f54d23;
+    }
+
+    .fq-discount {
+        position: relative;
+        top: 20%;
+        left: -webkit-calc((100% - 16px) / 2 - 23px);
+        left: calc((100% - 16px) / 2 - 23px);
+    }
+
+
+    .second-found {
+        position: relative;
+        top: 44%;
+        right: -10px;
+        width: 16px;
+        height: 16px;
+        background: #eeeeee;
+    }
+
+    .fq-title,
+    .fq-title:hover,
+    .fq-title:focus {
+        color: #3d0505;
+    }
+
+    .fq-a-focus,
+    .fq-a-focus:hover,
+    .fq-a-focus:focus {
+        color: #f54d23;
+    }
+
+    .fq-lose {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+    }
+
+        .fq-lose div:first-child {
+            border: #6A6161 .2rem solid;
+            border-radius: 6px;
+            width: 70%;
+        }
+
+    .fq-category {
+        background: rgba(255, 255, 255,0.6);
+    }
+
+        .fq-category span {
+            color: #8f8f8f;
+        }
+
+        .fq-category a {
+            color: #7a7a7a;
+        }
+
+        .fq-category .sort-active {
+            color: #0e90d2;
+        }
+
+    input, .am-form input[type="text"].am-radius::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        color: white;
+    }
+
+    input, .am-form input[type="text"].am-radius:-moz-placeholder, textarea:-moz-placeholder {
+        color: white;
+    }
+
+    input, .am-form input[type="text"].am-radius::-moz-placeholder, textarea::-moz-placeholder {
+        color: white;
+    }
+
+    input, .am-form input[type="text"].am-radius:-ms-input-placeholder, textarea:-ms-input-placeholder {
+        color: white;
+    }
+</style>
+
+
+
+<div class="main" style="top:-15px;">
+    <!--banner-->
+        <!--banner-->
+    <!-- 单独推荐商品开始 -->
+    
+        <!-- 单独推荐商品结束 -->
+    <!-- 全部商品列表开始 -->
+    <div id="pageCon" style="padding-bottom:66px;">
+        <div class="item_list" style="z-index:100">
+                  
+        </div>
+        <div id="list_more"  style="margin-top:10px;text-align:center;margin-bottom:10px;">
+           <span onclick="get_list(0);">查看更多</span>
+         </div>
+    </div>
+    <!-- 全部商品列表结束 -->
+    {template 'tbgoods/bottom'}
+</div>
+
+
+<link rel="stylesheet" href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/css/dropload.css">
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/js/dropload.min.js"></script>
+<script type="text/javascript">
+
+var limit = 1;
+function get_list(ty){
+    
+    if(ty==1){
+	   $("#pageCon .item_list").html('');
+	}else{
+	   $("#list_more").html('<div><span > 卖命加载中...</span></div>');	   
+	}
+	
+	$.ajax({
+	    type : "post",
+	    url : "{php echo $this->createMobileUrl('indexpost')}"+"&tj={$tj}&key={$key}&typeid={$typeid}",
+	    data : {
+	    	limit:limit,
+	    },
+        dataType : "json",		
+	    success : function(data) {
+	    	if(data.status==1){
+						var list = data.content;
+						var content = '';
+						for(var i=0; i<list.length; i++){
+
+
+
+content +='<div class="fq-background-white am-margin-top  am-margin-horizontal-xs" style="border-radius: 0 10px 10px 0">';
+content +='<a name="133934769"></a>';
+content +='<div class="am-inline-block am-margin-vertical-xs am-margin-left-xs" style="width:29%">';
+content +='<a href="javascript:;" data-img="'+list[i]['pic_url']+'_240x240.jpg" data-id="'+list[i]['id']+'" class="tobuy aget ">';
+content +='<img src="'+list[i]['pic_url']+'_240x240.jpg" class="fq-image loaded">';
+content +='</a>';
+content +='</div>';
+content +='<div class="am-g am-fr" style="width:68%; height:100px;">';
+content +='<div class="am-u-sm-7 am-padding-left-0 am-padding-right-xs am-padding-top-xs">';
+content +='<strong data-id="" class="line-clamp am-text-sm am-margin-bottom-xs" id="item_details">';
+content +='<i class="iconfont icon-tianmaoT" style="color:#bd0100; font-size:14px;"></i>'+list[i]['title']+'</strong>';
+content +='<div class="am-cf" style="line-height:2.3">';
+content +='<span class="am-text-xs fq-color-gray am-fl" style="text-decoration:line-through">￥'+list[i]['org_price']+'</span>';
+content +='<span class="am-text-xs fq-color-gray am-fr">销量'+list[i]['goods_sale']+'</span>';
+content +='</div>';
+content +='<div class="fq-color-danger am-fl">';
+content +='<span class="am-text-xs">券后包邮</span>';
+content +='<strong class="am-text-lg price">'+list[i]['price']+'</strong>';
+content +='</div>';
+content +='</div>';
+content +='<div class="am-text-center am-u-sm-5 fq-prize am-padding-0" style="border-radius: 0 10px 10px 0">';
+content +='<div class="am-text-sm am-margin-left-xs" style=" background:linear-gradient(#f9304c,#f54d23);border-radius: 0 10px 10px 0; height:112px;">';
+content +='<div class=" am-fl am-text-sm fq-discount">';
+content +='<span class="am-text-sm fq-text-white">￥</span>';
+content +='<span class="am-text-xl fq-text-white" style="font-size:20px;">'+list[i]['coupons_price']+'</span>';
+content +='<a href="javascript:;" data-img="'+list[i]['pic_url']+'_240x240.jpg" data-id="'+list[i]['id']+'" class="aget tobuy am-text-sm fq-background-white am-radius am-block fq-a-focus am-margin-top-sm" style="padding:2px 2px;">领券购买</a>';
+content +='</div>';
+content +='<div class="am-round second-found am-inline-block am-fr"></div>';
+content +='</div>';
+content +='</div>';
+content +='</div>';
+content +='</div>';
+						}
+                        $("#pageCon .item_list").append(content);
+						var aa = $(".goods-list li").innerWidth();
+                        $(".goods-list li img").css('height',aa);
+						if(list.length>1){
+							$("#list_more").html('<span onclick="get_list(0);">点击查看更多</span>');
+						}else{
+							$("#list_more").html('<span></span>');
+							$("#list_more").fadeOut(500);
+						}		
+	                    limit++;
+
+		    }else if(data.status==2){
+	    		$("#list_more").html('<span>没有更多记录！</span>');
+				//dialog("没有更多记录！");
+				$("#list_more").fadeOut(500);
+
+	    	}else{
+			    $("#list_more").html('<span>没有更多记录！</span>');
+				//dialog("没有更多记录！！");
+				$("#list_more").fadeOut(500);
+			}    	
+	    },
+	    error : function(xhr, type) {
+
+	    }
+	});
+	    
+
+}
+get_list(0);
+
+
+//==============自动加载=============
+//获取滚动条当前的位置 
+function getScrollTop() { 
+var scrollTop = 0; 
+if (document.documentElement && document.documentElement.scrollTop) { 
+scrollTop = document.documentElement.scrollTop; 
+} 
+else if (document.body) { 
+scrollTop = document.body.scrollTop; 
+} 
+return scrollTop; 
+} 
+
+//获取当前可是范围的高度 
+function getClientHeight() { 
+var clientHeight = 0; 
+if (document.body.clientHeight && document.documentElement.clientHeight) { 
+clientHeight = Math.min(document.body.clientHeight, document.documentElement.clientHeight); 
+} 
+else { 
+clientHeight = Math.max(document.body.clientHeight, document.documentElement.clientHeight); 
+} 
+return clientHeight; 
+} 
+
+//获取文档完整的高度 
+function getScrollHeight() { 
+return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight); 
+} 
+
+
+$(window).scroll(function () { 
+if (getScrollTop() + getClientHeight() == getScrollHeight()) { 
+//alert("到达底部"); 
+get_list(0);
+} 
+});
+
+//==============自动加载=============  
+
+
+
+</script>
+
+<script>
+
+    $("#all_list").click(function () {
+
+        //激活状态
+        $("#fq-classify").addClass("active");
+        $("#all_list").attr("class","am-block fq-classify active");
+        $("#all_list").css("color","#f54d23");
+        $(".column_list a").removeClass("active");
+
+        //分类展示
+        $(".fq-type").slideToggle();
+
+    });
+
+    //平滑滚动回顶部
+    $('.main').on('scroll',function(){
+
+        $('.am-gotop-fixed').css('display','block');
+
+
+        if ($('.main').scrollTop() === 0) {
+            // 滚动到底部了
+            $('.am-gotop-fixed').css('display','none');
+        }
+
+    });
+
+    $('.fq-top').click(function(){
+        $('.main').animate({
+            scrollTop:$('.header_content').offset().top}, 800);
+    });
+
+
+    $('.fq-confirm').click(function(){
+        $('.fq-lose').css('display','none');
+    });
+
+</script>
+
+	<style>
+		.main{
+			bottom:40px;
+		}
+	</style>
+<style>
+.menu{
+        width:100%;
+        position:absolute;
+        position:fixed;
+
+        bottom:0;
+        background:#fff;
+        border-top:.1rem solid #F3E7E3;
+        z-index:999;
+    }
+    .menu img {
+        width:1.5rem;
+        height:1.5rem;
+        margin-bottom:.2rem;
+    }
+
+    .menu a {
+        display:inline-block;
+        color:#3d0505;
+
+    }
+
+    .menu a span {
+        font-size:1.2rem;
+    }
+	
+	
+</style>
+
+
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/jquery-1.7.2.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/tool.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/asynloading.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/idangerous.swiper.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/common_phone.js"></script>
+{if $cfg['lbtx']==1}
+<style>
+.useract {
+    position: fixed;
+    opacity: 0;
+    color: #fff;
+    border-radius: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    left: 0.2rem;
+    padding-right: 10px;
+    top: 5rem;
+    z-index: 2000;
+    background: #000;
+}
+
+.useract img {
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    vertical-align: -10px;
+    margin-right: 8px;
+}
+
+.useractshow {
+    opacity: 0.8;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+</style>
+
+<script>
+
+var fixeddata = [
+{loop $msg $v}
+    {
+        name: "{$v['title']}",
+        content: "{$v['content']}",
+        headerportarit: "{php echo tomedia($v['picurl'])}"
+    },
+{/loop}
+
+];
+</script>
+{/if}
+
+<script>        
+      var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                loop: true,
+                effect:'flip',
+                autoplay:5000,
+            });
+      var swiper2 = new Swiper('.swiper2', {
+                slidesPerView: 'auto',
+                paginationClickable: true,
+                freeMode: true,
+                autoplay:3000,
+                pagination: '.swiper-pagination',
+                
+      });
+
+
+//弹出领券
+    $(document).delegate(".new-coupon,.goodsget,.aget", "click", function () {     
+        var $this = $(this);
+        //alert($this.attr("data-img"));
+        var id = $this.data("id");
+        $.ajax({
+            type: "post",
+            url: "{php echo $this->createMobileUrl('GetCoupon')}",
+            dataType: "json",
+            data: { id: id },
+            success: function (data) {
+                if (data.msg == "申请失败") {
+                    popTao($this.attr("data-img"), "淘口令", "您暂无权限领取该优惠券，请先升级会员");
+                    $(".taokaobox").html("<div class='popwcc'><a href='javascript:;' onclick='location.href=\"/Customer/Upgrade\"' class='popwcomfirm'>去升级</a></div>");
+                    //location.href = "/Customer/Upgrade";
+                }
+                else {
+                    popTao($this.attr("data-img"), "淘口令", data.url);
+                }
+                selection()
+            }
+        });
+    })
+    </script>
+
+    <script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/js/layer_mobile/layer.js"></script>
+<script>
+function gzrwm(){
+
+layer.open({
+  type: 1,
+  title: '- 长按识别关注 -',
+  skin: 'layui-layer-demo', 
+  closeBtn: 0, 
+  anim: 2,
+  shadeClose: true, 
+  content: "<img src='{php echo tomedia($cfg['gzewm'])}' style='width:300px;height:300px;'>"
+});
+
+}
+
+
+var _html="<div class='alert_fullbg' style='display:block;' onclick='gb()'></div>"
+
+//分类动画
+
+
+	$(".classify .btn-type").on('click',function(){
+
+
+		$("body").css("paddingBottom","0");
+
+
+		$("body").append(_html);
+
+
+		$(".alert_fullbg").css('z-index','10000');
+
+
+		$(".app-other").css({'left':'0','visibility':'visible'});
+
+
+	});
+
+    function gb(){
+      $("body").css("paddingBottom","45px");
+
+
+			//$(".back-top").css("display","block");
+
+
+			$(".app-other").css({'left':'-70%','visibility':'hidden'});
+
+
+			$(".alert_fullbg").css('display','none');
+
+
+			clearTimeout(timer);
+
+
+			timer=setTimeout(function(){
+
+
+			    $(".app-other").css('height',"auto")
+
+
+			    $(".main").css({"height":"auto","overflow":"visible"})
+
+
+			},400);
+     }
+
+</script>
+</body>
+</html>

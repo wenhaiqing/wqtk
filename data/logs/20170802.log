@@ -1,0 +1,707 @@
+2017-08-02 00:03:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1501603405</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-02 00:03:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1501603405',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501603405',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-02 00:03:24 response :
+------------
+Array:
+params : Array ;
+
+2017-08-02 11:07:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4ns7JSyFsRF-Oc8yZrJjwE]]></FromUserName>
+<CreateTime>1501643222</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（彪马puma短袖T恤男2017夏季新款时尚圆领宽松透气运动上衣573810），快来和我一起瓜分红包】，复制这条信息￥VeHE01R5AJz￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449508529170995174</MsgId>
+</xml>
+
+2017-08-02 11:07:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'createtime' => '1501643222',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（彪马puma短袖T恤男2017夏季新款时尚圆领宽松透气运动上衣573810），快来和我一起瓜分红包】，复制这条信息￥VeHE01R5AJz￥后打开👉手机淘宝👈',
+    'msgid' => '6449508529170995174',
+    'from' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501643222',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 11:07:04 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4ns7JSyFsRF-Oc8yZrJjwE ;
+MsgType : text ;
+Content : Hi,青青子衿
+系统繁忙！请稍后在试！ ;
+
+2017-08-02 11:07:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4ns7JSyFsRF-Oc8yZrJjwE]]></FromUserName>
+<CreateTime>1501643231</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（彪马puma短袖T恤男2017夏季新款时尚圆领宽松透气运动上衣573810），快来和我一起瓜分红包】，复制这条信息￥VeHE01R5AJz￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449508567825700851</MsgId>
+</xml>
+
+2017-08-02 11:07:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'createtime' => '1501643231',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（彪马puma短袖T恤男2017夏季新款时尚圆领宽松透气运动上衣573810），快来和我一起瓜分红包】，复制这条信息￥VeHE01R5AJz￥后打开👉手机淘宝👈',
+    'msgid' => '6449508567825700851',
+    'from' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501643231',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 11:07:11 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4ns7JSyFsRF-Oc8yZrJjwE ;
+MsgType : text ;
+Content : Hi,青青子衿
+系统繁忙！请稍后在试！ ;
+
+2017-08-02 11:07:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4ns7JSyFsRF-Oc8yZrJjwE]]></FromUserName>
+<CreateTime>1501643255</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（PUMA彪马官方 男女同款麂皮休闲鞋 Suede Classic 362551），快来和我一起瓜分红包】，复制这条信息￥41NH01RgpTE￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449508670904915979</MsgId>
+</xml>
+
+2017-08-02 11:07:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'createtime' => '1501643255',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（PUMA彪马官方 男女同款麂皮休闲鞋 Suede Classic 362551），快来和我一起瓜分红包】，复制这条信息￥41NH01RgpTE￥后打开👉手机淘宝👈',
+    'msgid' => '6449508670904915979',
+    'from' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501643255',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 11:07:35 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4ns7JSyFsRF-Oc8yZrJjwE ;
+MsgType : text ;
+Content : Hi,青青子衿
+系统繁忙！请稍后在试！ ;
+
+2017-08-02 11:20:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4ns7JSyFsRF-Oc8yZrJjwE]]></FromUserName>
+<CreateTime>1501644004</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（PUMA彪马官方 女子运动休闲短袖T恤 Archive Logo 571286），快来和我一起瓜分红包】，复制这条信息￥ER3Y01Rk6JF￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449511887835421402</MsgId>
+</xml>
+
+2017-08-02 11:20:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'createtime' => '1501644004',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（PUMA彪马官方 女子运动休闲短袖T恤 Archive Logo 571286），快来和我一起瓜分红包】，复制这条信息￥ER3Y01Rk6JF￥后打开👉手机淘宝👈',
+    'msgid' => '6449511887835421402',
+    'from' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501644004',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 11:20:05 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4ns7JSyFsRF-Oc8yZrJjwE ;
+MsgType : text ;
+Content : Hi,青青子衿
+系统繁忙！请稍后在试！ ;
+
+2017-08-02 14:05:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxFtmEO9J0BAYrKJ51ByMEI]]></FromUserName>
+<CreateTime>1501653912</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏），快来和我一起瓜分红包】，复制这条信息￥dr6301jmDIw￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449554442371397812</MsgId>
+</xml>
+
+2017-08-02 14:05:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'createtime' => '1501653912',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏），快来和我一起瓜分红包】，复制这条信息￥dr6301jmDIw￥后打开👉手机淘宝👈',
+    'msgid' => '6449554442371397812',
+    'from' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501653912',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 14:05:14 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isxFtmEO9J0BAYrKJ51ByMEI ;
+MsgType : text ;
+Content : Hi,Colourful
+系统繁忙！请稍后在试！ ;
+
+2017-08-02 14:05:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxFtmEO9J0BAYrKJ51ByMEI]]></FromUserName>
+<CreateTime>1501653921</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏），快来和我一起瓜分红包】，复制这条信息￥dr6301jmDIw￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449554481026103486</MsgId>
+</xml>
+
+2017-08-02 14:05:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'createtime' => '1501653921',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏），快来和我一起瓜分红包】，复制这条信息￥dr6301jmDIw￥后打开👉手机淘宝👈',
+    'msgid' => '6449554481026103486',
+    'from' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501653921',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 14:05:21 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isxFtmEO9J0BAYrKJ51ByMEI ;
+MsgType : text ;
+Content : Hi,Colourful
+系统繁忙！请稍后在试！ ;
+
+2017-08-02 17:21:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2z8Bc2Hf8RI4zDdoC0afLg]]></FromUserName>
+<CreateTime>1501665666</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【越南红心火龙果新鲜水果热带当季水果现摘红色红肉火龙果5斤包邮】，复制这条信息￥aZys01kfXa8￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449604925417004904</MsgId>
+</xml>
+
+2017-08-02 17:21:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'createtime' => '1501665666',
+    'msgtype' => 'text',
+    'content' => '【越南红心火龙果新鲜水果热带当季水果现摘红色红肉火龙果5斤包邮】，复制这条信息￥aZys01kfXa8￥后打开👉手机淘宝👈',
+    'msgid' => '6449604925417004904',
+    'from' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501665666',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 17:21:07 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2z8Bc2Hf8RI4zDdoC0afLg ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-08-02 17:21:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2z8Bc2Hf8RI4zDdoC0afLg]]></FromUserName>
+<CreateTime>1501665684</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[火龙果]]></Content>
+<MsgId>6449605002726416252</MsgId>
+</xml>
+
+2017-08-02 17:21:23 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'createtime' => '1501665684',
+    'msgtype' => 'text',
+    'content' => '火龙果',
+    'msgid' => '6449605002726416252',
+    'from' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501665684',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-02 17:21:23 response :
+------------
+Array:
+params : Array ;
+
+2017-08-02 18:38:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4ns7JSyFsRF-Oc8yZrJjwE]]></FromUserName>
+<CreateTime>1501670283</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【PUMA彪马官方 Archive Hoody ICONIC 男子 针织卫衣 572114】，复制这条信息￥T7hS01PXo2n￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449624755281014057</MsgId>
+</xml>
+
+2017-08-02 18:38:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'createtime' => '1501670283',
+    'msgtype' => 'text',
+    'content' => '【PUMA彪马官方 Archive Hoody ICONIC 男子 针织卫衣 572114】，复制这条信息￥T7hS01PXo2n￥后打开👉手机淘宝👈',
+    'msgid' => '6449624755281014057',
+    'from' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501670283',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 18:38:03 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4ns7JSyFsRF-Oc8yZrJjwE ;
+MsgType : text ;
+Content : Hi,青青子衿
+系统繁忙！请稍后在试！ ;
+
+2017-08-02 18:43:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4ns7JSyFsRF-Oc8yZrJjwE]]></FromUserName>
+<CreateTime>1501670632</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【PUMA彪马官方 Archive Hoody ICONIC 男子 针织卫衣 572114】，复制这条信息￥zeiO01PWAG0￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449626254224600585</MsgId>
+</xml>
+
+2017-08-02 18:43:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'createtime' => '1501670632',
+    'msgtype' => 'text',
+    'content' => '【PUMA彪马官方 Archive Hoody ICONIC 男子 针织卫衣 572114】，复制这条信息￥zeiO01PWAG0￥后打开👉手机淘宝👈',
+    'msgid' => '6449626254224600585',
+    'from' => 'oRy3is4ns7JSyFsRF-Oc8yZrJjwE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501670632',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 18:43:52 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4ns7JSyFsRF-Oc8yZrJjwE ;
+MsgType : text ;
+Content : Hi,青青子衿
+系统繁忙！请稍后在试！ ;
+
+2017-08-02 20:49:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is52gfProG3Tfo_4sPcHRGv0]]></FromUserName>
+<CreateTime>1501678157</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-02 22:25:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isy_gdwwonm86KRvJW4NThuM]]></FromUserName>
+<CreateTime>1501683914</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【夏天小方包2017新款流苏链条包女包时尚百搭单肩斜挎包风琴小包包】，复制这条信息￥uHSV01ODh0G￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449683299980233095</MsgId>
+</xml>
+
+2017-08-02 22:25:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isy_gdwwonm86KRvJW4NThuM',
+    'createtime' => '1501683914',
+    'msgtype' => 'text',
+    'content' => '【夏天小方包2017新款流苏链条包女包时尚百搭单肩斜挎包风琴小包包】，复制这条信息￥uHSV01ODh0G￥后打开👉手机淘宝👈',
+    'msgid' => '6449683299980233095',
+    'from' => 'oRy3isy_gdwwonm86KRvJW4NThuM',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501683914',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 22:25:14 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isy_gdwwonm86KRvJW4NThuM ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-08-02 22:29:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is0HSpNu_LBYICikhT5KVun8]]></FromUserName>
+<CreateTime>1501684155</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（OTG转接头Type-c转USB3.0数据线充电华为P9乐视2转接头U盘连接线），快来和我一起瓜分红包】，复制这条信息￥Eda001OyY8p￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449684335067351526</MsgId>
+</xml>
+
+2017-08-02 22:29:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'createtime' => '1501684155',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（OTG转接头Type-c转USB3.0数据线充电华为P9乐视2转接头U盘连接线），快来和我一起瓜分红包】，复制这条信息￥Eda001OyY8p￥后打开👉手机淘宝👈',
+    'msgid' => '6449684335067351526',
+    'from' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501684155',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-02 22:29:16 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is0HSpNu_LBYICikhT5KVun8 ;
+MsgType : text ;
+Content : Hi,十七岁的夏天
+系统繁忙！请稍后在试！ ;
+

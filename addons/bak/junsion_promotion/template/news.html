@@ -1,0 +1,86 @@
+<style>
+.news{
+	border: 1px solid orangered;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+</style>
+<div class="panel panel-default">
+            <div class="panel-heading">
+                扫码关注后立即推送图文：
+            </div>
+            <div class="panel-body">
+            	<div id="news" style="display: none;">
+	                <div class="form-group">
+	                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">标题</label>
+	                    <div class="col-sm-9 col-xs-12">
+	                        <input type="text" id="title" name="ntitle[]" class="form-control"  />
+	                        <div class="help-block">#昵称#为当前粉丝昵称，#推荐#为当前推广人昵称；</div>
+	                    </div>
+	                </div>
+	                <div class="form-group">
+	                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">图片链接</label>
+	                    <div class="col-sm-9 col-xs-12">
+	                        {php echo tpl_form_field_image('nthumb[]', '');}
+	                    </div>
+	                </div>
+	
+	                <div class="form-group">
+	                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"> 说明</label>
+	                    <div class="col-sm-9 col-xs-12">
+	                        <input type="text" id="desc" name="ndesc[]" class="form-control"  />
+	                    </div>
+	                </div>
+	
+	                <div class="form-group">
+	                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">跳转链接</label>
+	                    <div class="col-sm-9 col-xs-12">
+	                       {php echo tpl_form_field_link('nurl[]','')}
+	                    </div>
+	                </div>
+	            </div>
+                {loop $settings['news'] $l}
+                <div class="news">
+	                <div class="form-group">
+	                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">标题</label>
+	                    <div class="col-sm-9 col-xs-12">
+	                        <input type="text" id="title" name="ntitle[]" class="form-control" value="{$l['ntitle']}"  />
+	                        <div class="help-block">注意：#昵称#为当前粉丝昵称，#推荐#为当前推广人昵称；</div>
+	                    </div>
+	                </div>
+	                <div class="form-group">
+	                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">图片链接</label>
+	                    <div class="col-sm-9 col-xs-12">
+	                        {php echo tpl_form_field_image('nthumb[]', $l['nthumb']);}
+	                    </div>
+	                </div>
+	
+	                <div class="form-group">
+	                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"> 说明</label>
+	                    <div class="col-sm-9 col-xs-12">
+	                        <input type="text" id="desc" name="ndesc[]" class="form-control" value="{$l['ndesc']}"  />
+	                    </div>
+	                </div>
+	
+	                <div class="form-group">
+	                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">跳转链接</label>
+	                    <div class="col-sm-9 col-xs-12">
+	                       {php echo tpl_form_field_link('nurl[]',$l['nurl'])}
+	                    </div>
+	                </div>
+                </div>
+                {/loop}
+                <div class="form-group">
+                    	<label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+                        <div class="col-sm-9">
+                        	<a onclick="onAdd2(this)" class="btn btn-warning"><i class="fa fa-plus"></i> 添加图文</a>
+	                         <span class="help-block">图文数量大于1时，推送多图文，否则单图文；标题为空即为删除</span>
+                        </div>
+                </div>
+            </div>
+		</div>
+<script>
+function onAdd2(obj){
+	$(obj).parent().parent().before('<div class="news">'+$('#news').html()+'</div>');
+}
+</script>

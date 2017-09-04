@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <title>{$cfg['copyright']}</title>
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style7/css/style.css" rel="stylesheet" />
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style7/css/swipper.css" rel="stylesheet" />
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style7/css/preload.css" rel="stylesheet" />
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style7/css/loading.css" rel="stylesheet" />
+    
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        if (deviceWidth > 750) deviceWidth = 750;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + "px";
+        document.documentElement.style.width = "100%";
+    </script>
+</head>
+<body>
+<div id="containter" class="container">
+<!---->
+<div class="app-other" style="z-index:10002">
+        <ul>
+         <li class="search">
+              <div id="search-box">
+                   <form id="search-form" action="{php echo $this->createMobileUrl('index')}" method="get">
+                     <div class="box-search">
+                        <input type="hidden" name="i" value="{$_W['uniacid']}">
+                        <input type="hidden" name="c" value="entry">
+                        <input type="hidden" name="m" value="tiger_taoke">
+                        <input type="hidden" name="do" value="index">
+                     <input type="text" id="keyword" name="key" x-webkit-speech="" placeholder="搜索商品" autocomplete="off" value="" />
+                     <a href="javascript:;" class="del"><img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/images/del.png" /></a>
+                    </div>
+                    <button id="search-submit" type="submit" onclick="document.getElementById('keyword').value=encodeURI(document.getElementById('keyword').value);getId('search-form').submit()"><img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/images/search.png" /></button>
+                   </form>
+              </div>
+         </li>
+         <li class="normal active "><a href="{php echo $this->createMobileUrl('index')}"><em class="home"></em>首页</a></li>
+         {loop $fzlist $f}
+         <li class="normal  "><a href="{php echo $this->createMobileUrl('index',array('typeid'=>$f['id']))}"><em class=" fushi"></em>{$f['title']}</a></li>
+         {/loop} 
+        </ul>
+        <p>
+        {if $cfg['huiyuanurl']}
+        <a href="{$cfg['huiyuanurl']}"><em class="icon-user"></em><br />个人中心</a><a href="{php echo $this->createMobileUrl('index')}"><em class="icon-about"></em><br />商城首页</a>
+        {else}
+        <a href="{php echo $this->createMobileUrl('member')}"><em class="icon-user"></em><br />个人中心</a><a href="{php echo $this->createMobileUrl('index')}"><em class="icon-about"></em><br />商城首页</a>
+        {/if}
+        
+        </p>
+   </div>
+<header id="head" class="head" style="height:60px;position:fixed;top:0;z-index:10001">
+     <div class="fixtop">
+      <span id="classify" class="classify"><a href="javascript:;" class="btn btn-left btn-type"></a></span>
+      <span id="index"><i class="logo" style="font-size:20px;color:#ffffff">{$cfg['copyright']}</i></span>
+      <span id="user"><a href="javascript:" onclick="gzrwm()" class="sign_btna btn btn-right btn-sign"></a></span>
+     </div>
+</header>
+<!---->
+ {if $ad}
+<div id="banner" style="margin-top:43px;">
+    <div class="swiper-container">
+        <ul class="swiper-wrapper">
+         {loop $ad $a}
+                <li class="swiper-slide">
+                    <a href="{$a['url']}">
+                        <div class="allpreContainer">
+                            <div class="inoutbg" style="background-image: url(); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;">
+                            </div>
+                            <img class="preloadbg" src-data="{php echo tomedia($a['pic'])}" src="" loaded="false">
+                            <div class="DSbg" style="background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+       {/loop}
+        </ul>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+{/if}
+
+<div id="navigination" style="display:block">
+    <ul>
+       {loop $fzlist7 $k=>$f}
+        <li class="relative">
+            <a href="{php echo $this->createMobileUrl('index',array('typeid'=>$f['id']))}" class="link-hover"></a>
+            <div class="navigin-text">
+                <span class="icon-t1" style="background: url({php echo tomedia($f['picurl'])}) no-repeat;border-radius:50%"></span>
+                <p>{$f['title']}</p>
+            </div>
+        </li>
+        {/loop}
+        <li class="relative">
+            <a onclick="$(&quot;.classify .btn-type&quot;).click()" class="link-hover"></a>
+            <div class="navigin-text">
+                <span class="icon-t1" style="background: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/images/more.png) no-repeat;border-radius:50%"></span>
+                <p>更多</p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+{if $typeid==''}
+<div id="containter index_goods">
+    <div class="contain-product relative">
+            <div class="index_list_title">
+        <span class="intro_title"><i>今日专享</i> <em>限时疯抢</em></span>
+        <!--span class="index_list_eachall"><a href="/Commodity/ListByCustomCategory?category=1">全部</a></span-->
+    </div>
+<div class="contain--product-list swiper2">
+    <ul class="swiper-wrapper">
+     {loop $zdgoods $v}
+
+
+
+            <li class="relative swiper-slide">
+                <div class="contain-prolist-in">
+                    <a  href="javascript:;" data-img="{php echo tomedia($v['pic_url'])}_240x240.jpg" data-id="{$v['id']}" class="ImgOut aget">
+                        <div class="allpreContainer">
+                            <div class="inoutbg" style="background-image: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/images/jz.gif); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;">
+                            </div>
+                            <img class="preloadbg" src-data="{php echo tomedia($v['pic_url'])}_240x240.jpg" src="" loaded="false">
+                            <div class="DSbg" style="background-image: url(); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="contain-prolist-text">
+                         <h1><a href="javascript:;" class="aget" data-img="{php echo tomedia($v['pic_url'])}_240x240.jpg" data-id="{$v['id']}">{$v['title']}</a></h1>
+                        <h2>
+                           <span>&yen;{$v['price']}</span>
+                        </h2>
+                    </div>
+                    <a href="javascript:;" class="new-coupon" data-img="{php echo tomedia($v['pic_url'])}_240x240.jpg" data-id="{$v['id']}"><span>领劵</span><span>立减{$v['coupons_price']}元</span></a>
+                </div>
+            </li>
+   {/loop}
+    </ul>
+</div>
+ {/if}
+<div class="goods_list index_goodslist" id="pageCon">
+    <div class="index_list_title">
+        <span class="intro_title"><i>最新爆品</i> <em></em></span>
+    </div>
+    <ul id="lists" >
+    </ul>
+     <div id="list_more"  style="margin-top:10px;text-align:center;margin-bottom:10px;">
+	   <span onclick="get_list(0);">查看更多</span>
+	 </div>
+</div>
+</div>
+
+
+{template 'tbgoods/bottom'}
+</body>
+</html>
+
+
+
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/jquery-1.7.2.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/tool.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/asynloading.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/idangerous.swiper.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/common_phone.js"></script>
+{if $cfg['lbtx']==1}
+<style>
+.useract {
+    position: fixed;
+    opacity: 0;
+    color: #fff;
+    border-radius: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    left: 0.2rem;
+    padding-right: 10px;
+    top: 3rem;
+    z-index: 10001;
+    background: #000;
+}
+
+.useract img {
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    vertical-align: -10px;
+    margin-right: 8px;
+}
+
+.useractshow {
+    opacity: 0.8;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+</style>
+
+<script>
+
+var fixeddata = [
+{loop $msg $v}
+    {
+        name: "{$v['title']}",
+        content: "{$v['content']}",
+        headerportarit: "{php echo tomedia($v['picurl'])}"
+    },
+{/loop}
+
+];
+</script>
+{/if}
+
+<script>        
+      var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                loop: true,
+                effect:'flip',
+                autoplay:5000,
+            });
+      var swiper2 = new Swiper('.swiper2', {
+                slidesPerView: 'auto',
+                paginationClickable: true,
+                freeMode: true,
+                autoplay:3000,
+                pagination: '.swiper-pagination',
+                
+      });
+
+
+//弹出领券
+    $(document).delegate(".new-coupon,.goodsget", "click", function () {        
+        var $this = $(this);
+        //alert($this.attr("data-img"));
+        var id = $this.data("id");
+        $.ajax({
+            type: "post",
+            url: "{php echo $this->createMobileUrl('GetCoupon')}",
+            dataType: "json",
+            data: { id: id },
+            success: function (data) {
+                if (data.msg == "申请失败") {
+                    popTao($this.attr("data-img"), "淘口令", "您暂无权限领取该优惠券，请先升级会员");
+                    $(".taokaobox").html("<div class='popwcc'><a href='javascript:;' onclick='location.href=\"/Customer/Upgrade\"' class='popwcomfirm'>去升级</a></div>");
+                    //location.href = "/Customer/Upgrade";
+                }
+                else {
+                    popTao($this.attr("data-img"), "淘口令", data.url);
+                }
+                selection()
+            }
+        });
+    })
+    </script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+{if $views==''}
+<script>
+        var appid = "{$_W['account']['jssdkconfig']['appId']}";
+        var timestamp = "{$_W['account']['jssdkconfig']['timestamp']}";
+        var nonceStr = "{$_W['account']['jssdkconfig']['nonceStr']}";
+        var signature = "{$_W['account']['jssdkconfig']['signature']}";
+        wx.config({
+            debug: false,
+            appId: appid,
+            timestamp: timestamp,
+            nonceStr: nonceStr,
+            signature: signature,
+            jsApiList: [
+                "onMenuShareAppMessage",
+                "onMenuShareTimeline",
+                "chooseImage",
+                "uploadImage",
+                "downloadImage"
+            ]
+        });
+
+	wx.ready(function(){
+		wx.onMenuShareAppMessage({
+			title: "{$cfg['fxtitle']}",
+			desc: "{$cfg['fxcontent']}",
+			link: window.location.href ,
+			imgUrl: "{php echo tomedia($cfg['fxpicurl'])}"
+		}); 
+		wx.onMenuShareTimeline({
+			title: "{$cfg['fxtitle']}",
+			desc: "{$cfg['fxcontent']}",
+			link: window.location.href ,
+			imgUrl: "{php echo tomedia($cfg['fxpicurl'])}"
+		});
+	});
+</script>
+{/if}
+
+<link rel="stylesheet" href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/css/dropload.css">
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/js/dropload.min.js"></script>
+<script type="text/javascript">
+
+var limit = 1;
+function get_list(ty){
+    
+    if(ty==1){
+	   $("#pageCon #lists").html('');
+	}else{
+	   $("#list_more").html('<div><span > 卖命加载中...</span></div>');	   
+	}
+	
+	$.ajax({
+	    type : "post",
+	    url : "{php echo $this->createMobileUrl('indexpost')}"+"&tj={$tj}&key={$key}&typeid={$typeid}",
+	    data : {
+	    	limit:limit,
+	    },
+        dataType : "json",		
+	    success : function(data) {
+	    	if(data.status==1){
+						var list = data.content;
+						var content = '';
+						for(var i=0; i<list.length; i++){
+
+                         
+
+
+
+
+      content +='<li class="relative">';
+      content +='<div class="goods_pic">';
+       content +='<a href="javascript:;" class="aget" data-img="{php echo tomedia($v["pic_url"])}_240x240.jpg" data-id="{$v["id"]}">';
+      content +='<div class="allpreContainer">';
+      content +='<div class="inoutbg" style="background-image: url({$_W["siteroot"]}addons/tiger_taoke/template/mobile/tbgoods/images/jz.gif); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;">';
+     content +='</div>';
+      content +='<img class="preloadbg" src-data="'+list[i]['pic_url']+'_240x240.jpg" src="" loaded="false">';
+      content +='<div class="DSbg" style="background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;">';
+      content +='</div>';
+      content +='</div>';
+                content +='</a>';
+            content +='</div>';
+            content +='<div class="goods_bottom">';
+                content +='<div>';
+               content +='<a class="goods_text aget" href="javascript:;" data-img="{php echo tomedia($v["pic_url"])}_240x240.jpg" data-id="{$v["id"]}">'+list[i]['title']+'</a>';
+                content +='</div>';
+                if(list[i]['istmall']==1){
+               content +=' <div class="comefrom1">去天猫</div>';
+                }else{
+                content +=' <div class="comefrom">去淘宝</div>';
+                }
+
+                content +='<div class="goodspc">';
+                   content +=' <div class="goods_price">';
+                        content +='<span>&yen;'+list[i]['price']+'</span>';
+                        content +='<font>&yen;'+list[i]['org_price']+'</font>';
+                    content +='</div>';
+                    content +='<a href="javascript:;" class="new-coupon" data-img="'+list[i]['pic_url']+'_240x240.jpg" data-id="'+list[i]['id']+'"><span>马上领劵</span><span>立减'+list[i]['coupons_price']+'元</span></a>';
+               content +=' </div>';
+            content +='</div>';
+        content +='</li>';
+
+
+
+
+						}
+                        $("#pageCon #lists").append(content);
+						var aa = $(".goods-list li").innerWidth();
+                        $(".goods-list li img").css('height',aa);
+						if(list.length>1){
+							$("#list_more").html('<span onclick="get_list(0);">点击查看更多</span>');
+						}else{
+							$("#list_more").html('<span></span>');
+							$("#list_more").fadeOut(500);
+						}		
+	                    limit++;
+
+		    }else if(data.status==2){
+	    		$("#list_more").html('<span>没有更多记录！</span>');
+				//dialog("没有更多记录！");
+				$("#list_more").fadeOut(500);
+
+	    	}else{
+			    $("#list_more").html('<span>没有更多记录！</span>');
+				//dialog("没有更多记录！！");
+				$("#list_more").fadeOut(500);
+			}    	
+	    },
+	    error : function(xhr, type) {
+
+	    }
+	});
+	    
+
+}
+get_list(0);
+
+
+//==============自动加载=============
+//获取滚动条当前的位置 
+function getScrollTop() { 
+var scrollTop = 0; 
+if (document.documentElement && document.documentElement.scrollTop) { 
+scrollTop = document.documentElement.scrollTop; 
+} 
+else if (document.body) { 
+scrollTop = document.body.scrollTop; 
+} 
+return scrollTop; 
+} 
+
+//获取当前可是范围的高度 
+function getClientHeight() { 
+var clientHeight = 0; 
+if (document.body.clientHeight && document.documentElement.clientHeight) { 
+clientHeight = Math.min(document.body.clientHeight, document.documentElement.clientHeight); 
+} 
+else { 
+clientHeight = Math.max(document.body.clientHeight, document.documentElement.clientHeight); 
+} 
+return clientHeight; 
+} 
+
+//获取文档完整的高度 
+function getScrollHeight() { 
+return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight); 
+} 
+
+
+$(window).scroll(function () { 
+if (getScrollTop() + getClientHeight() == getScrollHeight()) { 
+//alert("到达底部"); 
+get_list(0);
+} 
+});
+
+//==============自动加载=============  
+
+
+
+</script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/js/layer_mobile/layer.js"></script>
+<script>
+function gzrwm(){
+
+layer.open({
+  type: 1,
+  title: '- 长按识别关注 -',
+  skin: 'layui-layer-demo', 
+  closeBtn: 0, 
+  anim: 2,
+  shadeClose: true, 
+  content: "<img src='{php echo tomedia($cfg['gzewm'])}' style='width:300px;height:300px;'>"
+});
+
+}
+
+
+
+var _html="<div class='alert_fullbg' style='display:block;' onclick='gb()'></div>"
+
+//分类动画
+
+
+	$(".classify .btn-type").on('click',function(){
+
+
+		$("body").css("paddingBottom","0");
+
+
+		$(".container").append(_html);
+
+
+		$(".alert_fullbg").css('z-index','10000');
+
+
+		$(".app-other").css({'left':'0','visibility':'visible'});
+
+
+	});
+
+    function gb(){
+      $("body").css("paddingBottom","45px");
+
+
+			//$(".back-top").css("display","block");
+
+
+			$(".app-other").css({'left':'-70%','visibility':'hidden'});
+
+
+			$(".alert_fullbg").css('display','none');
+
+
+			clearTimeout(timer);
+
+
+			timer=setTimeout(function(){
+
+
+			    $(".app-other").css('height',"auto")
+
+
+			    $(".main").css({"height":"auto","overflow":"visible"})
+
+
+			},400);
+     }
+
+</script>

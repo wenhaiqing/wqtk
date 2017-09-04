@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{if !empty($_W['page']['title'])}{php echo $_W['page']['title']}{else}{php echo $_W['uniaccount']['name']}{/if}</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" href="{$_W['siteroot']}addons/zmcn_erp/zmui/css/weui.min.css?a=111"/>
+<link rel="stylesheet" href="{$_W['siteroot']}addons/zmcn_erp/zmui/css/jquery-weui.min.css"/>
+<link rel="stylesheet" href="{$_W['siteroot']}addons/zmcn_erp/zmui/icon/iconfont.css?a={ZMUIVS}"/><!--加快统一素质材-->
+<link rel="stylesheet" href="{$_W['siteroot']}addons/zmcn_erp/zmui/css/zmcnui.css?a={TIMESTAMP}"/>
+<link rel="stylesheet" href="{$_W['siteroot']}addons/zmcn_erp/zmui/icon/icov.css"/>
+<link rel="stylesheet" href="{$_W['siteroot']}addons/zmcn_erp/zmui/icon/font-awesome.min.css?a={TIMESTAMP}">
+
+
+<script src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+{php echo register_jssdk(false);} 
+<style>
+.weui-popup-container{z-index:21;}
+.weui-tabbar{z-index:20;}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+{if $_W['styles']['topcolor']}.weui-header{background-color:{$_W['styles']['topcolor']} !important;}{/if}
+
+</style>
+</head>
+<?php
+function jialian($lin,$t){
+	global $_W;
+	$a = "i=". $_W['uniacid'] ."&";
+	$b = "i=". $_W['uniacid'] ."&t=". $t ."&";
+	return str_replace($a,$b, $lin ."&"); 
+}
+?>
+<body ontouchstart>

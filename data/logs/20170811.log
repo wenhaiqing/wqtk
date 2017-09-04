@@ -1,0 +1,247 @@
+2017-08-11 00:00:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1502380831</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-11 00:00:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1502380831',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502380831',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 00:00:31 response :
+------------
+Array:
+params : Array ;
+
+2017-08-11 10:51:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxFtmEO9J0BAYrKJ51ByMEI]]></FromUserName>
+<CreateTime>1502419887</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（2017夏季新款韩版短款开衫披肩防晒衣百搭上衣长袖针织衫薄外套女），快来和我一起瓜分红包】，复制这条信息￥47Wl0XexZZ4￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6452844279946397661</MsgId>
+</xml>
+
+2017-08-11 10:51:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'createtime' => '1502419887',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（2017夏季新款韩版短款开衫披肩防晒衣百搭上衣长袖针织衫薄外套女），快来和我一起瓜分红包】，复制这条信息￥47Wl0XexZZ4￥后打开👉手机淘宝👈',
+    'msgid' => '6452844279946397661',
+    'from' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502419887',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 10:51:28 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isxFtmEO9J0BAYrKJ51ByMEI ;
+MsgType : text ;
+Content : Hi,Colourful
+系统繁忙！请稍后在试！ ;
+
+2017-08-11 19:21:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is8S9Qtjp4ojdtOn3VkKxTSw]]></FromUserName>
+<CreateTime>1502450518</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-11 19:21:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is8S9Qtjp4ojdtOn3VkKxTSw',
+    'createtime' => '1502450518',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is8S9Qtjp4ojdtOn3VkKxTSw',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502450518',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 19:21:57 response :
+------------
+Array:
+params : Array ;
+
+2017-08-11 19:22:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is8S9Qtjp4ojdtOn3VkKxTSw]]></FromUserName>
+<CreateTime>1502450541</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-11 23:01:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxQtUmAor9AtjYYvithAgGI]]></FromUserName>
+<CreateTime>1502463688</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（龙吟两轮体感电动扭扭车成人智能漂移思维代步车儿童双轮平衡车），快来和我一起瓜分红包】，复制这条信息￥d98a0XXNQEm￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6453032403808967761</MsgId>
+</xml>
+
+2017-08-11 23:01:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxQtUmAor9AtjYYvithAgGI',
+    'createtime' => '1502463688',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（龙吟两轮体感电动扭扭车成人智能漂移思维代步车儿童双轮平衡车），快来和我一起瓜分红包】，复制这条信息￥d98a0XXNQEm￥后打开👉手机淘宝👈',
+    'msgid' => '6453032403808967761',
+    'from' => 'oRy3isxQtUmAor9AtjYYvithAgGI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502463688',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 23:01:29 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isxQtUmAor9AtjYYvithAgGI ;
+MsgType : text ;
+Content : Hi,石头剪子布
+系统繁忙！请稍后在试！ ;
+
+2017-08-11 23:34:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5arXHgIgZNESlmQvwkpJas]]></FromUserName>
+<CreateTime>1502465643</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[洁比世大扫把 实木手柄 木地板 软毛笤帚 除灰尘 鬃毛 扫帚 扫把]]></Content>
+<MsgId>6453040800470032240</MsgId>
+</xml>
+
+2017-08-11 23:34:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5arXHgIgZNESlmQvwkpJas',
+    'createtime' => '1502465643',
+    'msgtype' => 'text',
+    'content' => '洁比世大扫把 实木手柄 木地板 软毛笤帚 除灰尘 鬃毛 扫帚 扫把',
+    'msgid' => '6453040800470032240',
+    'from' => 'oRy3is5arXHgIgZNESlmQvwkpJas',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502465643',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 23:34:02 response :
+------------
+Array:
+params : Array ;
+

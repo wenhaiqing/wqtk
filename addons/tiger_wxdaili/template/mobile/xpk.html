@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>云商品库</title>
+<link rel="stylesheet" type="text/css" href="{$_W['siteroot']}addons/tiger_wxdaili/template/mobile/css/base.css?v=1.11" />
+<link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/css/style.css" rel="stylesheet" />
+<link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/css/swipper.css" rel="stylesheet" />
+<link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/css/preload.css" rel="stylesheet" />
+<link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/css/loading.css" rel="stylesheet" />
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/js/jquery-1.7.2.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/js/clipboard.min.js"></script>
+<script>
+        var deviceWidth = document.documentElement.clientWidth;
+        if (deviceWidth > 750) deviceWidth = 750;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + "px";
+        document.documentElement.style.width = "100%";
+    </script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/js/htool.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/js/asynloading.js"></script>
+</head>
+<body>
+<div id="containter" class="container">
+<!--固定的-->
+<div class="tiger_nav1" id="head_seach" style="background:#ea3b4c">
+   <div class="seach_nav" style="background:#ea3b4c">
+          <div class="seach_1" onclick="javascript:history.go(-1);return false;" style="background-image: url({$_W['siteroot']}addons/tiger_wxdaili/template/mobile/images/tige_left.png);"></div>
+          <div class="seach_2" >
+           <form id="search-form" action="{php echo $this->createMobileUrl('xpk')}" method="get">
+                <input type="hidden" name="i" value="{$_W['uniacid']}">
+                <input type="hidden" name="c" value="entry">
+                <input type="hidden" name="m" value="tiger_wxdaili">
+                <input type="hidden" name="do" value="xpk">
+               <input type="text" id="key" name="key"  value="{$key}" class="tige_sear" />
+               <button id="tiger_search-submit" type="submit" onclick="searchan()"><img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/images/search.png" /></button>
+            </form>
+          </div>          
+          <div class="seach_3" onclick="javascript:window.location.href='{php echo $this->createMobileUrl('xpk')}';" style="background-image: url({$_W['siteroot']}addons/tiger_wxdaili/template/mobile/images/tiger_home.png);"></div>
+   </div>
+</div>
+
+
+
+<!--固定的结束-->
+
+{template 'nav'}
+<style type="text/css">
+.gdleft{
+    width: 7.5rem;
+    position: relative;
+}
+.tiger_l1{
+    width: 2rem;
+    float:left;
+}
+.tiger_l2{
+    width: 4rem;
+    float:left;
+}
+.tiger_l2 h3{font-size:14px;display:block;width:98%;}
+.tiger_l2 .table1{font-size:14px;}
+.collapse{border-collapse:collapse;border:1px #c9c9c9 solid}
+.collapse td{padding-left:6px;text-align:left;line-height:25px;height:25px;}
+.tiger_l3{
+    width: 1.5rem;
+    float:left;
+}
+.red{color:#ff0000}
+.tiger_l3 .boan{width:80%;text-align:center;height:1rem;line-height:1rem;background:#F0584C;color:#fff;font-size:14px;border:2px #e6e6e6 solid;display:block}
+</style>
+<div class="goods_list" {if $typeid==''}style="margin-top:0;"{/if} {if $typeid<>''}style="margin-top:35px;"{/if}>
+<section class="goods" id="pageCon" style="padding-bottom:50px;">
+    <ul id="list_box" >
+    </ul> 
+    <div id='list_more' style="text-align: center;">
+       <span onclick="get_list(0);">查看更多</span>
+    </div>
+</section>    
+</div>
+    
+</div>
+<nav style="z-index: 10000;">
+  <ul class="wrap">
+    <li><a href="../app/index.php?i={$_W['uniacid']}&c=entry&do=index&m=tiger_taoke&dluid={$share['id']}"><i class="ico_1"></i><span>{if $bl['fzname']}{$bl['fzname']}{else}分站{/if}</span></a></li>
+    <li class="cur" ><a href="{php echo $this->createMobileUrl('xpk')}"><i class="ico_1"></i><span>商品库</span></a></li>
+    {if $bl['seartype']<>1}<li><a href="{php echo $this->createMobileUrl('search')}"><i class="ico_2"></i><span>超级搜</span><!--em>0</em--></a></li>{/if}
+    <li><a href="{php echo $this->createMobileUrl('user')}"><i class="ico_3"></i><span>我的</span></a></li>
+  </ul>
+</nav>
+
+
+<link rel="stylesheet" href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/css/dropload.css">
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/js/dropload.min.js"></script>
+     <script type="text/javascript">
+var yjtype="{$cfg['yjtype']}";
+var limit = 1;
+var dlbl="{$share['dlbl']}";
+var openid="{$openid}";
+function get_list(ty){
+    
+    if(ty==1){
+	   $("#pageCon .list_box").html('');
+	}else{
+	   $("#list_more").html('<div style="width:100%;line-height:25px;height:25px;text-align:center"><span > 卖命加载中...</span></div>');	   
+	}
+	
+	$.ajax({
+	    type : "post",
+	    url : "{php echo $this->createMobileUrl('getlist',array('typeid'=>$typeid,'key'=>$key,'sort'=>$sort1,'tj'=>$tj,'strprice'=>$strprice,'endprice'=>$endprice))}",
+	    data : {
+	    	limit:limit,
+            openid:openid,
+	    },
+        dataType : "json",		
+	    success : function(data) {
+	    	if(data.status==1){
+						var list = data.content;
+						var content = '';
+						for(var i=0; i<list.length; i++){
+
+       content +='<li class="relative" style="border-bottom:0;padding-bottom:2px;">';
+       content +='<div class="gdleft">';
+       content +='<div id="" class="tiger_l1">';
+       content +='<img src="'+list[i]["pic_url"]+'_500x500.jpg" alt="" width="90%"/>';
+       content +='</div>';
+       content +='<div id="" class="tiger_l2">';
+       content +=' <h3>'+list[i]["title"]+'</h3>';
+       content +='<div class="table1" >';
+       content +='<table width="98%" cellspacing="0" cellpadding="0" border="1" class="collapse">';
+       content +='<tr>';
+      content +='<td>券后<span class="red">'+list[i]["price"]+'</span>元</td>';
+       content +='<td>券'+list[i]["coupons_price"]+'元</td>';
+       content +='</tr>';
+        content +='<tr>';
+       //content +='<td>';
+       ///if(list[i]["lxtype"]==2){
+       //  content +='鹊桥'+list[i]["tk_rate"]+'%';
+      // }else if(list[i]["lxtype"]==1){
+      //   content +='定向'+list[i]["tk_rate"]+'%';
+      // }else{
+      //   content +='普通'+list[i]["tk_rate"]+'%';
+      // }
+      // content +='</td>';
+       content +='<td colspan="2">代理佣金预估<span class="red">'+list[i]["dlyj"]+'</span>元</td>';
+       content +='</tr>';
+       content +='</table>';
+       content +='</div>';
+       content +='</div>';
+       content +='<div class="tiger_l3">';
+       content +=' <a href="javascript:;" class="boan new-coupon" data-img="'+list[i]["pic_url"]+'_240x240.jpg" data-openid="{$openid}" data-rxyjxs="0" data-id="'+list[i]["id"]+'" data-url="'+list[i]['url']+'"  data-numiid="'+list[i]['num_iid']+'" data-orgprice="'+list[i]['org_price']+'" data-price="'+list[i]['price']+'" coupons_price="'+list[i]['coupons_price']+'" style="background:#ea3b4c">分享</a>';
+       content +='</div>';
+       content +='</div>';
+       content +='</li>';
+       content +='<li class="relative" style="padding-top:0;">';
+       content +='<table width="98%" cellspacing="0" cellpadding="0" border="1" class="collapse" style="font-size:12px;">';
+       content +='<tr>';
+       content +='<td widty="33%">剩余'+list[i]["coupons_take"]+'张</td>';
+       content +='<td widty="33%">已领取'+list[i]["coupons_total"]+'张</td>';
+       content +='<td widty="33%">销量'+list[i]["goods_sale"]+'</td>';
+       content +='</tr>';
+       content +='</table>';
+       content +='</li>';
+
+						}
+                        $("#pageCon #list_box").append(content);
+						var aa = $(".goods-list li").innerWidth();
+                        $(".goods-list li img").css('height',aa);
+						if(list.length>1){
+							$("#list_more").html('<span onclick="get_list(0);">点击查看更多</span>');
+						}else{
+							$("#list_more").html('<span></span>');
+							$("#list_more").fadeOut(500);
+						}		
+	                    limit++;
+
+				
+	
+
+//waterfall();
+//lazy_img();
+		    }else if(data.status==2){
+	    		$("#list_more").html('<span>没有更多记录！</span>');
+				//dialog("没有更多记录！");
+				$("#list_more").fadeOut(500);
+
+	    	}else{
+			    $("#list_more").html('<span>没有更多记录！</span>');
+				//dialog("没有更多记录！！");
+				$("#list_more").fadeOut(500);
+			}    	
+	    },
+	    error : function(xhr, type) {
+
+	    }
+	});
+	    
+
+}
+get_list(0);
+
+
+//==============自动加载=============
+//获取滚动条当前的位置 
+function getScrollTop() { 
+var scrollTop = 0; 
+if (document.documentElement && document.documentElement.scrollTop) { 
+scrollTop = document.documentElement.scrollTop; 
+} 
+else if (document.body) { 
+scrollTop = document.body.scrollTop; 
+} 
+return scrollTop; 
+} 
+
+//获取当前可是范围的高度 
+function getClientHeight() { 
+var clientHeight = 0; 
+if (document.body.clientHeight && document.documentElement.clientHeight) { 
+clientHeight = Math.min(document.body.clientHeight, document.documentElement.clientHeight); 
+} 
+else { 
+clientHeight = Math.max(document.body.clientHeight, document.documentElement.clientHeight); 
+} 
+return clientHeight; 
+} 
+
+//获取文档完整的高度 
+function getScrollHeight() { 
+return Math.max(document.body.scrollHeight, document.documentElement.scrollHeight); 
+} 
+
+
+$(window).scroll(function () { 
+if (getScrollTop() + getClientHeight() == getScrollHeight()) { 
+//alert("到达底部"); 
+get_list(0);
+} 
+});
+
+//==============自动加载=============  
+
+
+
+</script>
+</body>
+</html>
+<!--./index.php?i=3&c=entry&do=dlgetlist&m=tiger_taoke&typeid={$typeid}&key={$key}&sort={$sort1}&tj={$tj}&strprice={$strprice}&endprice={$endprice}-->
+<script>
+var weid="{$_W['uniacid']}";
+</script>
+
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/js/common_phone.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style9/js/fun.js"></script>
+<script type="text/javascript">
+    $(function () {
+      var clipboard = new Clipboard(".taokaocopy", {
+        text: function () {
+          return $(".copybox1").val();
+        }
+      });
+
+      clipboard.on('success', function (e) {
+        //alert("链接已复制到剪贴板");
+        $(".taokaocopy").html("<img src='../addons/tiger_taoke/template/mobile/tbgoods/style9/images/copy1.png'>");
+      });
+
+      clipboard.on('error', function (e) {
+        //console.log(e);
+        $(".taokaocopy").html("<img src='../addons/tiger_taoke/template/mobile/tbgoods/style9/images/copy2.png'>");
+      })
+    });
+  </script>

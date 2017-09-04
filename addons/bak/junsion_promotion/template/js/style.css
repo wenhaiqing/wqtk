@@ -1,0 +1,309 @@
+@CHARSET "UTF-8";
+html, body {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+body, .page {
+    background-color: #FBF9FE;
+}
+
+#subscribe{
+   	position: fixed;
+   	top: 0;
+   	left: 0;
+   	width: 100%;
+   	height: 100%;
+   	background: rgba(0,0,0,.7);
+   	z-index: 999999;
+}
+    
+#subscribe .sub_bg{
+   border: 1px solid gainsboro;
+   border-radius: 5px;
+   background: white;
+   margin: 0 auto;
+   width: 80%;
+   margin-top: 10%;
+   text-align: center;
+   padding: 5px 0;
+}
+  
+#subscribe p{
+	margin: 5px 0;
+}
+#subscribe .sub_step{
+	margin: 5px 0;
+	color: orangered;
+}
+#subscribe img{
+	 width: 80%;
+	 margin: 0 auto;
+	 display: block;
+}
+
+#subscribe a{
+	 border: 1px solid gainsboro;
+	 border-radius: 5px;
+	 display: inline-block;
+	 padding: 3px 15px;
+	 background: orange;
+	 color: white;
+}
+
+#subscribe font{
+	color: orangered;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.page_desc {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+.bd.spacing {
+    padding: 0 15px;
+}
+
+.page_title {
+    text-align: center;
+    font-size: 34px;
+    color: #3CC51F;
+    font-weight: 400;
+    margin: 0 15%;
+}
+
+// index
+.global_navs {
+    background-color: transparent;
+    &:before, &:after {
+        border-color: #D9DBDA;
+    }
+    .icon_nav {
+        width: 28px;
+        height: 28px;
+        display: block;
+        margin-right: .7em;
+    }
+}
+
+// button
+.page {
+    &.button {
+        .page_title {
+            color: #225FBA;
+        }
+        .bd {
+            padding: 0 15px;
+        }
+        .button_sp_area {
+            padding: 10px 0;
+            width: 60%;
+            margin: 0 auto;
+            text-align: justify;
+            text-justify: distribute-all-lines; /*ie6-9*/
+            //text-align-last:justify;/* ie9*/
+            //-moz-text-align-last:justify;/*ff*/
+            //-webkit-text-align-last:justify;/*chrome 20+*/
+
+            font-size: 0;
+            &:after {
+                display: inline-block;
+                width: 100%;
+                height: 0;
+                font-size: 0;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                content: ".";
+            }
+        }
+    }
+}
+
+// table view
+.page {
+    &.cell {
+        .page_title {
+            color: #225FBA;
+        }
+        .bd {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+// toast
+.page {
+    &.toast {
+        background-color: #FFFFFF;
+        .bd {
+            padding: 120px 15px 0;
+        }
+    }
+}
+
+// dialog
+.page {
+    &.dialog {
+        background-color: #FFFFFF;
+        .bd {
+            padding: 120px 15px 0;
+        }
+    }
+}
+
+// msg page
+.page {
+    &.msg {
+        background-color: #FFFFFF;
+    }
+}
+
+// article page
+.page {
+    &.article {
+        background-color: #FFFFFF;
+        .page_title {
+            color: #DE7C23;
+        }
+    }
+}
+
+// icons
+.page {
+    &.icons {
+        background-color: #FFFFFF;
+        text-align: center;
+        .page_title {
+            color: #3E24BD;
+        }
+        .bd {
+            padding: 30px 0;
+            text-align: center;
+        }
+        .icon_sp_area {
+            padding: 10px 20px;
+            text-align: left;
+        }
+        i {
+            margin: 0 5px 10px;
+        }
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translate3d(100%, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(100%, 0, 0);
+    }
+}
+
+.page.slideIn {
+    animation: slideIn .2s forwards;
+}
+
+.page.slideOut {
+    animation: slideOut .2s forwards;
+}
+
+.qrcode_bg{
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 10;
+    display: none;
+}
+
+.qrcode_con{
+	margin: 50px;
+    background: white;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.qrcode_bg .qrcode_con img{
+	width: 100%;	
+}
+
+img.qrcode_poster{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	left: 0;
+	display: none;
+}
+
+.businessCenterHead{ height: auto; overflow: hidden; padding: 15px 25px 15px 15px; position: relative; z-index: 10; background: #ec4c00;}
+.business_img{ width: 60px; height: 60px; display: block;  float: left; margin-right: 8px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%;}
+.business_img img{ width: 100%; height: 100%; display: block;border-radius: 50%;border: 1px solid white;}
+.businessCenterHead dt{ height: 28px; line-height: 28px; margin-top: 3px; font-size: 16px; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.businessCenterHead dd{ height: 28px; line-height: 28px; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.businessCenterHead dd span{ color: #fff;}
+.businessCenterHead dd em{ color: #ffb693; margin-left: 12px;}
+.businessCenterOuter{ width: 100%; height: auto; overflow: hidden;}
+.businessCenterTips{ width: 100%; height: auto; display: box; display: -webkit-box; display: -mo-box; padding: 5px 0px; overflow: hidden; background: #fff; border-width: 1px 0px 1px 0px; border-style: solid; border-color: #eee;}
+.businessCenterTips .tips_img{ width: auto; height: 30px; display: block; border-right: 1px solid #eee; margin: 0px 10px; padding: 0px 10px 0px 0px;}
+.businessCenterTips .tips_img img{ width: auto; height: 30px; display: block;}
+.businessCenterTips p{ width: 100%; height: 30px; line-height: 30px; overflow: hidden; font-size: 14px; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1;}
+.businessCenterTabs{padding: 20px 0;width: 100%; height: auto; overflow: hidden; border-width: 1px 0px 1px 0px; border-style: solid; border-color: #eee; margin-top: 8px; background: #fff;}
+.businessCenterTabs ul{ padding:4px; height: auto; overflow: hidden;}
+.businessCenterTabs li{ width: 50%; height: auto; float: left;}
+.businessCenterTabs ul li img{width: 32px;}
+.businessCenterTabs ul li dt span {height: 38px;display: inline-block;line-height: 38px;font-size: 18px;}
+.businessCenterTabs a{ margin: 4px; padding: 15px 0px; display: block; height: auto; overflow: hidden; text-align: center;  font-size: 16px; color: #fff; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px;}
+.businessCenterTabs a.businessCenterTabs_1{ background: #bbdb9a;}
+.businessCenterTabs a.businessCenterTabs_2{ background: #7bd5dd;}
+.businessCenterTabs a.businessCenterTabs_3{ background: #fdae6b;}
+.businessCenterTabs a.businessCenterTabs_4{ background: #fe8282;}
+
+.managementList{ width: 100%; height: auto; overflow: hidden;}
+.managementList dl{ width: 100%; height: auto; overflow: hidden; margin-bottom: 10px;}
+.managementList dt{ width: 100%; height: 40px; line-height: 40px; overflow: hidden;}
+.managementList dt span{ padding: 0px 0px 0px 10px; font-size: 14px; height: 40px; line-height: 40px; display: block; border-left: 2px solid #ff6600; background: #f8f8f8;}
+.managementList dd{width:100%;height: auto; overflow: hidden; border-bottom: 1px solid #ddd; background: #fff; }
+.managementList dd a { display: block; padding: 10px 30px 10px 10px;height: auto; overflow: hidden;position: relative; z-index: 10;}
+.managementList dd a:after{ content: ""; width: 10px; height: 10px; display: block; border-width: 2px 2px 0px 0px; border-style: solid; border-color: #e5e5e5; position: absolute; top: 50%; margin-top: -6px; right: 12px; z-index: 20; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg);}
+.managementList dd span.img{ width: 50px; line-height: 50px; display: block; float: left; margin-right: 8px;}
+.managementList dd span.img img{ width: 100%; height: 100%; display: block;}
+.managementList dd aside{ height: 25px; line-height: 25px; font-size: 14px; overflow: hidden; text-overflow: ellipsis; color: #333; white-space: nowrap;}
+.managementList dd article{ height: 25px; line-height: 25px;overflow: hidden; text-overflow: ellipsis; color: #ccc; white-space: nowrap;}
+
+.activityRulesOuter{ padding: 10px; height: auto; overflow: hidden;}
+.activityRulesItem{ width: 100%; height: auto; overflow: hidden;position: relative; z-index: 10; margin-bottom: 8px;}
+.activityRulesItem header{width: 90%; height: auto; overflow: hidden; position: absolute; z-index: 20; top: 10px; left: 50%; margin-left: -45%; background: #fe5500; font-size: 14px; color: #fff;}
+.activityRulesItem header span{ height: 30px; line-height: 30px; display: block; text-align: center; margin-top: 10px;}
+.activityRulesCenter{ padding:10px; height: auto; overflow: hidden; background: #fff; border: 1px solid #d8d8d8; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; margin-top: 30px;}
+.activityRulesMain{ padding: 20px 8px 0px; height: auto; overflow: hidden;}
+.activityRulesMain li{ width: 100%; padding: 8px 0px; height: auto; display: box;display: -webkit-box;display: -moz-box;}
+.activityRulesMain li span.icon{ width: 40px; height: 40px; display: block; overflow:hidden; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; position: relative; z-index: 10;}
+.activityRulesMain li span.icon img{ width: 100%; height: 100%; display: block;}
+.activityRulesMain li p{ width: 100%; height: auto; margin:8px 0px 0px 15px; line-height: 20px; font-size: 14px; color: #666; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1;}
+.activityRulesTips{ padding: 0px 8px; height: auto; overflow: hidden; color: #fe5500;}
+.activityRulesTips li{ list-style: disc; margin-left: 15px;}

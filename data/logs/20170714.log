@@ -1,0 +1,689 @@
+2017-07-14 01:48:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499968108</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【大同江东北正宗朝鲜冷面 延吉延边大冷面 东北荞麦冷面 凉面 包邮】，点击链接再选择浏览器打开http://c.b1yt.com/h.mRXa3p?cv=X4rQ0ZuESbn&sm=a2e55f ，或复制这条信息￥X4rQ0ZuESbn￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442313969323038509</MsgId>
+</xml>
+
+2017-07-14 01:48:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499968108',
+    'msgtype' => 'text',
+    'content' => '【大同江东北正宗朝鲜冷面 延吉延边大冷面 东北荞麦冷面 凉面 包邮】，点击链接再选择浏览器打开http://c.b1yt.com/h.mRXa3p?cv=X4rQ0ZuESbn&sm=a2e55f ，或复制这条信息￥X4rQ0ZuESbn￥后打开👉手机淘宝👈',
+    'msgid' => '6442313969323038509',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499968108',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 01:48:31 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：大同江东北正宗朝鲜冷面 延吉延边大冷面 东北荞麦冷面 凉面 包邮 
+原价：3.58 
+优惠券：0  
+返现：0.32 
+优惠金额：0.32 
+优惠价：3.26 
+淘口令：￥kwpd0ZuE8qj￥           复制此条消息，打开淘宝。 ;
+
+2017-07-14 01:50:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499968203</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【正宗东北朝鲜族冷面厂家梅河口延吉小麦烤大冷面一袋包邮】，点击链接再选择浏览器打开http://c.b1yt.com/h.mR26vh?cv=zKgX0ZuEKv3&sm=4dfca9 ，或复制这条信息￥zKgX0ZuEKv3￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442314377344931643</MsgId>
+</xml>
+
+2017-07-14 01:50:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499968203',
+    'msgtype' => 'text',
+    'content' => '【正宗东北朝鲜族冷面厂家梅河口延吉小麦烤大冷面一袋包邮】，点击链接再选择浏览器打开http://c.b1yt.com/h.mR26vh?cv=zKgX0ZuEKv3&sm=4dfca9 ，或复制这条信息￥zKgX0ZuEKv3￥后打开👉手机淘宝👈',
+    'msgid' => '6442314377344931643',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499968203',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 01:50:05 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：正宗东北朝鲜族冷面厂家梅河口延吉小麦烤大冷面一袋包邮 
+原价：3.99 
+优惠券：0  
+返现：0.22 
+优惠金额：0.22 
+优惠价：3.77 
+淘口令：￥tsiS0ZuEMFP￥           复制此条消息，打开淘宝。 ;
+
+2017-07-14 01:51:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499968315</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【【买一送一】东北珍正宗延吉朝鲜族冷面【二袋装】】，点击链接再选择浏览器打开http://c.b1yt.com/h.mRXloj?cv=PgbX0ZuEvYd&sm=82ae38 ，或复制这条信息￥PgbX0ZuEvYd￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442314858381268806</MsgId>
+</xml>
+
+2017-07-14 01:51:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499968315',
+    'msgtype' => 'text',
+    'content' => '【【买一送一】东北珍正宗延吉朝鲜族冷面【二袋装】】，点击链接再选择浏览器打开http://c.b1yt.com/h.mRXloj?cv=PgbX0ZuEvYd&sm=82ae38 ，或复制这条信息￥PgbX0ZuEvYd￥后打开👉手机淘宝👈',
+    'msgid' => '6442314858381268806',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499968315',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 01:51:57 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：【买一送一】东北珍正宗延吉朝鲜族冷面【二袋装】 
+原价：7.76 
+优惠券：0  
+返现：0.42 
+优惠金额：0.42 
+优惠价：7.34 
+淘口令：￥Gmlj0ZuEwc7￥           复制此条消息，打开淘宝。 ;
+
+2017-07-14 01:53:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499968413</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【正宗东北延吉朝鲜族冷面 真空包装 500克 5份包邮 量大可以优惠】，点击链接再选择浏览器打开http://c.b1yt.com/h.mR2fCq?cv=nNsi0ZuEBed&sm=794ded ，或复制这条信息￥nNsi0ZuEBed￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442315279288063829</MsgId>
+</xml>
+
+2017-07-14 01:53:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499968413',
+    'msgtype' => 'text',
+    'content' => '【正宗东北延吉朝鲜族冷面 真空包装 500克 5份包邮 量大可以优惠】，点击链接再选择浏览器打开http://c.b1yt.com/h.mR2fCq?cv=nNsi0ZuEBed&sm=794ded ，或复制这条信息￥nNsi0ZuEBed￥后打开👉手机淘宝👈',
+    'msgid' => '6442315279288063829',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499968413',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 01:53:35 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：正宗东北延吉朝鲜族冷面 真空包装 500克 5份包邮 量大可以优惠 
+原价：3.3 
+优惠券：0  
+返现：0.05 
+优惠金额：0.05 
+优惠价：3.25 
+淘口令：￥vCua0ZuwatP￥           复制此条消息，打开淘宝。 ;
+
+2017-07-14 01:54:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499968459</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【正宗东北朝鲜族小麦冷面6斤包邮梅河口大冷面厂家特价散装面真空】，点击链接再选择浏览器打开http://c.b1yt.com/h.mRd3v1?cv=NLa40ZuwZDK&sm=4ee6b0 ，或复制这条信息￥NLa40ZuwZDK￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442315476856559450</MsgId>
+</xml>
+
+2017-07-14 01:54:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499968459',
+    'msgtype' => 'text',
+    'content' => '【正宗东北朝鲜族小麦冷面6斤包邮梅河口大冷面厂家特价散装面真空】，点击链接再选择浏览器打开http://c.b1yt.com/h.mRd3v1?cv=NLa40ZuwZDK&sm=4ee6b0 ，或复制这条信息￥NLa40ZuwZDK￥后打开👉手机淘宝👈',
+    'msgid' => '6442315476856559450',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499968459',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 01:54:18 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : Hi,心境如水
+该商品暂无优惠,请查看其他商品 ;
+
+2017-07-14 03:16:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1499973364</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-14 03:16:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1499973364',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499973364',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-14 03:16:03 response :
+------------
+Array:
+params : Array ;
+
+2017-07-14 04:06:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is3G6ys4oI17OjhUQvk2JEq8]]></FromUserName>
+<CreateTime>1499976420</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【夏季莫代尔月子服 哺乳睡衣 孕妇家居服加大码产后薄款加肥套装】，点击链接再选择浏览器打开http://c.b1yt.com/h.mRgNyZ?cv=vwVU0ZF0Ktl&sm=bda674 ，或复制这条信息￥vwVU0ZF0Ktl￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442349669091203498</MsgId>
+</xml>
+
+2017-07-14 04:07:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is3G6ys4oI17OjhUQvk2JEq8',
+    'createtime' => '1499976420',
+    'msgtype' => 'text',
+    'content' => '【夏季莫代尔月子服 哺乳睡衣 孕妇家居服加大码产后薄款加肥套装】，点击链接再选择浏览器打开http://c.b1yt.com/h.mRgNyZ?cv=vwVU0ZF0Ktl&sm=bda674 ，或复制这条信息￥vwVU0ZF0Ktl￥后打开👉手机淘宝👈',
+    'msgid' => '6442349669091203498',
+    'from' => 'oRy3is3G6ys4oI17OjhUQvk2JEq8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499976420',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 04:07:03 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is3G6ys4oI17OjhUQvk2JEq8 ;
+MsgType : text ;
+Content : 昵称：黄小蕊 
+商品名称：夏季莫代尔月子服 哺乳睡衣 孕妇家居服加大码产后薄款加肥套装 
+原价：69 
+优惠券：0  
+返现：1.55 
+优惠金额：1.55 
+优惠价：67.45 
+淘口令：￥7IZB0ZF0pgp￥           复制此条消息，打开淘宝。 ;
+
+2017-07-14 04:53:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-eGImow69KbOSz6fRf2Gsc]]></FromUserName>
+<CreateTime>1499979182</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-14 16:33:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5PJ9OJsRGKENxwhYwVcWx0]]></FromUserName>
+<CreateTime>1500021230</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-14 17:46:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2z8Bc2Hf8RI4zDdoC0afLg]]></FromUserName>
+<CreateTime>1500025597</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【家得宝超薄鲸吸拉拉裤特大号XXXL112男女胖宝宝专属婴儿尿不湿】，点击链接再选择浏览器打开http://c.b1yt.com/h.mnl9ux?cv=zvWc00aeGlO&sm=4ebdfb ，或复制这条信息￥zvWc00aeGlO￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442560882697959763</MsgId>
+</xml>
+
+2017-07-14 17:46:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'createtime' => '1500025597',
+    'msgtype' => 'text',
+    'content' => '【家得宝超薄鲸吸拉拉裤特大号XXXL112男女胖宝宝专属婴儿尿不湿】，点击链接再选择浏览器打开http://c.b1yt.com/h.mnl9ux?cv=zvWc00aeGlO&sm=4ebdfb ，或复制这条信息￥zvWc00aeGlO￥后打开👉手机淘宝👈',
+    'msgid' => '6442560882697959763',
+    'from' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500025597',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 17:46:38 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2z8Bc2Hf8RI4zDdoC0afLg ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-14 17:46:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2z8Bc2Hf8RI4zDdoC0afLg]]></FromUserName>
+<CreateTime>1500025606</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[纸尿裤]]></Content>
+<MsgId>6442560921352665433</MsgId>
+</xml>
+
+2017-07-14 17:46:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'createtime' => '1500025606',
+    'msgtype' => 'text',
+    'content' => '纸尿裤',
+    'msgid' => '6442560921352665433',
+    'from' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500025606',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-14 17:46:45 response :
+------------
+Array:
+params : Array ;
+
+2017-07-14 17:46:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2z8Bc2Hf8RI4zDdoC0afLg]]></FromUserName>
+<CreateTime>1500025615</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[拉拉裤]]></Content>
+<MsgId>6442560960007371102</MsgId>
+</xml>
+
+2017-07-14 17:46:54 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'createtime' => '1500025615',
+    'msgtype' => 'text',
+    'content' => '拉拉裤',
+    'msgid' => '6442560960007371102',
+    'from' => 'oRy3is2z8Bc2Hf8RI4zDdoC0afLg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500025615',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-14 17:46:54 response :
+------------
+Array:
+params : Array ;
+
+2017-07-14 18:32:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4Gn1oYngjA32fjADSItNmE]]></FromUserName>
+<CreateTime>1500028378</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（佳利麦-新鲜百香果5斤广西农家西番莲鸡蛋果），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.moYW6J?cv=g4lD00ZIr1U&sm=ba9c69 ，或复制这条信息￥g4lD00ZIr1U￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442572827002011742</MsgId>
+</xml>
+
+2017-07-14 18:33:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4Gn1oYngjA32fjADSItNmE',
+    'createtime' => '1500028378',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（佳利麦-新鲜百香果5斤广西农家西番莲鸡蛋果），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.moYW6J?cv=g4lD00ZIr1U&sm=ba9c69 ，或复制这条信息￥g4lD00ZIr1U￥后打开👉手机淘宝👈',
+    'msgid' => '6442572827002011742',
+    'from' => 'oRy3is4Gn1oYngjA32fjADSItNmE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500028378',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 18:33:00 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4Gn1oYngjA32fjADSItNmE ;
+MsgType : text ;
+Content : 昵称：妍 
+商品名称：佳利麦-新鲜百香果5斤广西农家西番莲鸡蛋果 
+原价：59 
+优惠券：0  
+返现：1.59 
+优惠金额：1.59 
+优惠价：57.41 
+淘口令：￥0zdV00ZsuMu￥           复制此条消息，打开淘宝。 ;
+
+2017-07-14 23:22:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IF0BJGKbyZO-5MFai0d7A]]></FromUserName>
+<CreateTime>1500045764</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【夏天男士短裤休闲运动套装夏季五分裤潮韩版中裤大花大裤衩沙滩裤】，点击链接再选择浏览器打开http://c.b1yt.com/h.mKVnDX?cv=DtXr00Yvhup&sm=89cdc3 ，或复制这条信息￥DtXr00Yvhup￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6442647499303428088</MsgId>
+</xml>
+
+2017-07-14 23:22:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IF0BJGKbyZO-5MFai0d7A',
+    'createtime' => '1500045764',
+    'msgtype' => 'text',
+    'content' => '【夏天男士短裤休闲运动套装夏季五分裤潮韩版中裤大花大裤衩沙滩裤】，点击链接再选择浏览器打开http://c.b1yt.com/h.mKVnDX?cv=DtXr00Yvhup&sm=89cdc3 ，或复制这条信息￥DtXr00Yvhup￥后打开👉手机淘宝👈',
+    'msgid' => '6442647499303428088',
+    'from' => 'oRy3is2IF0BJGKbyZO-5MFai0d7A',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500045764',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-14 23:22:46 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IF0BJGKbyZO-5MFai0d7A ;
+MsgType : text ;
+Content : 昵称： 杨小杨 
+商品名称：夏天男士短裤休闲运动套装夏季五分裤潮韩版中裤大花大裤衩沙滩裤 
+原价：79 
+优惠券：0  
+返现：1.96 
+优惠金额：1.96 
+优惠价：77.04 
+淘口令：￥ZOqu00YviPb￥           复制此条消息，打开淘宝。 ;
+

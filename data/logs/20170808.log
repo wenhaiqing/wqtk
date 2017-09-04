@@ -1,0 +1,406 @@
+2017-08-08 01:41:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1502127686</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-08 01:41:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1502127686',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502127686',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-08 01:41:25 response :
+------------
+Array:
+params : Array ;
+
+2017-08-08 08:32:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxFtmEO9J0BAYrKJ51ByMEI]]></FromUserName>
+<CreateTime>1502152321</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏），快来和我一起瓜分红包】，复制这条信息￥dr6301jmDIw￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6451695092726701752</MsgId>
+</xml>
+
+2017-08-08 08:32:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'createtime' => '1502152321',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏），快来和我一起瓜分红包】，复制这条信息￥dr6301jmDIw￥后打开👉手机淘宝👈',
+    'msgid' => '6451695092726701752',
+    'from' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502152321',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-08 08:32:02 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isxFtmEO9J0BAYrKJ51ByMEI ;
+MsgType : text ;
+Content : Hi,Colourful
+系统繁忙！请稍后在试！ ;
+
+2017-08-08 09:01:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4Gn1oYngjA32fjADSItNmE]]></FromUserName>
+<CreateTime>1502154096</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（【直营】新西兰Aptamil爱他美婴儿幼儿奶粉3段 900克），快来和我一起瓜分红包】http://c.b3wr.com/h.LVE6kx?cv=cOisGU5vVn&sm=878717 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥cOisGU5vVn￥]]></Content>
+<MsgId>6451702716293653377</MsgId>
+</xml>
+
+2017-08-08 09:01:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4Gn1oYngjA32fjADSItNmE',
+    'createtime' => '1502154096',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（【直营】新西兰Aptamil爱他美婴儿幼儿奶粉3段 900克），快来和我一起瓜分红包】http://c.b3wr.com/h.LVE6kx?cv=cOisGU5vVn&sm=878717 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥cOisGU5vVn￥',
+    'msgid' => '6451702716293653377',
+    'from' => 'oRy3is4Gn1oYngjA32fjADSItNmE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502154096',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-08 09:01:39 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4Gn1oYngjA32fjADSItNmE ;
+MsgType : text ;
+Content : 昵称：妍 
+商品名称：【直营】新西兰Aptamil爱他美婴儿幼儿奶粉3段 900克 
+原价：165 
+优惠券：0  
+返现：1.49 
+优惠金额：1.49 
+优惠价：163.51 
+淘口令：￥pEn30cNvNPG￥           复制此条消息，打开淘宝。 ;
+
+2017-08-08 14:50:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1502175002</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【Motorola/摩托罗拉V3ie 经典老款百元翻盖老年学生老人 备用手机】http://c.b3za.com/h.LgxtyO?cv=K21TGUhFER&sm=5031e0 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥K21TGUhFER￥]]></Content>
+<MsgId>6451792506879960218</MsgId>
+</xml>
+
+2017-08-08 14:50:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1502175002',
+    'msgtype' => 'text',
+    'content' => '【Motorola/摩托罗拉V3ie 经典老款百元翻盖老年学生老人 备用手机】http://c.b3za.com/h.LgxtyO?cv=K21TGUhFER&sm=5031e0 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥K21TGUhFER￥',
+    'msgid' => '6451792506879960218',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502175002',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-08 14:50:03 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3iswtxppHgIPbV1IprFYlCCeI ;
+MsgType : text ;
+Content : Hi,  D。
+该商品暂无优惠,请查看其他商品 ;
+
+2017-08-08 16:20:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isy8L1wsItWy7sd_0ixNFB3Y]]></FromUserName>
+<CreateTime>1502180402</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-08 18:55:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is56VgX3KEvFWZROD1rj3Ij8]]></FromUserName>
+<CreateTime>1502189717</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-08 19:41:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5w3dbUTBwMUwt0oN3uCExw]]></FromUserName>
+<CreateTime>1502192463</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-08 20:06:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is24VaA3hIAinRDtuRKZy38w]]></FromUserName>
+<CreateTime>1502193988</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（泓一手撕面包 2斤早餐糕点全麦口袋蒸面包小面包零食点心整箱1kg），快来和我一起瓜分红包】￥UkTqGURbiE￥http://c.b3ww.com/h.L7Tuo9?cv=UkTqGURbiE&sm=5e4e7d]]></Content>
+<MsgId>6451874051129058158</MsgId>
+</xml>
+
+2017-08-08 20:06:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is24VaA3hIAinRDtuRKZy38w',
+    'createtime' => '1502193988',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（泓一手撕面包 2斤早餐糕点全麦口袋蒸面包小面包零食点心整箱1kg），快来和我一起瓜分红包】￥UkTqGURbiE￥http://c.b3ww.com/h.L7Tuo9?cv=UkTqGURbiE&sm=5e4e7d',
+    'msgid' => '6451874051129058158',
+    'from' => 'oRy3is24VaA3hIAinRDtuRKZy38w',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502193988',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-08 20:06:32 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is24VaA3hIAinRDtuRKZy38w ;
+MsgType : text ;
+Content : 昵称：Super 〔若樱℡か〕招代理B 
+商品名称：泓一手撕面包 2斤早餐糕点全麦口袋蒸面包小面包零食点心整箱1kg 
+原价：17.9 
+优惠券：0  
+返现：0.20 
+优惠金额：0.2 
+优惠价：17.7 
+淘口令：￥FQku0cI3DR0￥           复制此条消息，打开淘宝。 ;
+
+2017-08-08 20:06:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is24VaA3hIAinRDtuRKZy38w]]></FromUserName>
+<CreateTime>1502194002</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-08 20:06:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is24VaA3hIAinRDtuRKZy38w',
+    'createtime' => '1502194002',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is24VaA3hIAinRDtuRKZy38w',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502194002',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-08 20:06:41 response :
+------------
+Array:
+params : Array ;
+
+2017-08-08 21:51:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9PBObnkU9nZ6k4dVhUBAz8]]></FromUserName>
+<CreateTime>1502200277</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-08 21:51:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9PBObnkU9nZ6k4dVhUBAz8',
+    'createtime' => '1502200277',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is9PBObnkU9nZ6k4dVhUBAz8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1502200277',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-08 21:51:16 response :
+------------
+Array:
+params : Array ;
+
+2017-08-08 22:30:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-4-wnC51Nir_doD7VxNSxM]]></FromUserName>
+<CreateTime>1502202609</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

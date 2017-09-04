@@ -1,0 +1,365 @@
+2017-07-12 00:00:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1499788858</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-12 00:00:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1499788858',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499788858',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-12 00:00:57 response :
+------------
+Array:
+params : Array ;
+
+2017-07-12 00:11:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxSXQLLoYJaqEM0gwXsWf6o]]></FromUserName>
+<CreateTime>1499789464</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（太平有象10支竹炭牙刷成人软毛牙刷家用家庭装旅行装牙齿清洁工具），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.Ou3tK6?cv=LURp0Z4f151&sm=d46e78 ，或复制这条信息￥LURp0Z4f151￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6441546699185319065</MsgId>
+</xml>
+
+2017-07-12 00:11:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxSXQLLoYJaqEM0gwXsWf6o',
+    'createtime' => '1499789464',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（太平有象10支竹炭牙刷成人软毛牙刷家用家庭装旅行装牙齿清洁工具），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.Ou3tK6?cv=LURp0Z4f151&sm=d46e78 ，或复制这条信息￥LURp0Z4f151￥后打开👉手机淘宝👈',
+    'msgid' => '6441546699185319065',
+    'from' => 'oRy3isxSXQLLoYJaqEM0gwXsWf6o',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499789464',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-12 00:11:07 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isxSXQLLoYJaqEM0gwXsWf6o ;
+MsgType : text ;
+Content : 昵称：A专注天猫优惠劵，记得找我哦。 
+商品名称：太平有象10支竹炭牙刷成人软毛牙刷家用家庭装旅行装牙齿清洁工具 
+原价：26.8 
+优惠券：0  
+返现：2.47 
+优惠金额：2.47 
+优惠价：24.33 
+淘口令：￥Tovi0Z4fgRn￥           复制此条消息，打开淘宝。 ;
+
+2017-07-12 05:30:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499808625</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【巴黎香榭水果茶 果粒茶洛神花果茶果干茶组合 罐装果味花茶】，点击链接再选择浏览器打开http://c.b1yt.com/h.OuJY0u?cv=a3BM0Z4IEjH&sm=fc5fdb ，或复制这条信息￥a3BM0Z4IEjH￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6441628995053680040</MsgId>
+</xml>
+
+2017-07-12 05:30:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499808625',
+    'msgtype' => 'text',
+    'content' => '【巴黎香榭水果茶 果粒茶洛神花果茶果干茶组合 罐装果味花茶】，点击链接再选择浏览器打开http://c.b1yt.com/h.OuJY0u?cv=a3BM0Z4IEjH&sm=fc5fdb ，或复制这条信息￥a3BM0Z4IEjH￥后打开👉手机淘宝👈',
+    'msgid' => '6441628995053680040',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499808625',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-12 05:30:27 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：巴黎香榭水果茶 果粒茶洛神花果茶果干茶组合 罐装果味花茶 
+原价：26.8 
+优惠券：0  
+返现：0.36 
+优惠金额：0.36 
+优惠价：26.44 
+淘口令：￥mkDa0Z4IzuW￥           复制此条消息，打开淘宝。 ;
+
+2017-07-12 09:52:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isyOn_16f9CdQcHhJODirx_E]]></FromUserName>
+<CreateTime>1499824348</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-12 13:52:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499838742</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【韩国泡菜正宗辣白菜 朝鲜酱菜延边下饭菜饭扫光咸菜2500g包邮】，点击链接再选择浏览器打开http://c.b1yt.com/h.OCkDx8?cv=Fzfo0ZhPSyc&sm=075042 ，或复制这条信息￥Fzfo0ZhPSyc￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6441758346583749832</MsgId>
+</xml>
+
+2017-07-12 13:52:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499838742',
+    'msgtype' => 'text',
+    'content' => '【韩国泡菜正宗辣白菜 朝鲜酱菜延边下饭菜饭扫光咸菜2500g包邮】，点击链接再选择浏览器打开http://c.b1yt.com/h.OCkDx8?cv=Fzfo0ZhPSyc&sm=075042 ，或复制这条信息￥Fzfo0ZhPSyc￥后打开👉手机淘宝👈',
+    'msgid' => '6441758346583749832',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499838742',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-12 13:52:25 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：韩国泡菜正宗辣白菜 朝鲜酱菜延边下饭菜饭扫光咸菜2500g包邮 
+原价：19.9 
+优惠券：0  
+返现：0.45 
+优惠金额：0.45 
+优惠价：19.45 
+淘口令：￥V6kn0ZhPoeF￥           复制此条消息，打开淘宝。 ;
+
+2017-07-12 13:53:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499838828</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-12 13:53:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499838828',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499838828',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-12 13:53:47 response :
+------------
+Array:
+params : Array ;
+
+2017-07-12 14:31:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is3G6ys4oI17OjhUQvk2JEq8]]></FromUserName>
+<CreateTime>1499841067</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【汐凡妮夏季月子服莫代尔超薄款夏天孕妇睡衣大码外出产妇哺乳衣】，点击链接再选择浏览器打开http://c.b1yt.com/h.OyTpeh?cv=n0hs0ZSTPWX&sm=fb076b ，或复制这条信息￥n0hs0ZSTPWX￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6441768332382714731</MsgId>
+</xml>
+
+2017-07-12 14:31:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is3G6ys4oI17OjhUQvk2JEq8',
+    'createtime' => '1499841067',
+    'msgtype' => 'text',
+    'content' => '【汐凡妮夏季月子服莫代尔超薄款夏天孕妇睡衣大码外出产妇哺乳衣】，点击链接再选择浏览器打开http://c.b1yt.com/h.OyTpeh?cv=n0hs0ZSTPWX&sm=fb076b ，或复制这条信息￥n0hs0ZSTPWX￥后打开👉手机淘宝👈',
+    'msgid' => '6441768332382714731',
+    'from' => 'oRy3is3G6ys4oI17OjhUQvk2JEq8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499841067',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-12 14:31:09 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is3G6ys4oI17OjhUQvk2JEq8 ;
+MsgType : text ;
+Content : 昵称：黄小蕊 
+商品名称：汐凡妮夏季月子服莫代尔超薄款夏天孕妇睡衣大码外出产妇哺乳衣 
+原价：169 
+优惠券：0  
+返现：4.19 
+优惠金额：4.19 
+优惠价：164.81 
+淘口令：￥7PLM0ZSTFmh￥           复制此条消息，打开淘宝。 ;
+
+2017-07-12 17:07:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7B_j5bKtu4QPjHHEr25La8]]></FromUserName>
+<CreateTime>1499850465</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-12 23:19:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5yedWiKvmhWa9TNp8z2J3M]]></FromUserName>
+<CreateTime>1499872768</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

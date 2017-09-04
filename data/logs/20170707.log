@@ -1,0 +1,458 @@
+2017-07-07 00:48:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7RT21WUVOsAYskQqpRumTM]]></FromUserName>
+<CreateTime>1499359727</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-07 05:14:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1499375655</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-07 05:14:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1499375655',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499375655',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-07 05:14:13 response :
+------------
+Array:
+params : Array ;
+
+2017-07-07 08:16:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499386620</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【包邮 恒宁医疗 医用级儿童雾化器 家用压缩空气成人雾化机602】，点击链接再选择浏览器打开http://c.b1yt.com/h.lS6bHx?cv=UZHgZAGfXVZ&sm=cbb1e9 ，或复制这条信息￥UZHgZAGfXVZ￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6439816497379734487</MsgId>
+</xml>
+
+2017-07-07 08:17:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1499386620</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【包邮 恒宁医疗 医用级儿童雾化器 家用压缩空气成人雾化机602】，点击链接再选择浏览器打开http://c.b1yt.com/h.lS6bHx?cv=UZHgZAGfXVZ&sm=cbb1e9 ，或复制这条信息￥UZHgZAGfXVZ￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6439816497379734487</MsgId>
+</xml>
+
+2017-07-07 08:17:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499386620',
+    'msgtype' => 'text',
+    'content' => '【包邮 恒宁医疗 医用级儿童雾化器 家用压缩空气成人雾化机602】，点击链接再选择浏览器打开http://c.b1yt.com/h.lS6bHx?cv=UZHgZAGfXVZ&sm=cbb1e9 ，或复制这条信息￥UZHgZAGfXVZ￥后打开👉手机淘宝👈',
+    'msgid' => '6439816497379734487',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499386620',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-07 08:17:05 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：包邮 恒宁医疗 医用级儿童雾化器 家用压缩空气成人雾化机602 
+原价：228 
+优惠券：0  
+返现：2.05 
+优惠金额：2.05 
+优惠价：225.95 
+淘口令：￥43gCZAGfUlA￥           复制此条消息，打开淘宝。 ;
+
+2017-07-07 08:17:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1499386620',
+    'msgtype' => 'text',
+    'content' => '【包邮 恒宁医疗 医用级儿童雾化器 家用压缩空气成人雾化机602】，点击链接再选择浏览器打开http://c.b1yt.com/h.lS6bHx?cv=UZHgZAGfXVZ&sm=cbb1e9 ，或复制这条信息￥UZHgZAGfXVZ￥后打开👉手机淘宝👈',
+    'msgid' => '6439816497379734487',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499386620',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-07 08:17:07 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：包邮 恒宁医疗 医用级儿童雾化器 家用压缩空气成人雾化机602 
+原价：228 
+优惠券：0  
+返现：2.05 
+优惠金额：2.05 
+优惠价：225.95 
+淘口令：￥QieZZAGf56E￥           复制此条消息，打开淘宝。 ;
+
+2017-07-07 10:37:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2PPMUJyn021jre-XrUXw_Q]]></FromUserName>
+<CreateTime>1499395025</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-07 19:11:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-j_uDyt3rb5I2qhHBXcz2k]]></FromUserName>
+<CreateTime>1499425910</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（【送24色铅笔】全套4本 正版神秘花园手绘涂色书 儿童画画书创意涂鸦填色簿本秘密花园减压神器素描6-7-8-9-10-12岁成人画册图书籍），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.lNTJkA?cv=95AM0aaX5mB&sm=0749c6 ，或复制这条信息￥95AM0aaX5mB￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6439985246644832262</MsgId>
+</xml>
+
+2017-07-07 19:11:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is-j_uDyt3rb5I2qhHBXcz2k',
+    'createtime' => '1499425910',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（【送24色铅笔】全套4本 正版神秘花园手绘涂色书 儿童画画书创意涂鸦填色簿本秘密花园减压神器素描6-7-8-9-10-12岁成人画册图书籍），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.lNTJkA?cv=95AM0aaX5mB&sm=0749c6 ，或复制这条信息￥95AM0aaX5mB￥后打开👉手机淘宝👈',
+    'msgid' => '6439985246644832262',
+    'from' => 'oRy3is-j_uDyt3rb5I2qhHBXcz2k',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499425910',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-07 19:11:53 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is-j_uDyt3rb5I2qhHBXcz2k ;
+MsgType : text ;
+Content : 昵称：§自有天意 
+商品名称：【送24色铅笔】全套4本 正版神秘花园手绘涂色书 儿童画画书创意涂鸦填色簿本秘密花园减压神器素描6-7-8-9-10-12岁成人画册图书籍 
+原价：28.8 
+优惠券：0  
+返现：0.26 
+优惠金额：0.26 
+优惠价：28.54 
+淘口令：￥gMqx0aaXEjG￥           复制此条消息，打开淘宝。 ;
+
+2017-07-07 19:13:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-j_uDyt3rb5I2qhHBXcz2k]]></FromUserName>
+<CreateTime>1499425992</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（12本全套 儿童学前练习本数字汉字描红本 加减法拼音算术本笔顺语文幼儿园学前班练习册宝宝儿童早教书籍0-3-5-6岁一年级启蒙认知），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.lNhV4n?cv=WjkD0aad2xK&sm=1d8d08 ，或复制这条信息￥WjkD0aad2xK￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6439985598832150615</MsgId>
+</xml>
+
+2017-07-07 19:13:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is-j_uDyt3rb5I2qhHBXcz2k',
+    'createtime' => '1499425992',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（12本全套 儿童学前练习本数字汉字描红本 加减法拼音算术本笔顺语文幼儿园学前班练习册宝宝儿童早教书籍0-3-5-6岁一年级启蒙认知），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.lNhV4n?cv=WjkD0aad2xK&sm=1d8d08 ，或复制这条信息￥WjkD0aad2xK￥后打开👉手机淘宝👈',
+    'msgid' => '6439985598832150615',
+    'from' => 'oRy3is-j_uDyt3rb5I2qhHBXcz2k',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499425992',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-07 19:13:14 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is-j_uDyt3rb5I2qhHBXcz2k ;
+MsgType : text ;
+Content : 昵称：§自有天意 
+商品名称：12本全套 儿童学前练习本数字汉字描红本 加减法拼音算术本笔顺语文幼儿园学前班练习册宝宝儿童早教书籍0-3-5-6岁一年级启蒙认知 
+原价：9.9 
+优惠券：0  
+返现：0.09 
+优惠金额：0.09 
+优惠价：9.81 
+淘口令：￥n7Hx0aadS1w￥           复制此条消息，打开淘宝。 ;
+
+2017-07-07 22:03:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is6AxWyetzufqFQKKXdEs3to]]></FromUserName>
+<CreateTime>1499436185</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-07 22:14:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7XgAWnLRGGWLoy9oBvbujQ]]></FromUserName>
+<CreateTime>1499436863</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-07 22:40:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_78vaHZrL_vTx7ugUKSgzo]]></FromUserName>
+<CreateTime>1499438403</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【拉美拉胶盒装 化妆棉1000片卸妆棉薄款双面双效上妆补水化妆工具】，点击链接再选择浏览器打开http://c.b1yt.com/h.lLWsAH?cv=9VOa0abC4E8&sm=1050bc ，或复制这条信息￥9VOa0abC4E8￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440038903671273005</MsgId>
+</xml>
+
+2017-07-07 22:40:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'createtime' => '1499438403',
+    'msgtype' => 'text',
+    'content' => '【拉美拉胶盒装 化妆棉1000片卸妆棉薄款双面双效上妆补水化妆工具】，点击链接再选择浏览器打开http://c.b1yt.com/h.lLWsAH?cv=9VOa0abC4E8&sm=1050bc ，或复制这条信息￥9VOa0abC4E8￥后打开👉手机淘宝👈',
+    'msgid' => '6440038903671273005',
+    'from' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499438403',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-07 22:40:06 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_78vaHZrL_vTx7ugUKSgzo ;
+MsgType : text ;
+Content : 昵称：云淡风轻 
+商品名称：拉美拉胶盒装 化妆棉1000片卸妆棉薄款双面双效上妆补水化妆工具 
+原价：9.9 
+优惠券：0  
+返现：0.27 
+优惠金额：0.27 
+优惠价：9.63 
+淘口令：￥pZXr0abyojB￥           复制此条消息，打开淘宝。 ;
+
+2017-07-07 23:52:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2dgh6Y5RAWOePSpvLBlGeo]]></FromUserName>
+<CreateTime>1499442765</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【平底套趾水钻凉拖鞋女韩版学生两穿厚底松糕凉鞋波西米亚沙滩拖鞋】，点击链接再选择浏览器打开http://c.b1yt.com/h.lLsZq4?cv=LhhB0aYkYi1&sm=ebd399 ，或复制这条信息￥LhhB0aYkYi1￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6440057638318619405</MsgId>
+</xml>
+
+2017-07-07 23:52:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'createtime' => '1499442765',
+    'msgtype' => 'text',
+    'content' => '【平底套趾水钻凉拖鞋女韩版学生两穿厚底松糕凉鞋波西米亚沙滩拖鞋】，点击链接再选择浏览器打开http://c.b1yt.com/h.lLsZq4?cv=LhhB0aYkYi1&sm=ebd399 ，或复制这条信息￥LhhB0aYkYi1￥后打开👉手机淘宝👈',
+    'msgid' => '6440057638318619405',
+    'from' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1499442765',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-07 23:52:47 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2dgh6Y5RAWOePSpvLBlGeo ;
+MsgType : text ;
+Content : 昵称：后来呐 
+商品名称：平底套趾水钻凉拖鞋女韩版学生两穿厚底松糕凉鞋波西米亚沙滩拖鞋 
+原价：26.8 
+优惠券：0  
+返现：1.87 
+优惠金额：1.87 
+优惠价：24.93 
+淘口令：￥m6aw0aYkdG4￥           复制此条消息，打开淘宝。 ;
+

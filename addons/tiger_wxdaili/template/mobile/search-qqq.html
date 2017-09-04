@@ -1,0 +1,97 @@
+<html xmlns="http://www.w3.org/1999/xhtml" data-dpr="1" style="font-size: 54px;"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telphone=no, email=no">
+<title>最全优惠券查询系统</title>
+<meta name="keywords" content="最全优惠券查询系统">
+<meta name="description" content="最全优惠券查询系统">
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/jquery-1.7.2.min.js"></script>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"></head>
+
+<body style="font-size: 12px;">
+ <style type="text/css">
+  html{ color: #404040; background: #fff; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none;}
+  html *{ outline: none; -webkit-text-size-adjust: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+  html, body{ font-family: sans-serif;}
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ margin: 0; padding: 0;}
+  input, select, textarea{ font-size: 100%;}
+  table{ border-collapse: collapse; border-spacing: 0;}
+  fieldset, img{ border: 0;}
+  abbr, acronym{ border: 0; font-variant: normal;}
+  del{ text-decoration: line-through;}
+  address, caption, cite, code, dfn, em, th, var{ font-style: normal; font-weight: 500;}
+  ol, ul{ list-style: none;}
+  caption, th{ text-align: left;}
+  h1, h2, h3, h4, h5, h6{ font-size: 100%; font-weight: 500;}
+  q:before, q:after{ content: '';}
+  sub, sup{ font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;}
+  sup{ top: -0.5em;}
+  sub{ bottom: -0.25em;}
+  a:hover{ text-decoration: underline;}
+  ins, a{ text-decoration: none;}
+  [data-dpr="1"] .f12{ font-size: 12px;} [data-dpr="2"] .f12{ font-size: 24px;} [data-dpr="3"] .f12{ font-size: 36px;}
+  [data-dpr="1"] .f14{ font-size: 14px;} [data-dpr="2"] .f14{ font-size: 28px;} [data-dpr="3"] .f14{ font-size: 42px;}
+  [data-dpr="1"] .f16{ font-size: 16px;} [data-dpr="2"] .f16{ font-size: 32px;} [data-dpr="3"] .f16{ font-size: 48px;}
+  [data-dpr="1"] .f18{ font-size: 18px;} [data-dpr="2"] .f18{ font-size: 36px;} [data-dpr="3"] .f18{ font-size: 54px;}
+  [data-dpr="1"] .f30{ font-size: 30px;} [data-dpr="2"] .f30{ font-size: 60px;} [data-dpr="3"] .f30{ font-size: 90px;}
+  [data-dpr="1"] .f90{ font-size: 90px;} [data-dpr="2"] .f90{ font-size: 180px;} [data-dpr="3"] .f90{ font-size: 270px;}
+  .q-detail{ width: 9.5rem; margin: 0 auto; padding-top: 1rem;}
+  .q-logo{ width: 4.26667rem; height: .54667rem; margin: 0 auto;}
+  .q-logo img{ width: 100%; height: 100%;}
+  .q-search{ width: 9.06667rem; height: 1.06667rem; background-color: #f6f6f6; border-radius: 1.06667rem; margin: .5rem auto 0; position: relative;}
+  .q-search i{ display: inline-block; width: .4rem; height: .4rem; background-image: url('data:image/gif;base64,R0lGODlhHgAdAOYAAPf39/X39/X19/Pz9+/z9fHz9e3x9evx9+3x9+nv9+vv9+ft9ePt9ePr9eHp9d/p9dvn9d3n9dnl9dfl9dPj9dPh9dHh9c/h9c/f9c3f9cPZ88HZ9cHX873X873V87vV87nT87fR87XR87HP86/N86nL8avL8aXH86PH85/F8Z3D8ZvD8Ze/8ZO98ZG98Y+98Y+78Y278Yu58Ym58YW38Ye38YG1736z74Gz73yx73qx73av73Kt73St73Cr726p7Wyp72Sl7WCj7WKj7V6h7Vqh7Vyh7Vif7Vqf7VSd7Vad7VKb7VCb7VCZ7UqZ606Z60yX60iX60qX60iV60aV60SV60CT6zyR6z6R6ziP6zqP6zaP6zSN6zKN6zCL6zKL6////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEHAGAALAAAAAAeAB0AAAf/gACCg4ILJTtLV15YSjkkCYSRkoIMNVtemJmZWTUMk5IBKFqYXUQyJyYoNUiZWCOfgwM5mFkwDpMQNFyYMgGfATqYQhCwghRNmDOfKpg+BcWDCUOYJJITu0UE0IQLS15XDZE8XloP25EWuzSED19eLeeSN15ZB4MpXl3h8YQZmK+Cfnghwi+SgClecAyC4qVGwUg9vAgZlMWLioeEZHh5MmhXCoyDZnhxMoiKFxggBUVEMiiIFyApASTxsmOQC3oGQELAhGKQPy8lQLLIZ24QES9SchZkgMWLj0gcMNkoGMBHPguSgnlZES+ARi8xJhk4IvVZMQPjvHCR8KlBEUxJWDz4kiRAhBNNUdhOIqDVy5IXIC5AwBBCRpRMNkrsmjIBVgeymiJ7ObJB0IhdVSjAEuBBh0lNUnBomCsoxC4rWKEtsJChAqRPHy5hyRAzkodLPGpH2tCDQCAAOw=='); background-repeat: no-repeat; background-size: 100% 100%; position: absolute; left: .35rem; top: .33333rem;}
+  .q-search .q-input{ width: 6.66667rem; height: 100%; line-height: 1; border: none; background-color: #f6f6f6; position: absolute; left: .93333rem;}
+  .q-search button{ display: block; width: 1.5rem; height: 100%; line-height: 1; position: absolute; right: 0; text-align: center; color: #fff; background: #00beff; background: -webkit-linear-gradient(left, #00beff 0%, #007fec 100%); background: linear-gradient(to right, #00beff 0%, #007fec 100%); border: none; border-radius: 0 1.06667rem 1.06667rem 0; letter-spacing: 1px;}
+  #q-error{ color: #f60; padding-top: .2rem; line-height: 2; text-align: center; display: none;}
+
+  /* @add 20161129 */
+  .q-list-more{ text-align: center; padding-top: .4rem;}
+  .list-error{ line-height: 1rem; text-align: center; color: #f60;}
+  .load-more{ display: inline-block; width: 5rem; height: 1rem; line-height: 1rem; margin: .3rem auto; border: 1px #d7d7d7 solid; background: #f0f0f0;}
+
+  /* @add 20161127 */
+  .q-recommond, .q-list, .q-mall{ width: 9.06667rem; margin: 0 auto;}
+  .q-recommond{ padding-top: .2rem;}
+  .q-recommond li{ margin: 0.16rem 0;}
+  .q-recommond li img{ width: 100%;}
+  .q-list dt, .q-mall dt{ height: .8rem; text-align: center; color: #333; border-bottom: 2px #e8e8e8 solid; margin-bottom: .8rem;}
+  .q-list dt span, .q-mall dt span{ display: inline-block; line-height: 1.6rem; background: #fff; padding: 0 .2rem;}
+  .q-list dd ul, .q-mall dd ol{ font-size: 0; margin-right: -.12rem;}
+  .q-list dd ul li, .q-mall dd ol li{ width: 2.93333rem; height: 2.93333rem; display: inline-block; margin: 0 .11888rem .11888rem 0; position: relative;}
+  .q-list dd ul li a{ display: block; width: 100%; height: 100%; overflow: hidden;}
+  .q-list dd ul li img{ width: 100%; min-height: 100%}
+  .q-list dd ul li span{ display: block; position: absolute; right: 0; bottom: 0; height: .6rem; line-height: .6rem; padding-left: .2rem; padding-right: .06rem; z-index: 9; background: #fff; color: #d20026; opacity: .7; border-radius: .6rem 0 0 .6rem;}
+  .q-mall{ padding-bottom: .5rem;}
+  .q-mall dd ol li{ width: 2.9rem; height: 2.9rem; border: 2px #dfe2e9 solid; margin: 0 .1rem .1rem 0; text-align: center;}
+  .q-mall dd ol li a{ display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 10;}
+  .q-mall dd ol li img{ width: 2.13333rem; height: .8rem; margin: .33333rem 0 .4rem;}
+  .q-mall dd ol li p{ width: 100%; height: .50667rem; line-height: .50667rem; overflow: hidden;}
+  .q-mall dd ol li .q-mall-cd{ display: inline-block; height: .50667rem; line-height: .50667rem; border-radius: .50667rem; padding: 0 .4rem; color: #fff; background: #d20026; margin-top: .1rem;}
+  .q-mall dd ol li .q-mall-cd span{ margin: 0 .04rem;}
+  /* /@add 20161127 */
+</style>
+<div id="wrap" style="display: block; padding-bottom: 1rem;">
+  <div class="q-detail">
+    <div class="q-logo">
+      <a href="" title=""><img src="{$_W['siteroot']}addons/tiger_wxdaili/template/mobile/images/logo-1.png" alt=""></a>
+    </div>
+    <div class="q-search">
+      <form action="http://weixin.quanduoduo.com/index/search" method="post" id="J_Form">	
+        <i></i>
+        <input type="text" name="q" value="" placeholder="粘贴淘宝天猫商品链接地址查询优惠券" class="q-input f14" id="J_QueryVal">
+        <button type="submit" class="f14" id="J_FormBtn">搜索</button>
+      </form>
+    </div>
+    <div id="q-error" class="f14">
+      搜索内容需要是淘宝或天猫的宝贝地址！<!--正在查询中，请稍候..-->
+    </div>
+
+
+  </div>
+</div>
+
+          
+</body>
+</html>

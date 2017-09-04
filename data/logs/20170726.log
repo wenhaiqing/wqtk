@@ -1,0 +1,644 @@
+2017-07-26 00:27:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is0dY9-JhGs1Ji1sdjf4mg2Q]]></FromUserName>
+<CreateTime>1501000030</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-26 00:27:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is0dY9-JhGs1Ji1sdjf4mg2Q',
+    'createtime' => '1501000030',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is0dY9-JhGs1Ji1sdjf4mg2Q',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501000030',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 00:27:09 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 03:14:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1501010055</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-26 03:14:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1501010055',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501010055',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 03:14:14 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 08:26:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is0HSpNu_LBYICikhT5KVun8]]></FromUserName>
+<CreateTime>1501028788</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-26 08:26:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'createtime' => '1501028788',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501028788',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 08:26:27 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 10:33:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IF0BJGKbyZO-5MFai0d7A]]></FromUserName>
+<CreateTime>1501036428</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【无火香薰精油套装檀熏香室内厕所除臭卧室酒店房间客厅卫生间香水】，点击链接再选择浏览器打开http://c.b6wq.com/h.nKlOvO?cv=o1PV0YbO9Dg&sm=1adc25 ，或复制这条信息￥o1PV0YbO9Dg￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6446902368785246049</MsgId>
+</xml>
+
+2017-07-26 10:33:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IF0BJGKbyZO-5MFai0d7A',
+    'createtime' => '1501036428',
+    'msgtype' => 'text',
+    'content' => '【无火香薰精油套装檀熏香室内厕所除臭卧室酒店房间客厅卫生间香水】，点击链接再选择浏览器打开http://c.b6wq.com/h.nKlOvO?cv=o1PV0YbO9Dg&sm=1adc25 ，或复制这条信息￥o1PV0YbO9Dg￥后打开👉手机淘宝👈',
+    'msgid' => '6446902368785246049',
+    'from' => 'oRy3is2IF0BJGKbyZO-5MFai0d7A',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501036428',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:33:51 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IF0BJGKbyZO-5MFai0d7A ;
+MsgType : text ;
+Content : 昵称： 杨小杨 
+商品名称：无火香薰精油套装檀熏香室内厕所除臭卧室酒店房间客厅卫生间香水 
+原价：9.9 
+优惠券：0  
+返现：1.36 
+优惠金额：1.36 
+优惠价：8.54 
+淘口令：￥O1vf0YbOIHj￥           复制此条消息，打开淘宝。 ;
+
+2017-07-26 10:47:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1501037227</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-26 10:47:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1501037227',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501037227',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:47:06 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 10:47:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1501037231</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-26 10:47:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1501037231',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501037231',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:47:10 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 14:54:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2rYq25niKXJ5K8eQtLqQ-s]]></FromUserName>
+<CreateTime>1501052076</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-26 17:42:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is67AMu2M51tbM7ur9sWomeo]]></FromUserName>
+<CreateTime>1501062171</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【天姿芳蕾丝刺绣小胸厚薄款内衣女 深V聚拢调整型文胸大码收副乳】，点击链接再选择浏览器打开http://c.b6wq.com/h.nHTWF0?cv=94Gs0YdfyWG&sm=ac442f ，或复制这条信息￥94Gs0YdfyWG￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6447012934128365165</MsgId>
+</xml>
+
+2017-07-26 17:42:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'createtime' => '1501062171',
+    'msgtype' => 'text',
+    'content' => '【天姿芳蕾丝刺绣小胸厚薄款内衣女 深V聚拢调整型文胸大码收副乳】，点击链接再选择浏览器打开http://c.b6wq.com/h.nHTWF0?cv=94Gs0YdfyWG&sm=ac442f ，或复制这条信息￥94Gs0YdfyWG￥后打开👉手机淘宝👈',
+    'msgid' => '6447012934128365165',
+    'from' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501062171',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 17:42:51 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is67AMu2M51tbM7ur9sWomeo ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-26 17:43:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is67AMu2M51tbM7ur9sWomeo]]></FromUserName>
+<CreateTime>1501062183</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://i.eqxiu.com/s/H8eS5oEM]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-26 17:43:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'createtime' => '1501062183',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'menuid' => '416162317',
+    'from' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501062183',
+    'type' => 'text',
+    'content' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 17:43:02 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 17:43:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is67AMu2M51tbM7ur9sWomeo]]></FromUserName>
+<CreateTime>1501062229</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[天姿芳内衣]]></Content>
+<MsgId>6447013183236468364</MsgId>
+</xml>
+
+2017-07-26 17:43:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'createtime' => '1501062229',
+    'msgtype' => 'text',
+    'content' => '天姿芳内衣',
+    'msgid' => '6447013183236468364',
+    'from' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501062229',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 17:43:48 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 17:44:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is67AMu2M51tbM7ur9sWomeo]]></FromUserName>
+<CreateTime>1501062242</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-26 17:44:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'createtime' => '1501062242',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501062242',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 17:44:02 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 17:44:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is67AMu2M51tbM7ur9sWomeo]]></FromUserName>
+<CreateTime>1501062262</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-26 17:44:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'createtime' => '1501062262',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is67AMu2M51tbM7ur9sWomeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501062262',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 17:44:21 response :
+------------
+Array:
+params : Array ;
+
+2017-07-26 19:20:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_78vaHZrL_vTx7ugUKSgzo]]></FromUserName>
+<CreateTime>1501068017</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（阿玛尼小胖丁唇釉口红唇膏丝绒哑光胖管红管302/400/401/504/506），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b6wq.com/h.nthRrL?cv=r2AV0YW5UKT&sm=422863 ，或复制这条信息￥r2AV0YW5UKT￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6447038042507180965</MsgId>
+</xml>
+
+2017-07-26 19:20:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'createtime' => '1501068017',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（阿玛尼小胖丁唇釉口红唇膏丝绒哑光胖管红管302/400/401/504/506），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b6wq.com/h.nthRrL?cv=r2AV0YW5UKT&sm=422863 ，或复制这条信息￥r2AV0YW5UKT￥后打开👉手机淘宝👈',
+    'msgid' => '6447038042507180965',
+    'from' => 'oRy3is_78vaHZrL_vTx7ugUKSgzo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501068017',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 19:20:16 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_78vaHZrL_vTx7ugUKSgzo ;
+MsgType : text ;
+Content : Hi,云淡风轻
+该商品暂无优惠,请查看其他商品 ;
+
+2017-07-26 20:16:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxHEE5VSfRz00vaDLOg7qh0]]></FromUserName>
+<CreateTime>1501071378</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-26 20:16:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxHEE5VSfRz00vaDLOg7qh0]]></FromUserName>
+<CreateTime>1501071378</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-26 22:16:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is0HSpNu_LBYICikhT5KVun8]]></FromUserName>
+<CreateTime>1501078605</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（耐热玻璃杯男女情侣泡茶杯柠檬杯便携带盖创意水杯子运动车载水瓶），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b6wq.com/h.nuNMEB?cv=cs950YejLg1&sm=191206 ，或复制这条信息￥cs950YejLg1￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6447083517620918129</MsgId>
+</xml>
+
+2017-07-26 22:16:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'createtime' => '1501078605',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（耐热玻璃杯男女情侣泡茶杯柠檬杯便携带盖创意水杯子运动车载水瓶），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b6wq.com/h.nuNMEB?cv=cs950YejLg1&sm=191206 ，或复制这条信息￥cs950YejLg1￥后打开👉手机淘宝👈',
+    'msgid' => '6447083517620918129',
+    'from' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501078605',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 22:16:48 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is0HSpNu_LBYICikhT5KVun8 ;
+MsgType : text ;
+Content : 昵称：十七岁的夏天 
+商品名称：耐热玻璃杯男女情侣泡茶杯柠檬杯便携带盖创意水杯子运动车载水瓶 
+原价：15.8 
+优惠券：0  
+返现：0.26 
+优惠金额：0.26 
+优惠价：15.54 
+淘口令：￥lZdP0YejrDb￥           复制此条消息，打开淘宝。 ;
+

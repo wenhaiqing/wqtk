@@ -1,0 +1,265 @@
+<?php defined('IN_IA') or exit('Access Denied');?><!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>代理申请</title>
+<link href="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/css/style.css" rel="stylesheet" />
+<link href="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/css/swipper.css" rel="stylesheet" />
+<link href="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/css/preload.css" rel="stylesheet" />
+<link href="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/css/loading.css" rel="stylesheet" />
+<script>
+        var deviceWidth = document.documentElement.clientWidth;
+        if (deviceWidth > 750) deviceWidth = 750;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + "px";
+        document.documentElement.style.width = "100%";
+    </script>
+<script src="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/js/htool.js"></script>
+<script src="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/js/asynloading.js"></script>
+</head>
+<body>
+<div id="containter" class="container">
+<?php  if($cfg['dlpicurl']) { ?>
+<div style="width:100%"><img src="<?php  echo tomedia($cfg['dlpicurl'])?>" width="100%"></div>
+<?php  } ?>
+<div class="user_toptip">*请认真填写，避免审核不通过</div>
+<div class="personData">
+<form id="form_info">
+<ul>
+<li class="headerportrait">
+<span><?php  echo $fans['nickname'];?></span>
+<div class="personData-pic">
+<img src="<?php  echo preg_replace('/\/0$/', '/96', stripslashes($fans['avatar']));?>">
+</div>
+<div class="arrow"></div>
+</li>
+<!--li>
+<span>会员等级</span>
+<span class="userdataname">省钱</span>
+</li-->
+<input type="hidden" name="orderno" id="orderno">
+<input type="hidden" name="orderid" id="orderid">
+<li>
+<span><em class="mustmhao">*</em>微信号<em class="mustt">(必填)</em></span>
+<span class="userdataname userdatanamewx"><input type="text" name="weixin" id="weixin" value="<?php  echo $member['weixin'];?>" placeholder="请输入微信号" class="user_wx"></span>
+</li>
+<li>
+<span><em class="mustmhao">*</em>支付宝<em class="mustt">(必填)</em></span>
+<span class="userdataname userdatanamephone"><input type="text" name="zfbuid" id="zfbuid" value="<?php  echo $member['zfbuid'];?>" placeholder="提现使用" class="user_phone"></span>
+</li>
+
+<li>
+<span><em class="mustmhao">*</em>姓名<em class="mustt">(必填)</em></span>
+<span class="userdataname userdatanamephone"><input type="text" name="tname" id="tname" value="<?php  echo $member['tname'];?>" placeholder="请输入姓名" class="user_phone"></span>
+</li>
+<li>
+<span><em class="mustmhao">*</em>手机号码<em class="mustt">(必填)</em></span>
+<span class="userdataname userdatanamephone"><input type="text" id="tel" name="tel" value="<?php  echo $member['tel'];?>" placeholder="请输入手机号码" class="user_phone"></span>
+</li>
+<li>
+<span><em class="mustmhao">*</em>申请理由<em class="mustt">(必填)</em></span>
+<span class="userdataname userdatanamephone">
+<input type="text" name="dlmsg" id="dlmsg" value="<?php  echo $member['dlmsg'];?>"  placeholder="" class="user_phone"></span>
+</li>
+</ul>
+</form>
+<style>
+.flow-an {
+    display: block;
+    height: 45px;
+    width: 7rem;
+    font-size: 16px;
+    margin: 15px auto;
+    color: #fff;
+    background: #cecece;
+    border-radius: 0.1rem !important;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+.flow-anurl {
+    display: block;
+    height: 45px;
+    line-height:45px;
+    text-align:center;
+    width: 7rem;
+    font-size: 16px;
+    margin: 15px auto;
+    color: #fff;
+    background: #5cb85c;
+    border-radius: 0.1rem !important;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+</style>
+
+<?php  if($member['dltype']==2) { ?>
+<input type="button" class="flow-an" value="代理申请审核中！" />
+<?php  } else if($member['dltype']==1) { ?>
+<a href="<?php  echo $this->createMobileUrl('user')?>" class="flow-anurl" />您已经是代理，点击进入代理中心</a>
+<?php  } else { ?> 
+    <?php  if($bl['dlfftype']==1) { ?>
+      <input type="button" id="pay_submit" class="flow-btn" value="支付(<?php  echo $bl['dlffprice'];?>元)申请开通" />
+    <?php  } else { ?>
+       <input type="button" id="btn_submit" class="flow-btn" value="提交申请" />
+    <?php  } ?>
+<?php  } ?>
+
+
+</div>
+</div>
+</body>
+</html>
+<script src="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/js/jquery-1.7.2.min.js"></script>
+<script src="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/js/idangerous.swiper.min.js"></script>
+<script src="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/js/common_phone.js"></script>
+<script src="<?php  echo $_W['siteroot'];?>addons/tiger_taoke/template/mobile/tbgoods/style9/js/fun.js"></script>
+
+<?php  echo register_jssdk(false);?>
+<script type="text/javascript">   
+$(document).ready(function(){ 
+      $("#pay_submit").click(function(){
+      $("#pay_submit").attr("value",'提交中请稍候……');//填充内容
+      var val1 = $("#weixin").val();
+        var val2 = $("#tel").val();
+        var val3 = $("#dlmsg").val();
+        var val4 = $("#zfbuid").val();
+       if(!val1){
+         alert('请正确输入微信号');
+         return;
+       }
+       if(!val4){
+         alert('支付宝帐号必须填写');
+         return;
+       }
+       if(!val3){
+         alert('请填写申请理由');
+         return;
+       }
+       if(!val2){
+         alert('请输入11位手机号码');
+         return;
+       }
+       var myreg=/^\d{11}$/;
+       if(!myreg.test(val2)){
+         alert('请输入正确的手机号码');
+         return;
+       }
+
+       $.ajax({
+             type:'POST',
+             data:$("#form_info").serialize(),
+             url:'<?php  echo $this->createMobileUrl("Getpay");?>',
+             success:function(data){
+                  var json = eval("("+data+")");
+                  //alert(json.orderno);
+                  //alert(data.errmsg);
+                  
+                  if(json.errcode == 0){
+                      $("#orderno").val(json.orderno);
+                      $("#orderid").val(json.orderid);
+                          wx.chooseWXPay({
+                                timestamp: json.timeStamp, 
+                                nonceStr: json.nonceStr, 
+                                package: json.package, 
+                                signType: json.signType, 
+                                paySign: json.paySign,
+                                success: function (res) {
+                                    //alertFun(json.package);
+                                    // 支付成功后的回调函数
+                                    var str = JSON.stringify(res);
+                                    checkorder();
+                                }
+                            });				       						  
+                  }else{	 
+                    //tips(json.errmsg);
+                    //runEffect(json.errmsg);
+                    alert(json.errmsg);
+                  }
+             }
+         });
+
+        
+      });
+
+
+      function checkorder(){
+
+    			var orderno =  $("#orderno").val();
+    			var orderid =  $("#orderid").val();
+    			if(orderno.length == 0){
+    				alert('订单号为空');
+                    //alertFun('订单号为空');
+
+    			}
+    		   	$.ajax({
+    				 type:'POST',
+    				 data:$("#form_info").serialize(),
+    				 url:'<?php  echo $this->createMobileUrl("CheckJsPayResult");?>',
+    				 success:function(data){
+    					  var json = eval("("+data+")");
+    					  if(json.errcode == 0){
+    						  //alertToUrl(json.msg,json.url);
+                              location.reload();
+    					  }else{	 
+    						  //alert(json.errmsg);
+    						  //clearInterval(run)
+    						  checkorder();
+    					  }
+    				 }
+    			 });
+    		}
+
+});
+
+
+</script>
+<script>
+        $(function () {
+            $(document).delegate("#btn_submit", "click", function () {
+                var val1 = $("#weixin").val();
+                var val2 = $("#tel").val();
+                var val3 = $("#dlmsg").val();
+               if(!val1){
+                 alert('请正确输入微信号');
+                 return;
+               }
+               if(!val3){
+                 alert('请填写申请理由');
+                 return;
+               }
+               if(!val2){
+                 alert('请输入11位手机号码');
+                 return;
+               }
+               var myreg=/^\d{11}$/;
+               if(!myreg.test(val2)){
+                 alert('请输入正确的手机号码');
+                 return;
+               }
+                $.ajax({
+                    type: "post",
+                    url: "<?php  echo $this->createMobileUrl('dlreg',array('id'=>$member['id']))?>",
+                    data: $("#form_info").serialize(),
+                    async: false,
+                    dataType: "json",
+                    success: function (result) {
+                        if (result.statusCode == 200) {
+                            alert(result.msg);
+                            if ("" == "") {
+                                window.location.href = "<?php  echo $this->createMobileUrl('dlreg',array('id'=>$member['id']))?>";
+                            }
+                            else {
+                                window.location.href = "<?php  echo $this->createMobileUrl('dlreg',array('id'=>$member['id']))?>";
+                            }
+                        }else {
+                            alert(result.msg);
+                        }
+                    }
+                });
+            });
+        });
+    </script>

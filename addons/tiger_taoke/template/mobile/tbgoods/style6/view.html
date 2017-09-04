@@ -1,0 +1,449 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	仅需一步 立享优惠
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=yes;" />
+<link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/amazeui/2.7.2/css/amazeui.css"/>
+<link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/css/index2.css?v=1.88" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/amazeui/2.7.2/js/amazeui.min.js"></script>
+    
+    <style type="text/css">
+        body{background:#fff;}
+    </style>
+    
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<!-- 微信自定义接口 -->
+<script>
+        var appid = "{$_W['account']['jssdkconfig']['appId']}";
+        var timestamp = "{$_W['account']['jssdkconfig']['timestamp']}";
+        var nonceStr = "{$_W['account']['jssdkconfig']['nonceStr']}";
+        var signature = "{$_W['account']['jssdkconfig']['signature']}";
+        wx.config({
+            debug: false,
+            appId: appid,
+            timestamp: timestamp,
+            nonceStr: nonceStr,
+            signature: signature,
+            jsApiList: [
+                "onMenuShareAppMessage",
+                "onMenuShareTimeline",
+                "chooseImage",
+                "uploadImage",
+                "downloadImage"
+            ]
+        });
+
+	wx.ready(function(){
+		wx.onMenuShareAppMessage({
+			title: "【券后价：{$views['price']}元】 {$views['title']}",
+			desc: "{$views['tjcontent']}",
+			link: window.location.href ,
+			imgUrl: "{php echo tomedia($views['pic_url'])}"
+		}); 
+		wx.onMenuShareTimeline({
+			title: "【券后价：{$views['price']}元】 {$views['title']}",
+			desc: "{$views['tjcontent']}",
+			link: window.location.href,
+			imgUrl: "{php echo tomedia($views['pic_url'])}"
+		});
+	});
+</script>
+<!-- 微信自定义接口 -->
+    <script type="text/javascript">
+
+
+    //克隆对象
+    function clone(myObj){
+      if(typeof(myObj) != 'object') return myObj;
+      if(myObj == null) return myObj;
+      
+      var myNewObj = new Object();
+      
+      for(var i in myObj)
+        myNewObj[i] = clone(myObj[i]);
+      
+      return myNewObj;
+    }
+
+    //删除参数
+    function delQueStr(url, ref) {
+        var str = "";
+        if (url.indexOf('?') != -1) {
+            str = url.substr(url.indexOf('?') + 1);
+        }
+        else {
+            return url;
+        }
+        var arr = "";
+        var returnurl = "";
+        var setparam = "";
+        if (str.indexOf('&') != -1) {
+            arr = str.split('&');
+            for (i in arr) {
+                if (arr[i].split('=')[0] != ref) {
+                    returnurl = returnurl + arr[i].split('=')[0] + "=" + arr[i].split('=')[1] + "&";
+                }
+            }
+            return url.substr(0, url.indexOf('?')) + "?" + returnurl.substr(0, returnurl.length - 1);
+        }
+        else {
+            arr = str.split('=');
+            if (arr[0] == ref) {
+                return url.substr(0, url.indexOf('?'));
+            }
+            else {
+                return url;
+            }
+        }
+    }
+    </script>
+    
+    <script type="text/javascript">
+        $(function ($) {
+            document.addEventListener("selectionchange", function (e) {
+                if (window.getSelection().anchorNode.parentNode.id == 'copy_key' && document.getElementById('copy_key').innerText != window.getSelection()) {
+                    var key = document.getElementById('copy_key');
+                    window.getSelection().selectAllChildren(key);
+                }
+            }, false);
+        });	 
+    </script>
+    
+    <script type="text/javascript">
+        $(function($){
+            setRootFontSize();
+        });
+        window.onresize = function () {
+            setRootFontSize();
+        }
+        function setRootFontSize() {
+            $('html').css('font-size', document.body.clientWidth/15+'px');
+        }
+    </script>
+    
+</head>
+<body>
+
+<div class="all">
+
+    
+    
+    <div class="kouling-share">
+        <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/images/fx_01_an.png" onclick="javascript:showShareFC();" /></div>
+        <div class="kouling-share" style=" top: 2rem;width:1.4rem;height:1.4rem;background:#7D651F;border-radius:50%;">
+        <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/images/qr.png" style="width:0.9rem;height:0.9rem;" onclick="javascript:ewm();" /></div>
+    <div class="shop-info">
+        <span class="shop-title">{if $views['istmall']==1}天猫{else}淘宝{/if}</span> <span class="shop-logo">
+            <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/images/dpm_an.png" /></span>
+        <div class="yhq" onclick="javascript:showTKL(1);">
+            <span class="coupons-price"><strong>￥</strong>{php echo intval($views['coupons_price'])}</span> <span class="coupons-btn">立即领券</span>
+        </div>
+    </div>
+       
+    
+    <div class="yhq_main">
+        <div class="yhq_main_l">
+            <img src="{php echo tomedia($views['pic_url'])}"></div>
+        <div class="yhq_main_r">
+            <div class="yhq_title">
+                {$views['title']}
+            </div>
+            <div class="yhq_mes">
+                <div class="yhq_mes_l">
+                    <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/images/tm.jpg"/>
+                </div>
+                <div class="yhq_mes_r">
+                    {$views['goods_sale']}笔成交</div>
+            </div>
+            <div class="yhq_xj">
+                现价:￥{$views['org_price']}</div>
+            <div class="yqh">
+                <div class="yqh_l">
+                    <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/images/yqh.gif"></div>
+                <div class="yqh_r">
+                    ￥<span style="font-size:22px;">{$views['price']}</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="" id="accordion" style="font-size:14px;">
+            <div class="am-panel am-padding-horizontal-sm">
+                <div class="am-panel-hd am-padding-left-0 am-padding-right-0">
+                    <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#product-details'}" data-itemid="{$views['num_iid']}">
+                        商品图文详情<span class="am-text-primary am-text-xs" style="font-size:14px">（点击展开）</span>
+                        <i class="am-icon-angle-right am-fr am-icon-sm" id="change_icon"></i>
+                    </h4>
+
+                </div>
+                <div id="product-details" class="am-panel-collapse am-collapse">
+                    <div class="am-panel-bd am-padding-0" style="border-top: 0">
+                        <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                           <div class="am-padding-top-sm" style="width:100%;overflow:auto;"></div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="line">
+    
+    </div>
+
+
+    <div class="ant">
+        <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/images/ckyhq.gif"  onclick="javascript:window.location.href='{php echo $this->createMobileUrl('index')}';"></div>
+
+    <div class="titleall" style="line-height:26px;padding:3% 0px;">
+        <span class="title">长按识别二维码关注“{$cfg['copyright']}”</span><br />
+        <span class="title" style="color:Red;">获取更多优惠券</span>
+    </div>
+    <div class="s11img">
+        <img src="{php echo tomedia($cfg['gzewm'])}" style="width:70%"></div>
+    <div class="titleall">
+        <span class="line"></span><span class="title">活动说明</span>
+    </div>
+    <div class="mes">
+        <p>
+            1. 点击“复制淘口令”按钮，拷贝淘口令 >打开手淘 > 粘贴淘口令 > 成功领取优惠券后，购买商品时使用，即可享受优惠。</p>
+        <p>
+            2. 在手机淘宝-我的淘宝-卡券包-网店优惠券，可查询已发放到账户的优惠券。</p>
+        <p>
+            3. 因商品参与其它活动等原因，付款时优惠券可能无法使用，此时商品最终成交价以您实际付款时提示金额为准。</p>
+        <p>
+            4. 获取、使用优惠券时如存在违规行为（作弊领取、恶意套现、刷取信誉、虚假交易等），淘宝将取消用户领取资格、撤销违规交易且收回全部优惠券（含已使用及未使用的），必要时追究法律责任。</p>
+    </div>
+    <div class="titleall">
+        <span class="line"></span><span class="title">规则声明</span>
+    </div>
+    <div class="mes">
+        <p>
+            上传至该页面的商品与优惠券信息，会被阿里集团官方收录并给其他用户使用。上传者上传此类信息的，表明上传者已与商家达成一致，即商家同意官方收录且给其他用户使用。如商家不同意，请上传者不要上传，如否导致的纠纷由上传者解决并承担责任。</p>
+    </div>
+    
+    
+    
+    
+    
+    <div class="yhq_fc" style="display:none">
+        <div class="yhq_fc_title">
+            长按复制淘口令</div>
+        <div class="yhq_fc_mes">
+            <span id="copy_key">
+                
+                【{$views['title']}...抢券立省{$views['coupons_price']}元，券后价{$views['price']}元，】复制这条信息，打开<font style="color:#f44d37">手机淘宝</font>{$views['taokouling']}即可领取优惠券
+            </span>
+        </div>
+        <div class="yhq_fc_mes_bo"></div>
+        <div class="yhq_fc_ant">
+            <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/images/wzdl.gif" onclick="javascript:hideTKL()"></div>
+    </div>
+    
+    
+    
+    
+</div>    
+    
+    
+    <div class="fc_share">
+        <img src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style6/images/fx_fc.png" style="width:80%"/>
+    </div>
+    <div class="fc_share_bg"></div>
+    
+    <script type="text/javascript">
+        function showMoreYHQ(){
+            if(history.length>0){
+                history.back(-1);
+            }else{
+                window.location.href='tbyhq_index.aspx';
+            }
+        }
+        
+        $(function($){
+            $('.fc_share_bg').click(function(){
+                $('.fc_share').hide();
+                $('.fc_share_bg').hide();
+                $('.yhq_fc').hide();
+            });
+            $('.fc_share').click(function(){
+                $('.fc_share').hide();
+                $('.fc_share_bg').hide();
+            });
+        });
+        
+        function showShareFC(){
+            
+            $('.fc_share').show();
+            $('.fc_share_bg').show();
+            
+        }
+        
+        function showTKL(_flag){
+            
+            if(_flag==0){
+                $('.yhq_fc_mes_bo').html('长按复制淘口令后，就可以直接分享给好友。');
+            }else{
+                $('.yhq_fc_mes_bo').html('长按复制框内文字，打开手机淘宝领取优惠券，也可以直接分享给好友。');
+            }
+            
+            $('.yhq_fc').show();
+            $('.fc_share_bg').show();
+            
+        }
+        
+        function hideTKL(){
+        
+            $('.yhq_fc').hide();
+            $('.fc_share_bg').hide();
+        
+        }
+
+        //获取宝贝详情
+    $('.am-panel-title').click(function () {
+        //详情显影
+        if ($("#product-details").is(":hidden")) {
+            $("#change_icon").removeClass('am-icon-angle-right').addClass('am-icon-angle-down');
+            $('.am-tab-panel').html('<span class="am-center am-text-center am-margin-vertical-xs">图片努力加载中<i class="am-icon-spinner am-icon-pulse am-margin-left-xs"></i></span>');
+        } else {
+            $("#change_icon").removeClass('am-icon-angle-down').addClass('am-icon-angle-right');
+        }
+        var itemid = $(this).attr('data-itemid');
+        getiteminfo(itemid);
+    });
+
+    //采集宝贝详情的图片内容
+    function getiteminfo(itemid) {
+        $.ajax({
+            url: "https://hws.m.taobao.com/cache/mtop.wdetail.getItemDescx/4.1/?data=%7Bitem_num_id%3A" + itemid + "%7D&type=jsonp&dataType=jsonp",
+            dataType: 'jsonp',
+            jsonp: 'callback',
+            success: function (result) {
+                if (result.ret[0] == "SUCCESS::接口调用成功") {
+                    var len = result.data.images.length;
+                    var image = new Array();
+                    for (var i = 0; i < len; i++) {
+                        image[i] = '<img src="' + result.data.images[i] + '">';
+                    }
+                    $('.am-tab-panel').html(image);
+                } else {
+                    $("#qf_alert_info").html("宝贝数据调用失败，原因：" + result.ret[0]);
+                    $('#qf_alert').modal();
+                }
+            }
+        });
+    }
+        
+    </script>
+
+<!--二维码-->
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/js/layer_mobile/layer.js"></script>
+<script>
+var cont="<div style='width:100%;'><div style='width:100%;font-size:16px;line-height:30px;height:30px;'>{$cfg['copyright']}</div><div style='width:100%'><img src='{php echo tomedia($views['pic_url'])}' style='width:100%'></div><div style='width:35%;float:left;' id='qrcode'><img src='{$emw}' width='100%' height='100%'></div><div style='width:60%;float:left;padding-left:6px;padding-top:6px;'><span style='font-size:14px;text-align:left;width:100%;display:block;height:50px;overflow:hidden;line-height:25px;'><b>{$views['title']}</b></span><span style='text-align:left;float: left;width: 100%;'>原价:{$views['org_price']}</span><span style='font-size:12px;color:#ff0000;text-align:left;width:100%;display:block;'>券后价¥<b style='font-size:18px;'> {$views['price']}</b></span></div><div style='float:left;width:100%;height:30px;line-height:30px;font-size:16px;'>屏幕截屏推荐给朋友</div></div>";
+    
+    function ewm(){
+        layer.open({	
+            content: cont,
+            btn: '关闭'
+        });
+    }
+    //$('#qrcode').qrcode({width:80,height:80,typeNumber: 0,correctLevel: 0,text: "{$url}"});
+
+
+
+
+
+
+
+
+</script>
+<!---->
+<style>
+#tab1 img{
+  width:100%;
+}
+.layui-m-layerchild h3 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 200;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+.layui-m-layercont {
+    padding: 30px 20px;
+    line-height: 22px;
+    text-align: center;
+    padding-top:0;
+}
+.layui-m-layerbtn {
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    border-top: 0;
+    background-color: #F2F2F2;
+}
+.layui-m-layer0 .layui-m-layerchild {
+    width: 80%;
+    max-width: 640px;
+}
+</style>
+
+
+
+{if $cfg['lbtx']==1}
+<style>
+.useract {
+    position: fixed;
+    opacity: 0;
+    color: #fff;
+    border-radius: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    left: 0.2rem;
+    padding-right: 10px;
+    top: 3rem;
+    z-index: 2000;
+    background: #000;
+}
+
+.useract img {
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    vertical-align: -10px;
+    margin-right: 8px;
+}
+
+.useractshow {
+    opacity: 0.8;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+</style>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/tool.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/asynloading.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/idangerous.swiper.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/common_phone.js"></script>
+<script>
+
+var fixeddata = [
+{loop $msg $v}
+    {
+        name: "{$v['title']}",
+        content: "{$v['content']}",
+        headerportarit: "{php echo tomedia($v['picurl'])}"
+    },
+{/loop}
+
+];
+</script>
+{/if}
+</body>
+</html>

@@ -1,0 +1,1000 @@
+2017-07-01 00:00:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1498838412</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-01 00:00:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1498838412',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498838412',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-01 00:00:11 response :
+------------
+Array:
+params : Array ;
+
+2017-07-01 00:22:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isy7_xOvXGV8J5xpUGPCOdqU]]></FromUserName>
+<CreateTime>1498839732</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（玛茜红酒多酚亮肤睡眠面膜免洗亮肤180g收缩毛孔滋润补水保湿面膜），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kKKF64?cv=2zqIZzXxe59&sm=473bb7 ，或复制这条信息￥2zqIZzXxe59￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437467631304885156</MsgId>
+</xml>
+
+2017-07-01 00:22:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isy7_xOvXGV8J5xpUGPCOdqU',
+    'createtime' => '1498839732',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（玛茜红酒多酚亮肤睡眠面膜免洗亮肤180g收缩毛孔滋润补水保湿面膜），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kKKF64?cv=2zqIZzXxe59&sm=473bb7 ，或复制这条信息￥2zqIZzXxe59￥后打开👉手机淘宝👈',
+    'msgid' => '6437467631304885156',
+    'from' => 'oRy3isy7_xOvXGV8J5xpUGPCOdqU',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498839732',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 00:22:12 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isy7_xOvXGV8J5xpUGPCOdqU ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-07-01 05:00:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1498856445</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【桶装水压抽水器手压式纯净水桶饮水机矿泉水龙头大桶支架电动简易】，点击链接再选择浏览器打开http://c.b1yt.com/h.kqbJEs?cv=xkccZz2gTuH&sm=48c78e ，或复制这条信息￥xkccZz2gTuH￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437539413093305411</MsgId>
+</xml>
+
+2017-07-01 05:00:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1498856445',
+    'msgtype' => 'text',
+    'content' => '【桶装水压抽水器手压式纯净水桶饮水机矿泉水龙头大桶支架电动简易】，点击链接再选择浏览器打开http://c.b1yt.com/h.kqbJEs?cv=xkccZz2gTuH&sm=48c78e ，或复制这条信息￥xkccZz2gTuH￥后打开👉手机淘宝👈',
+    'msgid' => '6437539413093305411',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498856445',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 05:00:48 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：桶装水压抽水器手压式纯净水桶饮水机矿泉水龙头大桶支架电动简易 
+原价：8.1 
+优惠券：0  
+返现：1.84 
+优惠金额：1.84 
+优惠价：6.26 
+淘口令：￥0NSiZz2gft2￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 05:02:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is1DG2zFxkOGQpbSXfrlgHLY]]></FromUserName>
+<CreateTime>1498856558</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【创意礼物生日礼品送女友女朋友闺蜜女生老婆男生男友新奇特别实用】，点击链接再选择浏览器打开http://c.b1yt.com/h.kq1FNZ?cv=HHBhZz2gR6b&sm=25d48b ，或复制这条信息￥HHBhZz2gR6b￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437539898424609877</MsgId>
+</xml>
+
+2017-07-01 05:02:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'createtime' => '1498856558',
+    'msgtype' => 'text',
+    'content' => '【创意礼物生日礼品送女友女朋友闺蜜女生老婆男生男友新奇特别实用】，点击链接再选择浏览器打开http://c.b1yt.com/h.kq1FNZ?cv=HHBhZz2gR6b&sm=25d48b ，或复制这条信息￥HHBhZz2gR6b￥后打开👉手机淘宝👈',
+    'msgid' => '6437539898424609877',
+    'from' => 'oRy3is1DG2zFxkOGQpbSXfrlgHLY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498856558',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 05:02:40 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is1DG2zFxkOGQpbSXfrlgHLY ;
+MsgType : text ;
+Content : 昵称：心境如水 
+商品名称：创意礼物生日礼品送女友女朋友闺蜜女生老婆男生男友新奇特别实用 
+原价：9.5 
+优惠券：0  
+返现：1.63 
+优惠金额：1.63 
+优惠价：7.87 
+淘口令：￥8wqDZz2g8Mp￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 10:22:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1498875774</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-01 10:22:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1498875774',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498875774',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-01 10:22:52 response :
+------------
+Array:
+params : Array ;
+
+2017-07-01 12:07:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9PBObnkU9nZ6k4dVhUBAz8]]></FromUserName>
+<CreateTime>1498882029</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（包邮正版书籍王后雄小学二年级下册试卷北师大版2017同步练习册黄冈密卷2下寒假作业数学卷子单元期末冲刺100分测试题），快来和我一起瓜分红包】http://c.b1yt.com/h.ksnVc6?cv=knAYGdc1Sq&sm=e8e0ed 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥knAYGdc1Sq￥]]></Content>
+<MsgId>6437649295536621050</MsgId>
+</xml>
+
+2017-07-01 12:07:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9PBObnkU9nZ6k4dVhUBAz8',
+    'createtime' => '1498882029',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（包邮正版书籍王后雄小学二年级下册试卷北师大版2017同步练习册黄冈密卷2下寒假作业数学卷子单元期末冲刺100分测试题），快来和我一起瓜分红包】http://c.b1yt.com/h.ksnVc6?cv=knAYGdc1Sq&sm=e8e0ed 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥knAYGdc1Sq￥',
+    'msgid' => '6437649295536621050',
+    'from' => 'oRy3is9PBObnkU9nZ6k4dVhUBAz8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498882029',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:07:11 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is9PBObnkU9nZ6k4dVhUBAz8 ;
+MsgType : text ;
+Content : 昵称：守护天使 
+商品名称：包邮正版书籍王后雄小学二年级下册试卷北师大版2017同步练习册黄冈密卷2下寒假作业数学卷子单元期末冲刺100分测试题 
+原价：13.08 
+优惠券：0  
+返现：0.41 
+优惠金额：0.41 
+优惠价：12.67 
+淘口令：￥Pm92ZzesyIo￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 12:07:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9ykXBVrDcTW4JfOUKczdmg]]></FromUserName>
+<CreateTime>1498882034</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=records&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-01 12:07:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9ykXBVrDcTW4JfOUKczdmg',
+    'createtime' => '1498882034',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=records&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is9ykXBVrDcTW4JfOUKczdmg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498882034',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=records&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-01 12:07:13 response :
+------------
+Array:
+params : Array ;
+
+2017-07-01 12:10:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9ykXBVrDcTW4JfOUKczdmg]]></FromUserName>
+<CreateTime>1498882245</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-01 12:10:44 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9ykXBVrDcTW4JfOUKczdmg',
+    'createtime' => '1498882245',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is9ykXBVrDcTW4JfOUKczdmg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498882245',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-01 12:10:44 response :
+------------
+Array:
+params : Array ;
+
+2017-07-01 12:23:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9PBObnkU9nZ6k4dVhUBAz8]]></FromUserName>
+<CreateTime>1498883007</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【[拍下9.9]徽州皇菊 大菊花茶一杯一朵 花茶 茶叶特级婺源金丝散装】http://c.b1yt.com/h.ksulpc?cv=brUNGdccOw&sm=ebd72c 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥brUNGdccOw￥]]></Content>
+<MsgId>6437653496014637335</MsgId>
+</xml>
+
+2017-07-01 12:23:30 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9PBObnkU9nZ6k4dVhUBAz8',
+    'createtime' => '1498883007',
+    'msgtype' => 'text',
+    'content' => '【[拍下9.9]徽州皇菊 大菊花茶一杯一朵 花茶 茶叶特级婺源金丝散装】http://c.b1yt.com/h.ksulpc?cv=brUNGdccOw&sm=ebd72c 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥brUNGdccOw￥',
+    'msgid' => '6437653496014637335',
+    'from' => 'oRy3is9PBObnkU9nZ6k4dVhUBAz8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498883007',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:23:30 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is9PBObnkU9nZ6k4dVhUBAz8 ;
+MsgType : text ;
+Content : 昵称：守护天使 
+商品名称：[拍下9.9]徽州皇菊 大菊花茶一杯一朵 花茶 茶叶特级婺源金丝散装 
+原价：19.9 
+优惠券：0  
+返现：1.79 
+优惠金额：1.79 
+优惠价：18.11 
+淘口令：￥25NIZzeAOAX￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 12:49:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9PBObnkU9nZ6k4dVhUBAz8]]></FromUserName>
+<CreateTime>1498884542</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017新款韩版时尚平底凉鞋女夏平跟厚底学生女鞋百搭坡跟罗马凉鞋】http://c.b1yt.com/h.kHWdlX?cv=kVInGdcjc6&sm=cdc5a1 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥kVInGdcjc6￥]]></Content>
+<MsgId>6437660088789437971</MsgId>
+</xml>
+
+2017-07-01 12:49:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9PBObnkU9nZ6k4dVhUBAz8',
+    'createtime' => '1498884542',
+    'msgtype' => 'text',
+    'content' => '【2017新款韩版时尚平底凉鞋女夏平跟厚底学生女鞋百搭坡跟罗马凉鞋】http://c.b1yt.com/h.kHWdlX?cv=kVInGdcjc6&sm=cdc5a1 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥kVInGdcjc6￥',
+    'msgid' => '6437660088789437971',
+    'from' => 'oRy3is9PBObnkU9nZ6k4dVhUBAz8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498884542',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 12:49:04 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is9PBObnkU9nZ6k4dVhUBAz8 ;
+MsgType : text ;
+Content : 昵称：守护天使 
+商品名称：2017新款韩版时尚平底凉鞋女夏平跟厚底学生女鞋百搭坡跟罗马凉鞋 
+原价：45 
+优惠券：0  
+返现：1.12 
+优惠金额：1.12 
+优惠价：43.88 
+淘口令：￥MhwAZzV6px0￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 16:15:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5haoKHm0ROe_dofpxcxn7U]]></FromUserName>
+<CreateTime>1498896922</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-01 16:15:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5haoKHm0ROe_dofpxcxn7U',
+    'createtime' => '1498896922',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is5haoKHm0ROe_dofpxcxn7U',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498896922',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-01 16:15:21 response :
+------------
+Array:
+params : Array ;
+
+2017-07-01 17:52:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1498902760</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（本博足浴盆全自动按摩 洗脚盆足浴器 泡脚机电动加热足疗家用深桶），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kvvKs9?cv=1Qf6ZzgBdYu&sm=aafe2d ，或复制这条信息￥1Qf6ZzgBdYu￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437738334503652060</MsgId>
+</xml>
+
+2017-07-01 17:52:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1498902760',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（本博足浴盆全自动按摩 洗脚盆足浴器 泡脚机电动加热足疗家用深桶），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kvvKs9?cv=1Qf6ZzgBdYu&sm=aafe2d ，或复制这条信息￥1Qf6ZzgBdYu￥后打开👉手机淘宝👈',
+    'msgid' => '6437738334503652060',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498902760',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 17:52:42 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is41t_L5gHOaKP9arT_jddGc ;
+MsgType : text ;
+Content : 昵称：蝴蝶菲菲＆13997646590＆ 
+商品名称：本博足浴盆全自动按摩 洗脚盆足浴器 泡脚机电动加热足疗家用深桶 
+原价：199 
+优惠券：0  
+返现：1.61 
+优惠金额：1.61 
+优惠价：197.39 
+淘口令：￥HTFDZzgBkBL￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 18:04:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isybhxWBh6LkjncsgR532bXQ]]></FromUserName>
+<CreateTime>1498903454</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-01 20:00:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1498910413</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（Camel/骆驼男凉鞋夏季运动休闲户外鞋男沙滩鞋魔术贴牛皮包头凉鞋），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kwEyBI?cv=faMvZz6Cm5s&sm=eea403 ，或复制这条信息￥faMvZz6Cm5s￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437771203888373882</MsgId>
+</xml>
+
+2017-07-01 20:00:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1498910413</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（Camel/骆驼男凉鞋夏季运动休闲户外鞋男沙滩鞋魔术贴牛皮包头凉鞋），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kwEyBI?cv=faMvZz6Cm5s&sm=eea403 ，或复制这条信息￥faMvZz6Cm5s￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437771203888373882</MsgId>
+</xml>
+
+2017-07-01 20:00:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1498910413',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（Camel/骆驼男凉鞋夏季运动休闲户外鞋男沙滩鞋魔术贴牛皮包头凉鞋），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kwEyBI?cv=faMvZz6Cm5s&sm=eea403 ，或复制这条信息￥faMvZz6Cm5s￥后打开👉手机淘宝👈',
+    'msgid' => '6437771203888373882',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498910413',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 20:00:17 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is41t_L5gHOaKP9arT_jddGc ;
+MsgType : text ;
+Content : 昵称：蝴蝶菲菲＆13997646590＆ 
+商品名称：Camel/骆驼男凉鞋夏季运动休闲户外鞋男沙滩鞋魔术贴牛皮包头凉鞋 
+原价：279 
+优惠券：0  
+返现：18.83 
+优惠金额：18.83 
+优惠价：260.17 
+淘口令：￥IpIeZz6CDuC￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 20:00:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1498910413',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（Camel/骆驼男凉鞋夏季运动休闲户外鞋男沙滩鞋魔术贴牛皮包头凉鞋），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1yt.com/h.kwEyBI?cv=faMvZz6Cm5s&sm=eea403 ，或复制这条信息￥faMvZz6Cm5s￥后打开👉手机淘宝👈',
+    'msgid' => '6437771203888373882',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498910413',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 20:00:20 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is41t_L5gHOaKP9arT_jddGc ;
+MsgType : text ;
+Content : 昵称：蝴蝶菲菲＆13997646590＆ 
+商品名称：Camel/骆驼男凉鞋夏季运动休闲户外鞋男沙滩鞋魔术贴牛皮包头凉鞋 
+原价：279 
+优惠券：0  
+返现：18.83 
+优惠金额：18.83 
+优惠价：260.17 
+淘口令：￥mNzSZz6CCI4￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 20:19:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1498911567</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017夏季新款鞋子男休闲鞋潮流豆豆鞋男韩版透气懒人鞋英伦皮鞋春】，点击链接再选择浏览器打开http://c.b1yt.com/h.kDeHS3?cv=AW4bZzhUWRt&sm=8c2af8 ，或复制这条信息￥AW4bZzhUWRt￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437776160280634208</MsgId>
+</xml>
+
+2017-07-01 20:19:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1498911567',
+    'msgtype' => 'text',
+    'content' => '【2017夏季新款鞋子男休闲鞋潮流豆豆鞋男韩版透气懒人鞋英伦皮鞋春】，点击链接再选择浏览器打开http://c.b1yt.com/h.kDeHS3?cv=AW4bZzhUWRt&sm=8c2af8 ，或复制这条信息￥AW4bZzhUWRt￥后打开👉手机淘宝👈',
+    'msgid' => '6437776160280634208',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498911567',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 20:19:29 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is41t_L5gHOaKP9arT_jddGc ;
+MsgType : text ;
+Content : 昵称：蝴蝶菲菲＆13997646590＆ 
+商品名称：2017夏季新款鞋子男休闲鞋潮流豆豆鞋男韩版透气懒人鞋英伦皮鞋春 
+原价：58 
+优惠券：0  
+返现：1.96 
+优惠金额：1.96 
+优惠价：56.04 
+淘口令：￥qNM4ZzhUO0h￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 20:58:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5hXt8AkRMeSw62gjmrW1oE]]></FromUserName>
+<CreateTime>1498913911</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【女婴儿连体衣服0岁3个月1满月宝宝6新生儿薄款哈衣夏季春秋装睡衣】，点击链接再选择浏览器打开http://c.b1yt.com/h.kDDUug?cv=z6SZZzhyn91&sm=808c76 ，或复制这条信息￥z6SZZzhyn91￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437786227683977491</MsgId>
+</xml>
+
+2017-07-01 20:58:34 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'createtime' => '1498913911',
+    'msgtype' => 'text',
+    'content' => '【女婴儿连体衣服0岁3个月1满月宝宝6新生儿薄款哈衣夏季春秋装睡衣】，点击链接再选择浏览器打开http://c.b1yt.com/h.kDDUug?cv=z6SZZzhyn91&sm=808c76 ，或复制这条信息￥z6SZZzhyn91￥后打开👉手机淘宝👈',
+    'msgid' => '6437786227683977491',
+    'from' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498913911',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 20:58:34 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5hXt8AkRMeSw62gjmrW1oE ;
+MsgType : text ;
+Content : 昵称：娃娃 
+商品名称：女婴儿连体衣服0岁3个月1满月宝宝6新生儿薄款哈衣夏季春秋装睡衣 
+原价：29 
+优惠券：0  
+返现：0.39 
+优惠金额：0.39 
+优惠价：28.61 
+淘口令：￥JmZRZzhBItq￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 21:03:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5hXt8AkRMeSw62gjmrW1oE]]></FromUserName>
+<CreateTime>1498914186</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【宝宝衣服男新生儿哈衣0-3个月纯棉夏季女婴儿连体衣长袖春秋爬服】，点击链接再选择浏览器打开http://c.b1yt.com/h.kDzxA9?cv=Jg7eZzS0qkM&sm=1a7100 ，或复制这条信息￥Jg7eZzS0qkM￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6437787408799984089</MsgId>
+</xml>
+
+2017-07-01 21:03:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'createtime' => '1498914186',
+    'msgtype' => 'text',
+    'content' => '【宝宝衣服男新生儿哈衣0-3个月纯棉夏季女婴儿连体衣长袖春秋爬服】，点击链接再选择浏览器打开http://c.b1yt.com/h.kDzxA9?cv=Jg7eZzS0qkM&sm=1a7100 ，或复制这条信息￥Jg7eZzS0qkM￥后打开👉手机淘宝👈',
+    'msgid' => '6437787408799984089',
+    'from' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498914186',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-01 21:03:07 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5hXt8AkRMeSw62gjmrW1oE ;
+MsgType : text ;
+Content : 昵称：娃娃 
+商品名称：宝宝衣服男新生儿哈衣0-3个月纯棉夏季女婴儿连体衣长袖春秋爬服 
+原价：35 
+优惠券：0  
+返现：0.00 
+优惠金额：0 
+优惠价：35 
+淘口令：￥G4vjZzS0trx￥           复制此条消息，打开淘宝。 ;
+
+2017-07-01 22:43:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1498920217</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-01 22:43:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1498920217',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1498920217',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-01 22:43:36 response :
+------------
+Array:
+params : Array ;
+

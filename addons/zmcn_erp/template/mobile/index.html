@@ -1,0 +1,86 @@
+{template '_header'}
+<style>
+.weui-tab_bd .weui-tab_bd_item.weui-tab_bd_item_active {display: block;}
+.swiper-container {width: 100%;}
+.swiper-container img {display: block;width: 100%;}
+</style>
+<link rel="stylesheet" href="{MODULE_URL}template/mobile/css/example.css"/>
+<div class="page">
+	{if count($settings['css']['indeximg'])>0}
+    <div class="swiper-container" data-space-between='10' data-pagination='.swiper-pagination' data-autoplay="1000">
+      <div class="swiper-wrapper">
+		{loop $settings['css']['indeximg'] $cla}
+        {if $cla}<div class="swiper-slide"><img src="{php echo tomedia($cla);}" /></div>{/if}
+		{/loop}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+	{/if}
+    <div class="weui-grids">
+      <a href="{php echo url('entry',array('do' => 'myedit','m' => 'zmcn_cer','openid' => $openid,'fid' => $_GPC['fid']));}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-avatar2 f36 f-green"></span><br>我的资料
+        </p>
+      </a>
+      <a href="{php echo url('entry',array('do' => 'mycer','m' => 'zmcn_cer','openid' => $openid,'fid' => $_GPC['fid']));}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-practice f36 f-blue"></span><br>我的证书
+        </p>
+      </a>
+      <a href="{php echo url('entry',array('do' => 'myteam','m' => 'zmcn_cer','openid' => $openid,'fid' => $_GPC['fid']));}" class="weui-grid">
+        <p class="weui-grid__label" style="position: relative;">
+		{if $myteamnew}<span class="weui-badge" style="position: absolute;top:0px;right:15px;">{$myteamnew}</span>{/if}
+          <span class="zmui-icon zmui-icon-usergroup2 f36 f-zi"></span><br>我的团队
+        </p>
+      </a>
+      <a href="{php echo url('entry',array('do' => 'myprice','m' => 'zmcn_cer','openid' => $openid,'fid' => $_GPC['fid']));}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-jiangjia f36 f-orange"></span><br>我的价格
+        </p>
+      </a>
+      <a href="{php echo $this->createMobileUrl('cart', array('openid' => $openid,'fid' => $_GPC['fid']))}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-cart-kong f36 f-zi"></span><br>我要进货
+        </p>
+      </a>
+      <a href="{php echo $this->createMobileUrl('myoutorder', array('openid' => $openid,'fid' => $_GPC['fid']))}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-chuku f36 f-red"></span><br>我要发货
+        </p>
+      </a>
+      <a href="{php echo $this->createMobileUrl('cart', array('op' => 'zj','openid' => $openid,'fid' => $_GPC['fid']))}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-add2 f36 f-orange"></span><br>我要开单
+        </p>
+      </a>
+      <a href="{php echo url('entry',array('do' => 'index','m' => 'zmcn_cer','openid' => $openid,'fid' => $_GPC['fid']));}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-search f36 f-zi"></span><br>授权查询
+        </p>
+      </a>
+      <a href="{php echo url('entry',array('do' => 'qr','m' => 'zmcn_cer','openid' => $openid,'fid' => $_GPC['fid']));}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-user-add f36 f-green"></span><br>邀请代理
+        </p>
+      </a>
+      <a href="{php echo $this->createMobileUrl('sql', array('openid' => $openid,'fid' => $_GPC['fid']))}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-tongji f36 f-blue"></span><br>数据报表
+        </p>
+      </a>
+      <a href="{php echo url('entry',array('do' => 'site','m' => 'zmcn_order','openid' => $openid,'fid' => $_GPC['fid']));}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-xianshiqi f36 f-orange"></span><br>厂家主页
+        </p>
+      </a>
+      <a href="{$settings['sys']['help']}" class="weui-grid">
+        <p class="weui-grid__label">
+          <span class="zmui-icon zmui-icon-help f36 f-indigo"></span><br>系统帮助
+        </p>
+      </a>
+    </div>
+	<footer>powered by {$_W['uniaccount']['name']}</footer>
+</div>
+{template '_footer'}
+<script type='text/javascript' src='{MODULE_URL}template/mobile/zmuijs/swiper.min.js' charset='utf-8'></script>
+{if count($settings['css']['indeximg'])>1}<script>$(".swiper-container").swiper({loop: true,autoplay: 3000});</script>{/if}

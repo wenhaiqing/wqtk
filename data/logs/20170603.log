@@ -1,0 +1,4946 @@
+2017-06-03 00:07:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1496419640</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 00:07:19 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1496419640',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496419640',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 00:07:19 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 00:12:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isz0uK7e3_Wkb1x6WFd5faAg]]></FromUserName>
+<CreateTime>1496419924</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 00:12:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isz0uK7e3_Wkb1x6WFd5faAg',
+    'createtime' => '1496419924',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3isz0uK7e3_Wkb1x6WFd5faAg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496419924',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 00:12:03 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 00:12:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isz0uK7e3_Wkb1x6WFd5faAg]]></FromUserName>
+<CreateTime>1496419952</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 00:12:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isz0uK7e3_Wkb1x6WFd5faAg',
+    'createtime' => '1496419952',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3isz0uK7e3_Wkb1x6WFd5faAg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496419952',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 00:12:31 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 06:19:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1496441953</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 06:19:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1496441953',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496441953',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 06:19:12 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 06:32:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4IV8drDJ4C-a0VdSf1i8eI]]></FromUserName>
+<CreateTime>1496442776</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 07:09:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9c4geScWl7dyvAbRgeIS24]]></FromUserName>
+<CreateTime>1496444989</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 07:33:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is00G9tlwvV9hN5sXvfXHE5s]]></FromUserName>
+<CreateTime>1496446434</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【op女太阳伞迷你防晒防紫外线超轻小五折胶囊遮阳伞小黑晴雨两用伞】，点击链接再选择浏览器打开http://c.b1wv.com/h.7uJ5Vw?cv=OOnYZE7Icd3&sm=92def8 ，或复制这条信息￥OOnYZE7Icd3￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427188494664047984</MsgId>
+</xml>
+
+2017-06-03 07:33:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is00G9tlwvV9hN5sXvfXHE5s',
+    'createtime' => '1496446434',
+    'msgtype' => 'text',
+    'content' => '【op女太阳伞迷你防晒防紫外线超轻小五折胶囊遮阳伞小黑晴雨两用伞】，点击链接再选择浏览器打开http://c.b1wv.com/h.7uJ5Vw?cv=OOnYZE7Icd3&sm=92def8 ，或复制这条信息￥OOnYZE7Icd3￥后打开👉手机淘宝👈',
+    'msgid' => '6427188494664047984',
+    'from' => 'oRy3is00G9tlwvV9hN5sXvfXHE5s',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496446434',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 07:33:55 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is00G9tlwvV9hN5sXvfXHE5s ;
+MsgType : text ;
+Content : 昵称：燕兰熹绿色洗护 
+商品名称：op女太阳伞迷你防晒防紫外线超轻小五折胶囊遮阳伞小黑晴雨两用伞 
+原价：119 
+优惠券：0  
+返现：10.98 
+优惠金额：10.98 
+优惠价：108.02 
+淘口令：￥qcarZE7sZ2I￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 09:12:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-8ZZSHPlY0wH-6WnhZgfX0]]></FromUserName>
+<CreateTime>1496452338</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 09:12:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is-8ZZSHPlY0wH-6WnhZgfX0',
+    'createtime' => '1496452338',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is-8ZZSHPlY0wH-6WnhZgfX0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496452338',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 09:12:17 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 09:18:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7hx-3vRmZuNzmiEliVu67o]]></FromUserName>
+<CreateTime>1496452685</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【蚊帐三开门坐床拉链式1.2m公主风1.5m1.8m米床蒙古包蚊帐双人家用】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FNOVI?cv=voN3ZEiMfjX&sm=65191e ，或复制这条信息￥voN3ZEiMfjX￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427215342504617766</MsgId>
+</xml>
+
+2017-06-03 09:18:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'createtime' => '1496452685',
+    'msgtype' => 'text',
+    'content' => '【蚊帐三开门坐床拉链式1.2m公主风1.5m1.8m米床蒙古包蚊帐双人家用】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FNOVI?cv=voN3ZEiMfjX&sm=65191e ，或复制这条信息￥voN3ZEiMfjX￥后打开👉手机淘宝👈',
+    'msgid' => '6427215342504617766',
+    'from' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496452685',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 09:18:06 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is7hx-3vRmZuNzmiEliVu67o ;
+MsgType : text ;
+Content : 昵称：麻花妹你好 
+你要找【蚊帐三开门坐床拉链式1.2m公主风1.5m1.8m米床蒙古包蚊帐双人家用】吗？ 
+点击查看更多相关内容：http://w.url.cn/s/AMy006Y ;
+
+2017-06-03 09:20:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7hx-3vRmZuNzmiEliVu67o]]></FromUserName>
+<CreateTime>1496452807</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 09:20:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'createtime' => '1496452807',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496452807',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 09:20:06 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 09:21:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7hx-3vRmZuNzmiEliVu67o]]></FromUserName>
+<CreateTime>1496452890</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 09:21:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'createtime' => '1496452890',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496452890',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 09:21:29 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 09:21:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7hx-3vRmZuNzmiEliVu67o]]></FromUserName>
+<CreateTime>1496452900</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://i.eqxiu.com/s/H8eS5oEM]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 09:21:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'createtime' => '1496452900',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'menuid' => '416162317',
+    'from' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496452900',
+    'type' => 'text',
+    'content' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 09:21:39 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 09:22:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7hx-3vRmZuNzmiEliVu67o]]></FromUserName>
+<CreateTime>1496452947</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【Sukii SR/套装女2017夏新款压褶雪纺拼接短袖上衣宽松短裤 可单买】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FLh2I?cv=57qMZEiKGqZ&sm=30346b ，或复制这条信息￥57qMZEiKGqZ￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427216467786049469</MsgId>
+</xml>
+
+2017-06-03 09:22:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'createtime' => '1496452947',
+    'msgtype' => 'text',
+    'content' => '【Sukii SR/套装女2017夏新款压褶雪纺拼接短袖上衣宽松短裤 可单买】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FLh2I?cv=57qMZEiKGqZ&sm=30346b ，或复制这条信息￥57qMZEiKGqZ￥后打开👉手机淘宝👈',
+    'msgid' => '6427216467786049469',
+    'from' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496452947',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 09:22:28 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is7hx-3vRmZuNzmiEliVu67o ;
+MsgType : text ;
+Content : 昵称：麻花妹你好 
+你要找【Sukii SR/套装女2017夏新款压褶雪纺拼接短袖上衣宽松短裤 可单买】吗？ 
+点击查看更多相关内容：http://w.url.cn/s/ARDSmS7 ;
+
+2017-06-03 09:28:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is3AUSgVCgQDLAMfD_bBM81s]]></FromUserName>
+<CreateTime>1496453307</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【山东地瓜干 地瓜片 红薯干 片农家自然晾晒 软硬可选番薯五件包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FH5VC?cv=u7TgZEitadb&sm=74acda ，或复制这条信息￥u7TgZEitadb￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427218013974276210</MsgId>
+</xml>
+
+2017-06-03 09:28:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is3AUSgVCgQDLAMfD_bBM81s',
+    'createtime' => '1496453307',
+    'msgtype' => 'text',
+    'content' => '【山东地瓜干 地瓜片 红薯干 片农家自然晾晒 软硬可选番薯五件包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FH5VC?cv=u7TgZEitadb&sm=74acda ，或复制这条信息￥u7TgZEitadb￥后打开👉手机淘宝👈',
+    'msgid' => '6427218013974276210',
+    'from' => 'oRy3is3AUSgVCgQDLAMfD_bBM81s',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496453307',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 09:28:26 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is3AUSgVCgQDLAMfD_bBM81s ;
+MsgType : text ;
+Content : 昵称：仙贝er你好 
+你要找【山东地瓜干 地瓜片 红薯干 片农家自然晾晒 软硬可选番薯五件包邮】吗？ 
+点击查看更多相关内容：http://w.url.cn/s/AQzZV8g ;
+
+2017-06-03 09:31:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is3AUSgVCgQDLAMfD_bBM81s]]></FromUserName>
+<CreateTime>1496453478</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【茉莉花茶干花广西横县 浓香散装新鲜茉莉花苞茶孕妇罐装包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FujlO?cv=jLc3ZEiF0YK&sm=854f97 ，或复制这条信息￥jLc3ZEiF0YK￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427218748413683967</MsgId>
+</xml>
+
+2017-06-03 09:31:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is3AUSgVCgQDLAMfD_bBM81s',
+    'createtime' => '1496453478',
+    'msgtype' => 'text',
+    'content' => '【茉莉花茶干花广西横县 浓香散装新鲜茉莉花苞茶孕妇罐装包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FujlO?cv=jLc3ZEiF0YK&sm=854f97 ，或复制这条信息￥jLc3ZEiF0YK￥后打开👉手机淘宝👈',
+    'msgid' => '6427218748413683967',
+    'from' => 'oRy3is3AUSgVCgQDLAMfD_bBM81s',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496453478',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 09:31:18 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is3AUSgVCgQDLAMfD_bBM81s ;
+MsgType : text ;
+Content : 昵称：仙贝er你好 
+你要找【茉莉花茶干花广西横县 浓香散装新鲜茉莉花苞茶孕妇罐装包邮】吗？ 
+点击查看更多相关内容：http://w.url.cn/s/Ae9nwrr ;
+
+2017-06-03 09:32:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is3AUSgVCgQDLAMfD_bBM81s]]></FromUserName>
+<CreateTime>1496453540</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【雨森加长款卫生卷纸原生木浆2000克装母婴专用正品保证2提包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FubMG?cv=ZfAoZEivYLh&sm=9c24c1 ，或复制这条信息￥ZfAoZEivYLh￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427219014701656363</MsgId>
+</xml>
+
+2017-06-03 09:32:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is3AUSgVCgQDLAMfD_bBM81s',
+    'createtime' => '1496453540',
+    'msgtype' => 'text',
+    'content' => '【雨森加长款卫生卷纸原生木浆2000克装母婴专用正品保证2提包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7FubMG?cv=ZfAoZEivYLh&sm=9c24c1 ，或复制这条信息￥ZfAoZEivYLh￥后打开👉手机淘宝👈',
+    'msgid' => '6427219014701656363',
+    'from' => 'oRy3is3AUSgVCgQDLAMfD_bBM81s',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496453540',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 09:32:20 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is3AUSgVCgQDLAMfD_bBM81s ;
+MsgType : text ;
+Content : 昵称：仙贝er你好 
+你要找【】吗？ 
+点击查看更多相关内容：http://w.url.cn/s/A445tS7 ;
+
+2017-06-03 09:47:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_ww_Vqlhb4HEmSNn112-Ik]]></FromUserName>
+<CreateTime>1496454464</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（卓禾 大学生宿舍神器上铺床上电脑桌笔记本懒人桌寝室学习小桌子），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1wv.com/h.7vYWGg?cv=mBhDZERckqk&sm=898562 ，或复制这条信息￥mBhDZERckqk￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427222983251438541</MsgId>
+</xml>
+
+2017-06-03 09:47:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_ww_Vqlhb4HEmSNn112-Ik',
+    'createtime' => '1496454464',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（卓禾 大学生宿舍神器上铺床上电脑桌笔记本懒人桌寝室学习小桌子），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1wv.com/h.7vYWGg?cv=mBhDZERckqk&sm=898562 ，或复制这条信息￥mBhDZERckqk￥后打开👉手机淘宝👈',
+    'msgid' => '6427222983251438541',
+    'from' => 'oRy3is_ww_Vqlhb4HEmSNn112-Ik',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496454464',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 09:47:46 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_ww_Vqlhb4HEmSNn112-Ik ;
+MsgType : text ;
+Content : 昵称：暖栀 
+商品名称：卓禾 大学生宿舍神器上铺床上电脑桌笔记本懒人桌寝室学习小桌子 
+原价：28 
+优惠券：0  
+返现：0.32 
+优惠金额：0.32 
+优惠价：27.68 
+淘口令：￥JaILZERczc4￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 10:24:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswq1s9JGETy9b-YanUKcXWI]]></FromUserName>
+<CreateTime>1496456693</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 10:24:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswq1s9JGETy9b-YanUKcXWI',
+    'createtime' => '1496456693',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iswq1s9JGETy9b-YanUKcXWI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496456693',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 10:24:52 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 10:25:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswq1s9JGETy9b-YanUKcXWI]]></FromUserName>
+<CreateTime>1496456710</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[tiger_taoke1118]]></EventKey>
+<Ticket><![CDATA[gQG-8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyQUZENzRYN0pieVAxMDAwMHcwN0YAAgR2GzFZAwQAAAAA]]></Ticket>
+</xml>
+
+2017-06-03 10:25:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswq1s9JGETy9b-YanUKcXWI',
+    'createtime' => '1496456710',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'tiger_taoke1118',
+    'ticket' => 'gQG-8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyQUZENzRYN0pieVAxMDAwMHcwN0YAAgR2GzFZAwQAAAAA',
+    'from' => 'oRy3iswq1s9JGETy9b-YanUKcXWI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496456710',
+    'type' => 'text',
+    'scene' => 'tiger_taoke1118',
+    'redirection' => true,
+    'source' => 'qr',
+    'content' => '邀人',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 10:25:09 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 10:25:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswq1s9JGETy9b-YanUKcXWI]]></FromUserName>
+<CreateTime>1496456711</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[tiger_taoke1118]]></EventKey>
+<Ticket><![CDATA[gQG-8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyQUZENzRYN0pieVAxMDAwMHcwN0YAAgR2GzFZAwQAAAAA]]></Ticket>
+</xml>
+
+2017-06-03 10:25:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswq1s9JGETy9b-YanUKcXWI',
+    'createtime' => '1496456711',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'tiger_taoke1118',
+    'ticket' => 'gQG-8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyQUZENzRYN0pieVAxMDAwMHcwN0YAAgR2GzFZAwQAAAAA',
+    'from' => 'oRy3iswq1s9JGETy9b-YanUKcXWI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496456711',
+    'type' => 'text',
+    'scene' => 'tiger_taoke1118',
+    'redirection' => true,
+    'source' => 'qr',
+    'content' => '邀人',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 10:25:10 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 10:55:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is0HSpNu_LBYICikhT5KVun8]]></FromUserName>
+<CreateTime>1496458523</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 10:55:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'createtime' => '1496458523',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is0HSpNu_LBYICikhT5KVun8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496458523',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 10:55:22 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 11:47:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is6ONRfNj62jGL6f2c0sVdbY]]></FromUserName>
+<CreateTime>1496461660</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【新小龟王电动车电摩48V60V72V电瓶车成人男女踏板助力摩托自行车】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wTBG9?cv=shQrZEjggZS&sm=126553 ，或复制这条信息￥shQrZEjggZS￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427253889836107000</MsgId>
+</xml>
+
+2017-06-03 11:47:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is6ONRfNj62jGL6f2c0sVdbY',
+    'createtime' => '1496461660',
+    'msgtype' => 'text',
+    'content' => '【新小龟王电动车电摩48V60V72V电瓶车成人男女踏板助力摩托自行车】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wTBG9?cv=shQrZEjggZS&sm=126553 ，或复制这条信息￥shQrZEjggZS￥后打开👉手机淘宝👈',
+    'msgid' => '6427253889836107000',
+    'from' => 'oRy3is6ONRfNj62jGL6f2c0sVdbY',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496461660',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 11:47:43 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is6ONRfNj62jGL6f2c0sVdbY ;
+MsgType : text ;
+Content : 昵称：无峰 
+商品名称：新小龟王电动车电摩48V60V72V电瓶车成人男女踏板助力摩托自行车 
+原价：2250 
+优惠券：0  
+返现：30.48 
+优惠金额：30.48 
+优惠价：2219.52 
+淘口令：￥dnXNZEjgEjy￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 11:54:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5XljlxjQY-TVWLlletPN-c]]></FromUserName>
+<CreateTime>1496462070</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 11:57:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-q8usMqBBrVHI0Ldso8p6E]]></FromUserName>
+<CreateTime>1496462275</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 11:57:54 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is-q8usMqBBrVHI0Ldso8p6E',
+    'createtime' => '1496462275',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is-q8usMqBBrVHI0Ldso8p6E',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496462275',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 11:57:54 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 12:06:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-q8usMqBBrVHI0Ldso8p6E]]></FromUserName>
+<CreateTime>1496462810</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（太阳伞雨伞折叠韩国小清新遮阳伞防紫外线女晴雨两用小黑伞男简约），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wpstU?cv=J3v4ZEjorKs&sm=e3550b ，或复制这条信息￥J3v4ZEjorKs￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427258829048499012</MsgId>
+</xml>
+
+2017-06-03 12:06:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is-q8usMqBBrVHI0Ldso8p6E',
+    'createtime' => '1496462810',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（太阳伞雨伞折叠韩国小清新遮阳伞防紫外线女晴雨两用小黑伞男简约），快来和我一起瓜分红包】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wpstU?cv=J3v4ZEjorKs&sm=e3550b ，或复制这条信息￥J3v4ZEjorKs￥后打开👉手机淘宝👈',
+    'msgid' => '6427258829048499012',
+    'from' => 'oRy3is-q8usMqBBrVHI0Ldso8p6E',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496462810',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:06:51 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is-q8usMqBBrVHI0Ldso8p6E ;
+MsgType : text ;
+Content : 昵称：zy 
+商品名称：太阳伞雨伞折叠韩国小清新遮阳伞防紫外线女晴雨两用小黑伞男简约 
+原价：21.98 
+优惠券：0  
+返现：3.02 
+优惠金额：3.02 
+优惠价：18.96 
+淘口令：￥bXd1ZEjotNE￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 12:11:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496463088</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【创意可爱苹果专用数据线保护套iphone5/5S/6/Plus数据线保护线套】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wJbNl?cv=WzJ8ZEjqGy7&sm=a176bc ，或复制这条信息￥WzJ8ZEjqGy7￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427260023049407534</MsgId>
+</xml>
+
+2017-06-03 12:11:30 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496463088',
+    'msgtype' => 'text',
+    'content' => '【创意可爱苹果专用数据线保护套iphone5/5S/6/Plus数据线保护线套】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wJbNl?cv=WzJ8ZEjqGy7&sm=a176bc ，或复制这条信息￥WzJ8ZEjqGy7￥后打开👉手机淘宝👈',
+    'msgid' => '6427260023049407534',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496463088',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:11:30 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：创意可爱苹果专用数据线保护套iphone5/5S/6/Plus数据线保护线套 
+原价：1.8 
+优惠券：0  
+返现：0.06 
+优惠金额：0.06 
+优惠价：1.74 
+淘口令：￥dlroZEjJWE1￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 12:12:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496463140</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【夏季新款时尚休闲碎花短裤一字肩荷叶袖V领系带雪纺流苏连体裤潮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wr7Uv?cv=ORTQZEjJGDs&sm=0f2b16 ，或复制这条信息￥ORTQZEjJGDs￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427260246387706983</MsgId>
+</xml>
+
+2017-06-03 12:12:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496463140',
+    'msgtype' => 'text',
+    'content' => '【夏季新款时尚休闲碎花短裤一字肩荷叶袖V领系带雪纺流苏连体裤潮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wr7Uv?cv=ORTQZEjJGDs&sm=0f2b16 ，或复制这条信息￥ORTQZEjJGDs￥后打开👉手机淘宝👈',
+    'msgid' => '6427260246387706983',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496463140',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:12:22 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：夏季新款时尚休闲碎花短裤一字肩荷叶袖V领系带雪纺流苏连体裤潮 
+原价：79 
+优惠券：30  
+返现：5.63 
+优惠金额：35.63 
+优惠价：43.37 
+淘口令：￥AbhtZEjraUa￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 12:15:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496463308</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ 【肉完ROUWANBABY春天气息少女风 拼接领口碎花/火烈鸟连衣裙170207】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wtT1r?cv=bAzTZEjshXx&sm=487674 ，或复制这条信息￥bAzTZEjshXx￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427260967942212839</MsgId>
+</xml>
+
+2017-06-03 12:15:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496463308',
+    'msgtype' => 'text',
+    'content' => ' 【肉完ROUWANBABY春天气息少女风 拼接领口碎花/火烈鸟连衣裙170207】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wtT1r?cv=bAzTZEjshXx&sm=487674 ，或复制这条信息￥bAzTZEjshXx￥后打开👉手机淘宝👈',
+    'msgid' => '6427260967942212839',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496463308',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:15:09 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：肉完ROUWANBABY春天气息少女风 拼接领口碎花/火烈鸟连衣裙170207 
+原价：89 
+优惠券：0  
+返现：2.00 
+优惠金额：2 
+优惠价：87 
+淘口令：￥MNhpZEjs94c￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 12:17:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496463434</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【kumayes 夏装新款撞色交叉V领短袖高腰休闲连衣裤短裤韩版连体裤】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wtjJh?cv=A11jZEjHvJK&sm=8c5f9f ，或复制这条信息￥A11jZEjHvJK￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427261509108092245</MsgId>
+</xml>
+
+2017-06-03 12:17:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496463434',
+    'msgtype' => 'text',
+    'content' => '【kumayes 夏装新款撞色交叉V领短袖高腰休闲连衣裤短裤韩版连体裤】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wtjJh?cv=A11jZEjHvJK&sm=8c5f9f ，或复制这条信息￥A11jZEjHvJK￥后打开👉手机淘宝👈',
+    'msgid' => '6427261509108092245',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496463434',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:17:14 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : Hi,Zzhang
+该商品暂无优惠,请查看其他商品 ;
+
+2017-06-03 12:18:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496463494</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017新款韩版高腰显瘦连体阔腿裤女夏时尚百搭撞色绑带松紧背带裤】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wGzlS?cv=Jj5cZEjG0YD&sm=43279f ，或复制这条信息￥Jj5cZEjG0YD￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427261766806130063</MsgId>
+</xml>
+
+2017-06-03 12:18:15 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496463494',
+    'msgtype' => 'text',
+    'content' => '【2017新款韩版高腰显瘦连体阔腿裤女夏时尚百搭撞色绑带松紧背带裤】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wGzlS?cv=Jj5cZEjG0YD&sm=43279f ，或复制这条信息￥Jj5cZEjG0YD￥后打开👉手机淘宝👈',
+    'msgid' => '6427261766806130063',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496463494',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:18:15 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017新款韩版高腰显瘦连体阔腿裤女夏时尚百搭撞色绑带松紧背带裤 
+原价：122.4 
+优惠券：0  
+返现：8.26 
+优惠金额：8.26 
+优惠价：114.14 
+淘口令：￥j38YZEjG4d2￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 12:19:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496463542</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017春夏新款女港味雪纺连体裤休闲黑色高腰chic阔腿裤连衣短裤子】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wFUsX?cv=rcTbZEjGtUq&sm=9a632d ，或复制这条信息￥rcTbZEjGtUq￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427261972964560307</MsgId>
+</xml>
+
+2017-06-03 12:19:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496463542',
+    'msgtype' => 'text',
+    'content' => '【2017春夏新款女港味雪纺连体裤休闲黑色高腰chic阔腿裤连衣短裤子】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wFUsX?cv=rcTbZEjGtUq&sm=9a632d ，或复制这条信息￥rcTbZEjGtUq￥后打开👉手机淘宝👈',
+    'msgid' => '6427261972964560307',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496463542',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:19:04 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017春夏新款女港味雪纺连体裤休闲黑色高腰chic阔腿裤连衣短裤子 
+原价：119 
+优惠券：0  
+返现：10.76 
+优惠金额：10.76 
+优惠价：108.24 
+淘口令：￥2xFlZEjGDSQ￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 12:21:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496463675</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【kumayes 夏装新款撞色交叉V领短袖高腰休闲连衣裤短裤韩版连体裤】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wEJRX?cv=PQoUZEjFJ3P&sm=7c0726 ，或复制这条信息￥PQoUZEjFJ3P￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427262544195210786</MsgId>
+</xml>
+
+2017-06-03 12:21:15 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496463675',
+    'msgtype' => 'text',
+    'content' => '【kumayes 夏装新款撞色交叉V领短袖高腰休闲连衣裤短裤韩版连体裤】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wEJRX?cv=PQoUZEjFJ3P&sm=7c0726 ，或复制这条信息￥PQoUZEjFJ3P￥后打开👉手机淘宝👈',
+    'msgid' => '6427262544195210786',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496463675',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:21:15 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : Hi,Zzhang
+该商品暂无优惠,请查看其他商品 ;
+
+2017-06-03 12:28:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496464117</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【欧洲站2017夏季时尚运动套装女宽松显瘦背心开叉阔腿裤针织两件套】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wzUkO?cv=3wHuZEjCEp7&sm=07b11e ，或复制这条信息￥3wHuZEjCEp7￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427264442570756063</MsgId>
+</xml>
+
+2017-06-03 12:28:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496464117',
+    'msgtype' => 'text',
+    'content' => '【欧洲站2017夏季时尚运动套装女宽松显瘦背心开叉阔腿裤针织两件套】，点击链接再选择浏览器打开http://c.b1wv.com/h.7wzUkO?cv=3wHuZEjCEp7&sm=07b11e ，或复制这条信息￥3wHuZEjCEp7￥后打开👉手机淘宝👈',
+    'msgid' => '6427264442570756063',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496464117',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:28:39 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：欧洲站2017夏季时尚运动套装女宽松显瘦背心开叉阔腿裤针织两件套 
+原价：138 
+优惠券：3  
+返现：12.15 
+优惠金额：15.15 
+优惠价：122.85 
+淘口令：￥yMYfZEjyZGH￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 12:39:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496464777</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017新款chic雪纺上衣+小香风高腰短裤时尚阔腿裤套装两件套女夏】，点击链接再选择浏览器打开http://c.b1wv.com/h.7D1Hs4?cv=HXAmZEQYCS4&sm=ccc24d ，或复制这条信息￥HXAmZEQYCS4￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427267277249172144</MsgId>
+</xml>
+
+2017-06-03 12:39:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496464777',
+    'msgtype' => 'text',
+    'content' => '【2017新款chic雪纺上衣+小香风高腰短裤时尚阔腿裤套装两件套女夏】，点击链接再选择浏览器打开http://c.b1wv.com/h.7D1Hs4?cv=HXAmZEQYCS4&sm=ccc24d ，或复制这条信息￥HXAmZEQYCS4￥后打开👉手机淘宝👈',
+    'msgid' => '6427267277249172144',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496464777',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 12:39:39 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017新款chic雪纺上衣+小香风高腰短裤时尚阔腿裤套装两件套女夏 
+原价：88 
+优惠券：0  
+返现：5.94 
+优惠金额：5.94 
+优惠价：82.06 
+淘口令：￥gp1cZEQ1bC6￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 13:06:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-8ZZSHPlY0wH-6WnhZgfX0]]></FromUserName>
+<CreateTime>1496466385</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 13:06:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is-8ZZSHPlY0wH-6WnhZgfX0',
+    'createtime' => '1496466385',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is-8ZZSHPlY0wH-6WnhZgfX0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496466385',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 13:06:24 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 13:09:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_ww_Vqlhb4HEmSNn112-Ik]]></FromUserName>
+<CreateTime>1496466561</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 13:09:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_ww_Vqlhb4HEmSNn112-Ik',
+    'createtime' => '1496466561',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_ww_Vqlhb4HEmSNn112-Ik',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496466561',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 13:09:20 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 13:10:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_ww_Vqlhb4HEmSNn112-Ik]]></FromUserName>
+<CreateTime>1496466608</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 13:10:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_ww_Vqlhb4HEmSNn112-Ik',
+    'createtime' => '1496466608',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_ww_Vqlhb4HEmSNn112-Ik',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496466608',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 13:10:07 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 13:14:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_v-9OF-YiGj0ya2TmxJ5h0]]></FromUserName>
+<CreateTime>1496466849</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 13:17:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszJIt4m2ermuR_IJKTXCRB8]]></FromUserName>
+<CreateTime>1496467033</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_tiger_taoke1699]]></EventKey>
+<Ticket><![CDATA[gQGk8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyc0NocjRLN0pieVAxMDAwMGcwN0wAAgQuJBRZAwQAAAAA]]></Ticket>
+</xml>
+
+2017-06-03 13:17:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iszJIt4m2ermuR_IJKTXCRB8',
+    'createtime' => '1496467033',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => 'qrscene_tiger_taoke1699',
+    'ticket' => 'gQGk8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyc0NocjRLN0pieVAxMDAwMGcwN0wAAgQuJBRZAwQAAAAA',
+    'from' => 'oRy3iszJIt4m2ermuR_IJKTXCRB8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496467033',
+    'type' => 'text',
+    'scene' => 'tiger_taoke1699',
+    'redirection' => true,
+    'source' => 'qr',
+    'content' => '邀人',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 13:17:13 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 13:27:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-8ZZSHPlY0wH-6WnhZgfX0]]></FromUserName>
+<CreateTime>1496467667</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 13:27:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is-8ZZSHPlY0wH-6WnhZgfX0',
+    'createtime' => '1496467667',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is-8ZZSHPlY0wH-6WnhZgfX0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496467667',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 13:27:46 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 13:57:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5arXHgIgZNESlmQvwkpJas]]></FromUserName>
+<CreateTime>1496469433</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【春林运动水杯水壶大容量600ml随手杯塑料女学生便携小口防漏杯子】，点击链接再选择浏览器打开http://c.b1wv.com/h.7xTDLO?cv=oMOtZE95ZY9&sm=85f2b8 ，或复制这条信息￥oMOtZE95ZY9￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427287274616906570</MsgId>
+</xml>
+
+2017-06-03 13:57:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5arXHgIgZNESlmQvwkpJas',
+    'createtime' => '1496469433',
+    'msgtype' => 'text',
+    'content' => '【春林运动水杯水壶大容量600ml随手杯塑料女学生便携小口防漏杯子】，点击链接再选择浏览器打开http://c.b1wv.com/h.7xTDLO?cv=oMOtZE95ZY9&sm=85f2b8 ，或复制这条信息￥oMOtZE95ZY9￥后打开👉手机淘宝👈',
+    'msgid' => '6427287274616906570',
+    'from' => 'oRy3is5arXHgIgZNESlmQvwkpJas',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496469433',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 13:57:17 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5arXHgIgZNESlmQvwkpJas ;
+MsgType : text ;
+Content : 昵称：喻端儿 
+商品名称：春林运动水杯水壶大容量600ml随手杯塑料女学生便携小口防漏杯子 
+原价：14.8 
+优惠券：5  
+返现：1.57 
+优惠金额：6.57 
+优惠价：8.23 
+淘口令：￥KReLZE95ftU￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 14:02:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496469749</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【夏季新款时尚休闲碎花短裤一字肩荷叶袖V领系带雪纺流苏连体裤潮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7x7y0h?cv=6Pl1ZE9SX5v&sm=a44512 ，或复制这条信息￥6Pl1ZE9SX5v￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427288631826572504</MsgId>
+</xml>
+
+2017-06-03 14:02:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496469749',
+    'msgtype' => 'text',
+    'content' => '【夏季新款时尚休闲碎花短裤一字肩荷叶袖V领系带雪纺流苏连体裤潮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7x7y0h?cv=6Pl1ZE9SX5v&sm=a44512 ，或复制这条信息￥6Pl1ZE9SX5v￥后打开👉手机淘宝👈',
+    'msgid' => '6427288631826572504',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496469749',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 14:02:31 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：夏季新款时尚休闲碎花短裤一字肩荷叶袖V领系带雪纺流苏连体裤潮 
+原价：79 
+优惠券：30  
+返现：5.63 
+优惠金额：35.63 
+优惠价：43.37 
+淘口令：￥uGiSZE9SrVM￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 14:03:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5Zv1NPC9k-WVHqLS16p55U]]></FromUserName>
+<CreateTime>1496469829</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:03:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5Zv1NPC9k-WVHqLS16p55U',
+    'createtime' => '1496469829',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is5Zv1NPC9k-WVHqLS16p55U',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496469829',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:03:48 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:26:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5arXHgIgZNESlmQvwkpJas]]></FromUserName>
+<CreateTime>1496471194</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【宝宝三角哈衣短袖夏季新生婴儿连体衣无袖纯棉包屁衣背心爬服超薄】，点击链接再选择浏览器打开http://c.b1wv.com/h.7xuwdF?cv=W45JZE9tpJd&sm=bb4c4b ，或复制这条信息￥W45JZE9tpJd￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427294838054316540</MsgId>
+</xml>
+
+2017-06-03 14:26:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5arXHgIgZNESlmQvwkpJas',
+    'createtime' => '1496471194',
+    'msgtype' => 'text',
+    'content' => '【宝宝三角哈衣短袖夏季新生婴儿连体衣无袖纯棉包屁衣背心爬服超薄】，点击链接再选择浏览器打开http://c.b1wv.com/h.7xuwdF?cv=W45JZE9tpJd&sm=bb4c4b ，或复制这条信息￥W45JZE9tpJd￥后打开👉手机淘宝👈',
+    'msgid' => '6427294838054316540',
+    'from' => 'oRy3is5arXHgIgZNESlmQvwkpJas',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496471194',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 14:26:35 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5arXHgIgZNESlmQvwkpJas ;
+MsgType : text ;
+Content : 昵称：喻端儿 
+商品名称：宝宝三角哈衣短袖夏季新生婴儿连体衣无袖纯棉包屁衣背心爬服超薄 
+原价：28 
+优惠券：0  
+返现：0.76 
+优惠金额：0.76 
+优惠价：27.24 
+淘口令：￥mpxYZE9tHzM￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 14:33:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1496471633</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:33:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1496471633',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496471633',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:33:52 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:35:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7p-RuoASTMrCH0hMKcDUpw]]></FromUserName>
+<CreateTime>1496471741</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 14:35:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is41t_L5gHOaKP9arT_jddGc]]></FromUserName>
+<CreateTime>1496471752</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:35:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'createtime' => '1496471752',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is41t_L5gHOaKP9arT_jddGc',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496471752',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:35:51 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:40:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472060</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:40:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472060',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472060',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:40:59 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:41:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472085</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[邀人]]></EventKey>
+</xml>
+
+2017-06-03 14:41:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472085',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '邀人',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472085',
+    'type' => 'text',
+    'content' => '邀人',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '20',
+  'priority' => '254',
+  'keyword' => 
+  array (
+    'id' => '25',
+    'rid' => '20',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '邀人',
+    'type' => '1',
+    'displayorder' => '254',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 14:41:27 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_etg-DN-J6UMFDG1P2y4qE ;
+MsgType : image ;
+Image : Array ;
+
+2017-06-03 14:41:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472098</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[tiger_taoke956]]></EventKey>
+<Ticket><![CDATA[gQF88TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNldzMTRPN0pieVAxMDAwMDAwN1cAAgTSEjFZAwQAAAAA]]></Ticket>
+</xml>
+
+2017-06-03 14:41:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472098',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'tiger_taoke956',
+    'ticket' => 'gQF88TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNldzMTRPN0pieVAxMDAwMDAwN1cAAgTSEjFZAwQAAAAA',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472098',
+    'type' => 'text',
+    'scene' => 'tiger_taoke956',
+    'redirection' => true,
+    'source' => 'qr',
+    'content' => '邀人',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:41:37 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:41:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472108</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:41:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472108',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472108',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:41:47 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:41:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472113</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://i.eqxiu.com/s/H8eS5oEM]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:41:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472113',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472113',
+    'type' => 'text',
+    'content' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:41:52 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:42:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472158</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://i.eqxiu.com/s/H8eS5oEM]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:42:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472158',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472158',
+    'type' => 'text',
+    'content' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:42:37 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:48:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472496</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:48:15 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472496',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472496',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:48:15 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:48:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472511</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=records&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:48:30 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472511',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=records&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472511',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=records&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:48:30 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:48:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472517</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:48:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472517',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472517',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:48:36 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:49:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472546</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:49:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472546',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472546',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:49:05 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:52:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472776</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:52:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472776',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472776',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:52:55 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:53:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496472808</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://h5.wps.cn/p/99711f94.html]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:53:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496472808',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://h5.wps.cn/p/99711f94.html',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496472808',
+    'type' => 'text',
+    'content' => 'https://h5.wps.cn/p/99711f94.html',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:53:27 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:57:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496473073</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 14:57:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496473073',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496473073',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=goods&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:57:52 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:59:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496473145</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[tiger_taoke956]]></EventKey>
+<Ticket><![CDATA[gQF88TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNldzMTRPN0pieVAxMDAwMDAwN1cAAgTSEjFZAwQAAAAA]]></Ticket>
+</xml>
+
+2017-06-03 14:59:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496473145',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'tiger_taoke956',
+    'ticket' => 'gQF88TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNldzMTRPN0pieVAxMDAwMDAwN1cAAgTSEjFZAwQAAAAA',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496473145',
+    'type' => 'text',
+    'scene' => 'tiger_taoke956',
+    'redirection' => true,
+    'source' => 'qr',
+    'content' => '邀人',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:59:04 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 14:59:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496473157</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[tiger_taoke956]]></EventKey>
+<Ticket><![CDATA[gQF88TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNldzMTRPN0pieVAxMDAwMDAwN1cAAgTSEjFZAwQAAAAA]]></Ticket>
+</xml>
+
+2017-06-03 14:59:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496473157',
+    'msgtype' => 'event',
+    'event' => 'SCAN',
+    'eventkey' => 'tiger_taoke956',
+    'ticket' => 'gQF88TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNldzMTRPN0pieVAxMDAwMDAwN1cAAgTSEjFZAwQAAAAA',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496473157',
+    'type' => 'text',
+    'scene' => 'tiger_taoke956',
+    'redirection' => true,
+    'source' => 'qr',
+    'content' => '邀人',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 14:59:17 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 15:00:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496473250</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-06-03 15:00:49 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496473250',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496473250',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'basic',
+  'rule' => '38',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '80',
+    'rid' => '38',
+    'uniacid' => '2',
+    'module' => 'basic',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 15:00:49 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is_etg-DN-J6UMFDG1P2y4qE ;
+MsgType : text ;
+Content : 添加客服微信号：zdxkf001 
+客服工作时间为工作日
+9：00~11：30 和14：30~17：30。 ;
+
+2017-06-03 15:00:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496473254</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://c.eqxiu.com/s/Y39yJk23?eqrcode=1&from=singlemessage]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 15:00:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496473254',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://c.eqxiu.com/s/Y39yJk23?eqrcode=1&from=singlemessage',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496473254',
+    'type' => 'text',
+    'content' => 'http://c.eqxiu.com/s/Y39yJk23?eqrcode=1&from=singlemessage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 15:00:53 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 15:04:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_etg-DN-J6UMFDG1P2y4qE]]></FromUserName>
+<CreateTime>1496473486</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 15:04:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'createtime' => '1496473486',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_etg-DN-J6UMFDG1P2y4qE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496473486',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 15:04:45 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 15:20:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496474426</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017春装新款女装韩版复古系带百搭宽松套头短袖T恤上衣打底衫夏】，点击链接再选择浏览器打开http://c.b1wv.com/h.7Ctx1E?cv=SjwsZEkrQIY&sm=521c26 ，或复制这条信息￥SjwsZEkrQIY￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427308719388619963</MsgId>
+</xml>
+
+2017-06-03 15:20:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496474426',
+    'msgtype' => 'text',
+    'content' => '【2017春装新款女装韩版复古系带百搭宽松套头短袖T恤上衣打底衫夏】，点击链接再选择浏览器打开http://c.b1wv.com/h.7Ctx1E?cv=SjwsZEkrQIY&sm=521c26 ，或复制这条信息￥SjwsZEkrQIY￥后打开👉手机淘宝👈',
+    'msgid' => '6427308719388619963',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496474426',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 15:20:27 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017春装新款女装韩版复古系带百搭宽松套头短袖T恤上衣打底衫夏 
+原价：32.98 
+优惠券：0  
+返现：0.74 
+优惠金额：0.74 
+优惠价：32.24 
+淘口令：￥100yZEkrJHh￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 15:21:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496474467</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017新款宽松阔腿裤休闲裤短裤连衣裤一字肩碎花雪纺连体裤女夏季】，点击链接再选择浏览器打开http://c.b1wv.com/h.7CuOWP?cv=BbMoZEkI4DP&sm=806e40 ，或复制这条信息￥BbMoZEkI4DP￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427308895482279125</MsgId>
+</xml>
+
+2017-06-03 15:21:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496474467',
+    'msgtype' => 'text',
+    'content' => '【2017新款宽松阔腿裤休闲裤短裤连衣裤一字肩碎花雪纺连体裤女夏季】，点击链接再选择浏览器打开http://c.b1wv.com/h.7CuOWP?cv=BbMoZEkI4DP&sm=806e40 ，或复制这条信息￥BbMoZEkI4DP￥后打开👉手机淘宝👈',
+    'msgid' => '6427308895482279125',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496474467',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 15:21:08 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017新款宽松阔腿裤休闲裤短裤连衣裤一字肩碎花雪纺连体裤女夏季 
+原价：35.98 
+优惠券：0  
+返现：0.81 
+优惠金额：0.81 
+优惠价：35.17 
+淘口令：￥byoxZEkIRsO￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 15:21:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5Zv1NPC9k-WVHqLS16p55U]]></FromUserName>
+<CreateTime>1496474510</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 15:21:49 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5Zv1NPC9k-WVHqLS16p55U',
+    'createtime' => '1496474510',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is5Zv1NPC9k-WVHqLS16p55U',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496474510',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=live&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 15:21:49 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 15:23:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5Zv1NPC9k-WVHqLS16p55U]]></FromUserName>
+<CreateTime>1496474605</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 15:23:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5Zv1NPC9k-WVHqLS16p55U',
+    'createtime' => '1496474605',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is5Zv1NPC9k-WVHqLS16p55U',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496474605',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 15:23:24 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 15:24:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5Zv1NPC9k-WVHqLS16p55U]]></FromUserName>
+<CreateTime>1496474641</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 15:24:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5Zv1NPC9k-WVHqLS16p55U',
+    'createtime' => '1496474641',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is5Zv1NPC9k-WVHqLS16p55U',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496474641',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 15:24:00 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 15:26:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496474769</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017春装新款女装韩版学生复古高腰显瘦包臀裙a字裙牛仔裙短裙夏】，点击链接再选择浏览器打开http://c.b1wv.com/h.7CEAQ6?cv=LWDvZEkuPvi&sm=587cb4 ，或复制这条信息￥LWDvZEkuPvi￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427310192562402752</MsgId>
+</xml>
+
+2017-06-03 15:26:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496474769',
+    'msgtype' => 'text',
+    'content' => '【2017春装新款女装韩版学生复古高腰显瘦包臀裙a字裙牛仔裙短裙夏】，点击链接再选择浏览器打开http://c.b1wv.com/h.7CEAQ6?cv=LWDvZEkuPvi&sm=587cb4 ，或复制这条信息￥LWDvZEkuPvi￥后打开👉手机淘宝👈',
+    'msgid' => '6427310192562402752',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496474769',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 15:26:11 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017春装新款女装韩版学生复古高腰显瘦包臀裙a字裙牛仔裙短裙夏 
+原价：28.98 
+优惠券：0  
+返现：0.65 
+优惠金额：0.65 
+优惠价：28.33 
+淘口令：￥1dBQZEkupaH￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 15:29:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496474942</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【牛仔裙春季女2017新款韩版 a短裙高腰显瘦A字裙百搭包臀半身裙夏】，点击链接再选择浏览器打开http://c.b1wv.com/h.7CCvld?cv=Z5gfZEkEJyE&sm=a1f16a ，或复制这条信息￥Z5gfZEkEJyE￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427310935591745100</MsgId>
+</xml>
+
+2017-06-03 15:29:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496474942',
+    'msgtype' => 'text',
+    'content' => '【牛仔裙春季女2017新款韩版 a短裙高腰显瘦A字裙百搭包臀半身裙夏】，点击链接再选择浏览器打开http://c.b1wv.com/h.7CCvld?cv=Z5gfZEkEJyE&sm=a1f16a ，或复制这条信息￥Z5gfZEkEJyE￥后打开👉手机淘宝👈',
+    'msgid' => '6427310935591745100',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496474942',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 15:29:03 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：牛仔裙春季女2017新款韩版 a短裙高腰显瘦A字裙百搭包臀半身裙夏 
+原价：34.9 
+优惠券：3  
+返现：0.79 
+优惠金额：3.79 
+优惠价：31.11 
+淘口令：￥mjw7ZEkEF5S￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 15:30:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496475045</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017新款小衫显瘦短袖镂空打底衫蕾丝上衣短款女夏季小吊带两件套】，点击链接再选择浏览器打开http://c.b1wv.com/h.7CB6Cz?cv=JL78ZEkDlhF&sm=c7e55d ，或复制这条信息￥JL78ZEkDlhF￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427311377973376675</MsgId>
+</xml>
+
+2017-06-03 15:30:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496475045',
+    'msgtype' => 'text',
+    'content' => '【2017新款小衫显瘦短袖镂空打底衫蕾丝上衣短款女夏季小吊带两件套】，点击链接再选择浏览器打开http://c.b1wv.com/h.7CB6Cz?cv=JL78ZEkDlhF&sm=c7e55d ，或复制这条信息￥JL78ZEkDlhF￥后打开👉手机淘宝👈',
+    'msgid' => '6427311377973376675',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496475045',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 15:30:47 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017新款小衫显瘦短袖镂空打底衫蕾丝上衣短款女夏季小吊带两件套 
+原价：33.98 
+优惠券：0  
+返现：0.77 
+优惠金额：0.77 
+优惠价：33.21 
+淘口令：￥dAWKZEkDqpw￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 15:35:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496475338</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 15:35:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496475338',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496475338',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 15:35:37 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 16:37:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1496479060</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 16:37:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1496479060',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496479060',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 16:37:39 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 16:53:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496480015</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017夏季新款方跟中跟一字扣中空露趾休闲舒适女凉鞋真皮平跟凉鞋】，点击链接再选择浏览器打开http://c.b1wv.com/h.7B7T5G?cv=2VbJZElgscN&sm=de407d ，或复制这条信息￥2VbJZElgscN￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427332723960841804</MsgId>
+</xml>
+
+2017-06-03 16:53:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496480015',
+    'msgtype' => 'text',
+    'content' => '【2017夏季新款方跟中跟一字扣中空露趾休闲舒适女凉鞋真皮平跟凉鞋】，点击链接再选择浏览器打开http://c.b1wv.com/h.7B7T5G?cv=2VbJZElgscN&sm=de407d ，或复制这条信息￥2VbJZElgscN￥后打开👉手机淘宝👈',
+    'msgid' => '6427332723960841804',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480015',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 16:53:36 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017夏季新款方跟中跟一字扣中空露趾休闲舒适女凉鞋真皮平跟凉鞋 
+原价：79 
+优惠券：0  
+返现：2.84 
+优惠金额：2.84 
+优惠价：76.16 
+淘口令：￥H0spZElT4Sn￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 16:56:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_ww_Vqlhb4HEmSNn112-Ik]]></FromUserName>
+<CreateTime>1496480197</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://i.eqxiu.com/s/H8eS5oEM]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 16:56:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is_ww_Vqlhb4HEmSNn112-Ik',
+    'createtime' => '1496480197',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'menuid' => '416162317',
+    'from' => 'oRy3is_ww_Vqlhb4HEmSNn112-Ik',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480197',
+    'type' => 'text',
+    'content' => 'http://i.eqxiu.com/s/H8eS5oEM',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 16:56:36 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 16:58:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496480310</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017夏新款夹脚凉鞋女平底百搭一字扣夹趾罗马鞋学生休闲套趾女鞋】，点击链接再选择浏览器打开http://c.b1wv.com/h.7B9qh7?cv=FH23ZElid4v&sm=37c6c2 ，或复制这条信息￥FH23ZElid4v￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427333990976194318</MsgId>
+</xml>
+
+2017-06-03 16:58:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496480310',
+    'msgtype' => 'text',
+    'content' => '【2017夏新款夹脚凉鞋女平底百搭一字扣夹趾罗马鞋学生休闲套趾女鞋】，点击链接再选择浏览器打开http://c.b1wv.com/h.7B9qh7?cv=FH23ZElid4v&sm=37c6c2 ，或复制这条信息￥FH23ZElid4v￥后打开👉手机淘宝👈',
+    'msgid' => '6427333990976194318',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480310',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 16:58:31 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017夏新款夹脚凉鞋女平底百搭一字扣夹趾罗马鞋学生休闲套趾女鞋 
+原价：78 
+优惠券：0  
+返现：3.51 
+优惠金额：3.51 
+优惠价：74.49 
+淘口令：￥7yWAZEliR33￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 16:59:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496480382</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 16:59:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496480382',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480382',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 16:59:41 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 17:00:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496480433</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 17:00:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496480433',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480433',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 17:00:32 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 17:00:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496480444</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 17:00:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496480444',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480444',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 17:00:43 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 17:05:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496480706</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【RENA夏日度假风气质百搭碎花裙雪纺无袖吊带裙复古中长款连衣裙女】，点击链接再选择浏览器打开http://c.b1wv.com/h.7BnjKl?cv=60hlZEl97kk&sm=4d3970 ，或复制这条信息￥60hlZEl97kk￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427335691783243929</MsgId>
+</xml>
+
+2017-06-03 17:05:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496480706',
+    'msgtype' => 'text',
+    'content' => '【RENA夏日度假风气质百搭碎花裙雪纺无袖吊带裙复古中长款连衣裙女】，点击链接再选择浏览器打开http://c.b1wv.com/h.7BnjKl?cv=60hlZEl97kk&sm=4d3970 ，或复制这条信息￥60hlZEl97kk￥后打开👉手机淘宝👈',
+    'msgid' => '6427335691783243929',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480706',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 17:05:09 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：RENA夏日度假风气质百搭碎花裙雪纺无袖吊带裙复古中长款连衣裙女 
+原价：39 
+优惠券：0  
+返现：0.88 
+优惠金额：0.88 
+优惠价：38.12 
+淘口令：￥acJ7ZElP1VS￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 17:08:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496480901</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 17:08:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496480901',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480901',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 17:08:20 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 17:08:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496480926</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 17:08:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496480926',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496480926',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 17:08:45 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 17:30:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1496482228</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 17:30:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1496482228',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496482228',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 17:30:27 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 17:32:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496482368</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【2017夏日系一字交叉绑带舒适平底拖鞋女夏时尚外穿百搭室外凉拖潮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7z0y1R?cv=mPvvZElCO0x&sm=8f6b8b ，或复制这条信息￥mPvvZElCO0x￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427342830018890982</MsgId>
+</xml>
+
+2017-06-03 17:32:49 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496482368',
+    'msgtype' => 'text',
+    'content' => '【2017夏日系一字交叉绑带舒适平底拖鞋女夏时尚外穿百搭室外凉拖潮】，点击链接再选择浏览器打开http://c.b1wv.com/h.7z0y1R?cv=mPvvZElCO0x&sm=8f6b8b ，或复制这条信息￥mPvvZElCO0x￥后打开👉手机淘宝👈',
+    'msgid' => '6427342830018890982',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496482368',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 17:32:49 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 昵称：Zzhang 
+商品名称：2017夏日系一字交叉绑带舒适平底拖鞋女夏时尚外穿百搭室外凉拖潮 
+原价：75 
+优惠券：0  
+返现：2.70 
+优惠金额：2.7 
+优惠价：72.3 
+淘口令：￥28eCZElymN8￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 18:07:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2pQ3ptuTIV_Vrh35yYcEeo]]></FromUserName>
+<CreateTime>1496484437</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 18:07:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2pQ3ptuTIV_Vrh35yYcEeo',
+    'createtime' => '1496484437',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2pQ3ptuTIV_Vrh35yYcEeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496484437',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 18:07:16 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 18:33:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496486032</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 18:33:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496486032',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496486032',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 18:33:51 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 18:34:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496486046</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-06-03 18:34:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496486046',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496486046',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'basic',
+  'rule' => '38',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '80',
+    'rid' => '38',
+    'uniacid' => '2',
+    'module' => 'basic',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 18:34:06 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2IzneDK1gK9IWJfMglyVV0 ;
+MsgType : text ;
+Content : 添加客服微信号：zdxkf001 
+客服工作时间为工作日
+9：00~11：30 和14：30~17：30。 ;
+
+2017-06-03 18:34:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2IzneDK1gK9IWJfMglyVV0]]></FromUserName>
+<CreateTime>1496486061</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 18:34:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'createtime' => '1496486061',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is2IzneDK1gK9IWJfMglyVV0',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496486061',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 18:34:20 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 18:48:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is90ZGMSfUpgvyvcue6BObqE]]></FromUserName>
+<CreateTime>1496486889</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 19:01:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is8H1raSfzl-H4JY0FHjIdVI]]></FromUserName>
+<CreateTime>1496487712</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_tiger_taoke1885]]></EventKey>
+<Ticket><![CDATA[gQF68DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAydE1WYzQ1N0pieVAxMDAwMGcwN00AAgQ5ZB5ZAwQAAAAA]]></Ticket>
+</xml>
+
+2017-06-03 19:01:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is8H1raSfzl-H4JY0FHjIdVI',
+    'createtime' => '1496487712',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => 'qrscene_tiger_taoke1885',
+    'ticket' => 'gQF68DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAydE1WYzQ1N0pieVAxMDAwMGcwN00AAgQ5ZB5ZAwQAAAAA',
+    'from' => 'oRy3is8H1raSfzl-H4JY0FHjIdVI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496487712',
+    'type' => 'text',
+    'scene' => 'tiger_taoke1885',
+    'redirection' => true,
+    'source' => 'qr',
+    'content' => '邀人',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 19:01:52 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 19:09:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_N3bFebgZO8INf8C-8fmwU]]></FromUserName>
+<CreateTime>1496488158</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 20:35:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxzX9dVu8jauIJ20uWW0D3Y]]></FromUserName>
+<CreateTime>1496493327</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 20:35:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxzX9dVu8jauIJ20uWW0D3Y',
+    'createtime' => '1496493327',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3isxzX9dVu8jauIJ20uWW0D3Y',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496493327',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 20:35:26 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 20:36:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxzX9dVu8jauIJ20uWW0D3Y]]></FromUserName>
+<CreateTime>1496493365</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 20:36:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxzX9dVu8jauIJ20uWW0D3Y',
+    'createtime' => '1496493365',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3isxzX9dVu8jauIJ20uWW0D3Y',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496493365',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=index&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 20:36:04 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 20:48:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9GWyg3pPKRiWlSm8bso0fA]]></FromUserName>
+<CreateTime>1496494134</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 21:27:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5hXt8AkRMeSw62gjmrW1oE]]></FromUserName>
+<CreateTime>1496496439</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【【第2份9.9】四川攀枝花芒果新鲜水果肯特芒果缅甸钻石甜芒果包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.iZNHj7?cv=gUCxZEnRBgE&sm=af0047 ，或复制这条信息￥gUCxZEnRBgE￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427403264503721480</MsgId>
+</xml>
+
+2017-06-03 21:27:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'createtime' => '1496496439',
+    'msgtype' => 'text',
+    'content' => '【【第2份9.9】四川攀枝花芒果新鲜水果肯特芒果缅甸钻石甜芒果包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.iZNHj7?cv=gUCxZEnRBgE&sm=af0047 ，或复制这条信息￥gUCxZEnRBgE￥后打开👉手机淘宝👈',
+    'msgid' => '6427403264503721480',
+    'from' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496496439',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 21:27:21 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5hXt8AkRMeSw62gjmrW1oE ;
+MsgType : text ;
+Content : 昵称：娃娃 
+商品名称：【第2份9.9】四川攀枝花芒果新鲜水果肯特芒果缅甸钻石甜芒果包邮 
+原价：29.9 
+优惠券：0  
+返现：0.20 
+优惠金额：0.2 
+优惠价：29.7 
+淘口令：￥OnwWZEn8icy￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 21:30:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5hXt8AkRMeSw62gjmrW1oE]]></FromUserName>
+<CreateTime>1496496651</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【四川攀枝花芒果 新鲜水果爱文芒果苹果芒七彩紫芒吉禄5斤预售包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.iZoyeO?cv=A6qMZEn9pk9&sm=842215 ，或复制这条信息￥A6qMZEn9pk9￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427404175036788374</MsgId>
+</xml>
+
+2017-06-03 21:30:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'createtime' => '1496496651',
+    'msgtype' => 'text',
+    'content' => '【四川攀枝花芒果 新鲜水果爱文芒果苹果芒七彩紫芒吉禄5斤预售包邮】，点击链接再选择浏览器打开http://c.b1wv.com/h.iZoyeO?cv=A6qMZEn9pk9&sm=842215 ，或复制这条信息￥A6qMZEn9pk9￥后打开👉手机淘宝👈',
+    'msgid' => '6427404175036788374',
+    'from' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496496651',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 21:30:52 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5hXt8AkRMeSw62gjmrW1oE ;
+MsgType : text ;
+Content : 昵称：娃娃 
+商品名称：四川攀枝花芒果 新鲜水果爱文芒果苹果芒七彩紫芒吉禄5斤预售包邮 
+原价：35 
+优惠券：0  
+返现：0.24 
+优惠金额：0.24 
+优惠价：34.76 
+淘口令：￥0Yo1ZEn9yFK￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 21:54:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is12Nwvp8gKKGYQkYdhz330k]]></FromUserName>
+<CreateTime>1496498051</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【绿联usb分线器3.0电脑高速hub一拖四2.0集线器笔记本多接口扩展器】￥9ydWGZs4dO￥http://c.b1wv.com/h.i0ZmIq?cv=9ydWGZs4dO&sm=e29a28]]></Content>
+<MsgId>6427410187991003355</MsgId>
+</xml>
+
+2017-06-03 21:54:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is12Nwvp8gKKGYQkYdhz330k',
+    'createtime' => '1496498051',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【绿联usb分线器3.0电脑高速hub一拖四2.0集线器笔记本多接口扩展器】￥9ydWGZs4dO￥http://c.b1wv.com/h.i0ZmIq?cv=9ydWGZs4dO&sm=e29a28',
+    'msgid' => '6427410187991003355',
+    'from' => 'oRy3is12Nwvp8gKKGYQkYdhz330k',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496498051',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 21:54:13 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is12Nwvp8gKKGYQkYdhz330k ;
+MsgType : text ;
+Content : 昵称：李 
+商品名称：绿联usb分线器3.0电脑高速hub一拖四2.0集线器笔记本多接口扩展器 
+原价：12.9 
+优惠券：0  
+返现：1.18 
+优惠金额：1.18 
+优惠价：11.72 
+淘口令：￥1WAcZEnEh7O￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 22:00:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is7hx-3vRmZuNzmiEliVu67o]]></FromUserName>
+<CreateTime>1496498401</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【韩版夏季2017新款小衫短款遮肚子打底衫大码宽松雪纺衫女短袖上衣】，点击链接再选择浏览器打开http://c.b1wv.com/h.i02VAN?cv=RmC5ZEnyrrm&sm=5dbcd9 ，或复制这条信息￥RmC5ZEnyrrm￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427411691229557099</MsgId>
+</xml>
+
+2017-06-03 22:00:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'createtime' => '1496498401',
+    'msgtype' => 'text',
+    'content' => '【韩版夏季2017新款小衫短款遮肚子打底衫大码宽松雪纺衫女短袖上衣】，点击链接再选择浏览器打开http://c.b1wv.com/h.i02VAN?cv=RmC5ZEnyrrm&sm=5dbcd9 ，或复制这条信息￥RmC5ZEnyrrm￥后打开👉手机淘宝👈',
+    'msgid' => '6427411691229557099',
+    'from' => 'oRy3is7hx-3vRmZuNzmiEliVu67o',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496498401',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 22:00:02 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is7hx-3vRmZuNzmiEliVu67o ;
+MsgType : text ;
+Content : 昵称：麻花妹你好 
+你要找【韩版夏季2017新款小衫短款遮肚子打底衫大码宽松雪纺衫女短袖上衣】吗？ 
+点击查看更多相关内容：http://w.url.cn/s/ALCAJMy ;
+
+2017-06-03 22:02:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is12Nwvp8gKKGYQkYdhz330k]]></FromUserName>
+<CreateTime>1496498525</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【绿联 usb分线器3.0一拖四转换高速电脑笔记本多接口Type-c扩展hub】￥Q3wVGZsQdA￥http://c.b1wv.com/h.i02UU2?cv=Q3wVGZsQdA&sm=c4c68e]]></Content>
+<MsgId>6427412223805501869</MsgId>
+</xml>
+
+2017-06-03 22:02:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is12Nwvp8gKKGYQkYdhz330k',
+    'createtime' => '1496498525',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【绿联 usb分线器3.0一拖四转换高速电脑笔记本多接口Type-c扩展hub】￥Q3wVGZsQdA￥http://c.b1wv.com/h.i02UU2?cv=Q3wVGZsQdA&sm=c4c68e',
+    'msgid' => '6427412223805501869',
+    'from' => 'oRy3is12Nwvp8gKKGYQkYdhz330k',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496498525',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 22:02:06 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is12Nwvp8gKKGYQkYdhz330k ;
+MsgType : text ;
+Content : 昵称：李 
+商品名称：绿联 usb分线器3.0一拖四转换高速电脑笔记本多接口Type-c扩展hub 
+原价：25 
+优惠券：0  
+返现：0.60 
+优惠金额：0.6 
+优惠价：24.4 
+淘口令：￥sBZvZEnzEVE￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 22:13:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is_V9-Jst8Ju5gSwQWZihwic]]></FromUserName>
+<CreateTime>1496499208</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 22:38:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iszJIt4m2ermuR_IJKTXCRB8]]></FromUserName>
+<CreateTime>1496500707</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-06-03 22:43:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is-Thr1o4yUtRFlXfbhjpKBA]]></FromUserName>
+<CreateTime>1496501015</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【性感高腰游泳衣女红色小胸聚拢钢托比基尼三件套分体沙滩黑色泳装】，点击链接再选择浏览器打开http://c.b1wv.com/h.i0J9mJ?cv=KoVxZEMPmQh&sm=350ae1 ，或复制这条信息￥KoVxZEMPmQh￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427422918274069918</MsgId>
+</xml>
+
+2017-06-03 22:43:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is-Thr1o4yUtRFlXfbhjpKBA',
+    'createtime' => '1496501015',
+    'msgtype' => 'text',
+    'content' => '【性感高腰游泳衣女红色小胸聚拢钢托比基尼三件套分体沙滩黑色泳装】，点击链接再选择浏览器打开http://c.b1wv.com/h.i0J9mJ?cv=KoVxZEMPmQh&sm=350ae1 ，或复制这条信息￥KoVxZEMPmQh￥后打开👉手机淘宝👈',
+    'msgid' => '6427422918274069918',
+    'from' => 'oRy3is-Thr1o4yUtRFlXfbhjpKBA',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496501015',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 22:43:37 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is-Thr1o4yUtRFlXfbhjpKBA ;
+MsgType : text ;
+Content : 昵称：💓 
+商品名称：性感高腰游泳衣女红色小胸聚拢钢托比基尼三件套分体沙滩黑色泳装 
+原价：88 
+优惠券：0  
+返现：11.88 
+优惠金额：11.88 
+优惠价：76.12 
+淘口令：￥bHlpZEMPtl0￥           复制此条消息，打开淘宝。 ;
+
+2017-06-03 23:02:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is84b_abo_QH4IBJ_9vDjEZw]]></FromUserName>
+<CreateTime>1496502147</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-06-03 23:02:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is84b_abo_QH4IBJ_9vDjEZw',
+    'createtime' => '1496502147',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is84b_abo_QH4IBJ_9vDjEZw',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496502147',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-06-03 23:02:26 response :
+------------
+Array:
+params : Array ;
+
+2017-06-03 23:06:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5hXt8AkRMeSw62gjmrW1oE]]></FromUserName>
+<CreateTime>1496502401</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【手提包女小包韩版2017新款牛皮翅膀包个性时尚单肩斜挎包真皮女包】，点击链接再选择浏览器打开http://c.b1wv.com/h.i0D8On?cv=XZPCZEMqgIb&sm=b6f370 ，或复制这条信息￥XZPCZEMqgIb￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427428871098742650</MsgId>
+</xml>
+
+2017-06-03 23:06:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'createtime' => '1496502401',
+    'msgtype' => 'text',
+    'content' => '【手提包女小包韩版2017新款牛皮翅膀包个性时尚单肩斜挎包真皮女包】，点击链接再选择浏览器打开http://c.b1wv.com/h.i0D8On?cv=XZPCZEMqgIb&sm=b6f370 ，或复制这条信息￥XZPCZEMqgIb￥后打开👉手机淘宝👈',
+    'msgid' => '6427428871098742650',
+    'from' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496502401',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 23:06:40 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5hXt8AkRMeSw62gjmrW1oE ;
+MsgType : text ;
+Content : Hi,娃娃
+该商品暂无优惠,请查看其他商品 ;
+
+2017-06-03 23:43:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5hXt8AkRMeSw62gjmrW1oE]]></FromUserName>
+<CreateTime>1496504634</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【简约现代写字桌 书桌书架组合转角电脑桌家用台式桌 带书柜办公桌】，点击链接再选择浏览器打开http://c.b1wv.com/h.ibWZ6K?cv=yFZcZEMy5GO&sm=83444e ，或复制这条信息￥yFZcZEMy5GO￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6427438461760715267</MsgId>
+</xml>
+
+2017-06-03 23:43:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'createtime' => '1496504634',
+    'msgtype' => 'text',
+    'content' => '【简约现代写字桌 书桌书架组合转角电脑桌家用台式桌 带书柜办公桌】，点击链接再选择浏览器打开http://c.b1wv.com/h.ibWZ6K?cv=yFZcZEMy5GO&sm=83444e ，或复制这条信息￥yFZcZEMy5GO￥后打开👉手机淘宝👈',
+    'msgid' => '6427438461760715267',
+    'from' => 'oRy3is5hXt8AkRMeSw62gjmrW1oE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1496504634',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-06-03 23:43:55 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5hXt8AkRMeSw62gjmrW1oE ;
+MsgType : text ;
+Content : 昵称：娃娃 
+商品名称：简约现代写字桌 书桌书架组合转角电脑桌家用台式桌 带书柜办公桌 
+原价：218.96 
+优惠券：0  
+返现：7.88 
+优惠金额：7.88 
+优惠价：211.08 
+淘口令：￥dtLsZEMy7JE￥           复制此条消息，打开淘宝。 ;
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">		
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+		<meta content="telephone=no, address=no" name="format-detection">
+		<link type="text/css" rel="stylesheet" href="{RES}js/weui.css" />
+<script src="../app/resource/js/lib/jquery-1.11.1.min.js"></script>
+		<title>注册</title>
+		<style>
+@charset "utf-8";
+/*CSS reset*/ 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{ margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, th, var { font-style: normal; font-weight: normal }
+strong{ font-style: normal;}
+th{font-weight:bold;}
+input{ outline:0;}
+ol, ul { list-style: none }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+q:before, q:after { content: '' }
+abbr, acronym { border: 0 }
+a { text-decoration: none;color:#666666;outline:none;cursor: pointer;}
+.none{ display: none;}
+a:active,a:hover,a:visited{border:none; color: #666;}
+html{*overflow:auto;}
+textarea{resize:none;}
+select{-webkit-appearance: none;}
+body{ font:12px/1.5 tahoma,arial,"微软雅黑"; width:100%; min-width:320px; background: #eee;}
+.fl{ float: left;}
+.fr{ float: right;}
+/**********padding**********/
+.p4{ padding: 4px;}
+.p8{ padding: 8px;}
+/**********margin**********/
+.m4{ padding: 4px;}
+.m8{ padding: 8px;}
+.mt8{ margin-top: 8px;}
+.mt12{ margin-top: 12px;}
+.mt30{ margin-top: 30px;}
+/**********text-align**********/
+.tc{ text-align: center;}
+/**********background**********/
+.bg_f{ background: #fff;}
+/**********color**********/
+.col_9{ color: #999;}
+.col_0af{color:#00aaff;}
+.col_f60{color:#f60;}
+.col_985{ color: #998855;}
+.col_ff8{ color: #ff8b03;}
+		html,body{ width: 100%; height: 100%; overflow: hidden; overflow-y: auto;}
+.logo{ width: 100%; height: auto; overflow: hidden;}
+.logo img{ width: 40%; height: auto; display: block; margin: 10% auto;}
+.loginMain{ width: 80%; height: auto; overflow: hidden; background: #fff; margin: 0px auto; border-radius: 8px; -webkit-border-radius: 8px;}
+.loginMain ul{ padding: 0px 10px; height: auto; overflow: hidden;}
+.loginMain li{ width: 100%; height: auto; display: box; display: -moz-box; display: -webkit-box; border-bottom: 1px solid #eee;}
+.loginMain li:last-child{ border-bottom: 0;}
+.loginMain li span.icon{ width: 46px; height: 46px; display: block; text-align: center;}
+.loginMain li span.phone_icon{ background: url(../images/phone_icon.png) center center no-repeat; background-size: 24px auto;}
+.loginMain li span.pas_icon{ background: url(../images/pas_icon.png) center center no-repeat; background-size: 20px auto;}
+.loginMain li p{ width: 100%; height: auto; box-flex:1; -webkit-box-flex:1; -moz-box-flex:1;}
+.loginMain li p input{ width: 100%; height: 46px; line-height: 46px; border: 0; background: none;}
+.loginFoot{ width: 80%; height: auto; overflow: hidden; margin: 0px auto; margin-top: 12%;}
+.loginFoot li:first-child{ margin-top: 0px;}
+.loginFoot li{ width: 100%; height: auto; overflow: hidden; margin: 0px auto; margin-top:5%; text-align: center; color: #999;}
+.loginFoot li ._btn{  width: 100%; height: 46px; line-height: 46px; text-align: center; overflow: hidden; font-size: 14px; border: 0; color: #fff; margin: 0px auto; border-radius: 8px; -webkit-border-radius: 8px;}
+.loginFoot li .login_btn{ background: #00b197;}
+.loginFoot li .register_btn{ background: #ff683d;}
+
+.registerMain{ width: 90%; height: auto; overflow: hidden; margin:20px auto;}
+.registerMain li{ width: 100%; height: auto;}
+.registerMain li span{width: 100%; display: block; height:34px; line-height: 34px;}
+.registerMain li p{ padding: 0px; height: auto; overflow: hidden;}
+.registerMain li p input{ width: 100%; height: 40px; line-height: 40px; text-indent: 8px; border: 0; background: #fff; border-radius: 8px; -webkit-border-radius: 8px;}
+.registerMain li p input._txt1{ width: 100px; height: 40px; line-height: 40px;float: left; text-indent: 8px; border: 0; background: #fff; border-radius: 8px; -webkit-border-radius: 8px;}
+.registerMain li p select{ width: auto; padding: 0px 10px; margin-right: 10px; height: 40px; line-height: 40px; outline: none; border: 0; background: #fff; border-radius: 8px; -webkit-border-radius: 8px;}
+.registerMain li p .code_img{ width: 80px; height: 40px; display: block; overflow: hidden; float: left; margin-left: 15px;}
+.registerMain li p .code_img img{ width: 100%; display: block; height: 40px; overflow: hidden;}
+.registerMain li ._btn{  width: 100%; height: 46px; line-height: 46px; text-align: center; overflow: hidden; font-size: 14px; border: 0; color: #fff; margin: 0px auto; border-radius: 8px; -webkit-border-radius: 8px;}
+.registerMain li .register_btn{ background: #00b197; margin-top: 30px;}
+		</style>
+	</head>
+	<body>
+		<div class="loginOuter">
+			<!--main-->
+			{php $adv = $this->module['config']['reg_adv'];}
+				{if $adv}<img src="{php echo toimage($adv)}" style="width: 100%;">{/if}
+			<div class="registerMain">
+			<form action="" method="post" onsubmit="return onCheck()">
+				<ul>
+					 <li>
+						<span class="title">工号：</span>
+						<p>
+							<input type="text" class="_txt" {if $len}maxlength="{$len}"{/if} id="account" name="account" type="text" placeholder="请输入工号"/>
+						</p>
+					</li>
+					<li>
+						<span class="title">姓名：</span>
+						<p>
+							<input required="required" class="_txt" type="text" id="realname" name="realname" placeholder="请输入姓名"/>
+						</p>
+					</li>
+					<li>
+						<span class="title">手机号码：</span>
+						<p>
+							<input required="required" class="_txt" type="tel" name='mobile' id="mobile" maxlength="11" placeholder="请输入手机号码"/>
+						</p>
+					</li>
+					<li>
+						<button type="submit" name="submit" class="_btn register_btn" style="margin-top:30px;" value="1">提交</button>
+						<input type="hidden" name="token" value="{$_W['token']}">
+                	</li>
+				</ul>
+				</form>
+			</div>
+			<!--main end-->
+		</div>
+<div class="weui_dialog_confirm" style="display: none">
+    <div class="weui_mask"></div>
+    <div class="weui_dialog">
+        <div class="weui_dialog_hd"><strong class="weui_dialog_title">温馨提示</strong></div>
+        <div style="text-align: center;" class="weui_dialog_bd" id="content"></div>
+        <div class="weui_dialog_ft">
+            <a href="#" class="weui_btn_dialog primary" onclick="$('.weui_dialog_confirm').hide()">确定</a>
+        </div>
+    </div>
+</div>
+<script>
+function onCheck(){
+	var account = $.trim($('#account').val());
+	if(account == '' {if $len} || account.length != {$len}{/if}){
+		$('#content').text('请输入正确的工号！');
+		$('.weui_dialog_confirm').show();
+		return false;
+	}
+	if($.trim($('#realname').val()) == ''){
+		$('#content').text('请输入姓名！');
+		$('.weui_dialog_confirm').show();
+		return false;
+	}
+	if($.trim($('#mobile').val()) == '' || !$("#mobile").val().match(/^1[34578]\d{9}$/)){
+		$('#content').text('请输入正确的手机号码！');
+		$('.weui_dialog_confirm').show();
+		return false;
+	}
+}
+</script>
+	</body>
+</html>

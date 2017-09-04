@@ -1,0 +1,286 @@
+/*区域划分*/
+
+body {
+    background: #f3f3f3;
+    position: inherit;
+    overflow: scroll;
+}
+
+.main { /* main绝对定位，进行内部滚动 */
+    position: absolute;
+    top: 40px;
+    /*bottom: 0px;*/
+    width: 100%;
+    background: #eeeeee; /* 使之可以滚动 */
+    overflow-y: auto; /* 增加该属性，可以增加弹性，是滑动更加顺畅 */
+    -webkit-overflow-scrolling: touch;
+    z-index: 1010;
+}
+/*购买流程*/
+.tip {
+    text-align: right;
+    top: 10px;
+    right: 0px;
+    position: fixed;
+    z-index: 9999;
+}
+
+    .tip img {
+        width: 100%;
+        margin: 0px;
+    }
+
+.tinymask {
+    z-index: 9999;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/*顶部导航*/
+
+.header_content {
+    position: fixed;
+    height: 40px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #f54d23;
+}
+
+.header_img {
+    position: relative;
+    top: 1px;
+    width: 28px;
+    height: 28px;
+}
+
+.am-icon-home:before {
+    font-size: 150%;
+}
+
+.am-icon-search {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    color: white;
+}
+
+am-form input[type="text"]::-webkit-input-placeholder, .am-form input[type="text"]::-moz-placeholder, am-form input[type="text"]:-ms-input-placeholder, .am-form input[type="text"]::placeholder, .am-form input[type="text"]::-moz-placeholder, form::-webkit-input-placeholder {
+    color: white;
+}
+
+input, .am-form input[type="text"].am-radius {
+    color: white;
+    height: 30px;
+    border: .1rem solid #f54d23;
+    background: #E4371B;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+/*菜单选项栏*/
+
+nav {
+    background: white;
+    position: relative;
+    top: 0;
+}
+
+    nav ul li a, nav ul li a:hover, nav ul li a:focus, .fq-type ul li a, .fq-type ul li a:hover, .fq-type ul li a:focus {
+        color: #8f8f8f;
+    }
+
+        nav ul li a img {
+            width: 2rem;
+            height: 2rem;
+        }
+
+.active {
+    color: #f54d23;
+    border-bottom: .3rem solid #f54d23;
+}
+
+.fq-type {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    border-left: .1rem solid #f3e7e3;
+    border-right: .1rem solid #f3e7e3;
+}
+
+    .fq-type ul li {
+        background: white;
+        width: 25%;
+        border-top: .1rem solid #f3e7e3;
+        border-left: .1rem solid #f3e7e3;
+    }
+	
+	/*返回顶部*/
+	    .am-gotop-fixed {
+        width: 40px;
+    }
+
+        .am-gotop-fixed .am-gotop-icon {
+            line-height: 40px;
+        }
+		
+		.am-gotop-fixed{
+			position:absolute;
+			
+			display:none;
+			opacity:0.9;
+			bottom:60px;
+		}
+	
+	
+/*一排主面板*/
+.index_panel .mian-img {
+    margin-top: -10px;
+    position: relative;
+    min-width: 133px;
+    height: 133px;
+    float: left;
+    box-shadow: 2px 0px 5px #888888;
+}
+
+.index_panel .quan-tip {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    left: 55px;
+    width: 90px;
+}
+
+.index_panel .panel-center {
+    padding-left: 40px;
+    height: 123px;
+}
+
+.index_panel .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 42px;
+}
+
+.index_panel .button {
+    width: 50%;
+    padding: 0.5em 0em;
+}
+
+.index_panel .price {
+    font-size: 2.5rem;
+    line-height: 25px;
+}
+
+.index_panel .panel-bottom {
+    background-color: #FFFFFF;
+    color: #616161;
+}
+
+    .index_panel .panel-bottom .panel-top-border {
+        border-top-style: dashed;
+        border-top-width: 1px;
+        margin-top: 2px;
+        padding-top: 2px;
+        border-color: #BCBCBC;
+    }
+
+.index_panel .border_triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    overflow: hidden;
+    border-color: transparent #5EB95E transparent transparent;
+    border-style: dotted solid dotted dotted;
+    margin-right: 0px;
+    position: relative;
+    top: -3px;
+    left: -6px;
+}
+
+.index_panel .free_shipping {
+    line-height: 10px;
+    top: -7px;
+    position: relative;
+    margin-left: 0px;
+    padding-left: 2px;
+    padding-right: 5px;
+    left: -6px;
+}
+/*双排主面板*/ .fq-goods {
+    border: #f3f3f3 solid .1rem;
+    background: #fff;
+    color: #3d0505;
+}
+
+.am-thumbnail {
+    border: none;
+}
+
+.fq-title, .fq-title:hover, .fq-title:focus {
+    color: #3d0505;
+}
+
+.fq-abstract {
+    color: #8f8f8f;
+    line-height: 2;
+    position: relative;
+    top: 2px;
+}
+
+.fq-price, .fq-buy, .fq-buy:hover, .fq-buy:focus, .fq-price:hover, .fq-price:focus {
+    color: #f54d23;
+}
+
+.fq-post {
+    background-color: rgb(94,185,94);
+}
+
+.fq-coupon {
+    background-color: rgb(161,156,243);
+    clear: right;
+}
+
+.fq-buy {
+    border: .1rem solid #f54d23;
+}
+
+.fq-share, .fq-share:hover, .fq-share:focus {
+    border: .1rem solid #f5a425;
+    color: #f5a425;
+}
+
+.fq-invalid {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+}
+
+    .fq-invalid img {
+        position: relative;
+        top: -30px;
+        width: 80%;
+    }
+
+    .fq-invalid div:first-child {
+        width: 70%;
+        border: 0.3rem solid #6a6161;
+        border-radius: 0.5rem;
+    }

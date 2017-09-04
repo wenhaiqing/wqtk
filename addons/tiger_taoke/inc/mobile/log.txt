@@ -1,0 +1,109 @@
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:03:38 *1753.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:03:38 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:03:45 *1758.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:03:45 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:03:52 *1759.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:03:52 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:04:06 *1762.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:04:06 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:04:15 *1763.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:04:15 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:05:10 *1764.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:05:10 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:05:46 *1771.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:05:46 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:05:54 *1774.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:05:54 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:06:13 *1777.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:06:13 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:06:24 *1781.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:06:24 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:06:27 *1782.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:06:27 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:06:31 *1784.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:06:31 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:06:35 *1786.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:06:35 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:06:39 *1787.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:06:39 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Fatal error:  Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37
+[2017-03-31 01:06:41 *1788.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Call to undefined function json_de() in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 37.
+[2017-03-31 01:06:41 $1744.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+[2017-03-31 01:06:53 #1743.0]	NOTICE	Server is shutdown now.
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Undefined variable: server in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+PHP Notice:  Trying to get property of non-object in /b/domains/cs.youqi18.com/public_html/addons/tiger_taoke/inc/mobile/server.php on line 23
+[2017-04-19 17:15:13 #3855.0]	NOTICE	Server is shutdown now.

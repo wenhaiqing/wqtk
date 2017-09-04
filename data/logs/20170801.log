@@ -1,0 +1,237 @@
+2017-08-01 01:34:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1501522470</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-01 01:34:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1501522470',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501522470',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-01 01:34:29 response :
+------------
+Array:
+params : Array ;
+
+2017-08-01 08:29:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9k7CfLq6BcctxqZa_RmadM]]></FromUserName>
+<CreateTime>1501547357</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[找【我剁手都要买的宝贝（【天猫超市】金龙鱼 花生浓香食用调和油 5L/桶 食用油 人气爆款），快来和我一起瓜分红包】，复制这条信息￥m9Wf013SxR0￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449096792131103650</MsgId>
+</xml>
+
+2017-08-01 08:29:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9k7CfLq6BcctxqZa_RmadM',
+    'createtime' => '1501547357',
+    'msgtype' => 'text',
+    'content' => '找【我剁手都要买的宝贝（【天猫超市】金龙鱼 花生浓香食用调和油 5L/桶 食用油 人气爆款），快来和我一起瓜分红包】，复制这条信息￥m9Wf013SxR0￥后打开👉手机淘宝👈',
+    'msgid' => '6449096792131103650',
+    'from' => 'oRy3is9k7CfLq6BcctxqZa_RmadM',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501547357',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-01 08:29:17 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is9k7CfLq6BcctxqZa_RmadM ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
+2017-08-01 08:50:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9k7CfLq6BcctxqZa_RmadM]]></FromUserName>
+<CreateTime>1501548660</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://h5.wps.cn/p/99711f94.html]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-01 08:50:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9k7CfLq6BcctxqZa_RmadM',
+    'createtime' => '1501548660',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://h5.wps.cn/p/99711f94.html',
+    'menuid' => '416162317',
+    'from' => 'oRy3is9k7CfLq6BcctxqZa_RmadM',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501548660',
+    'type' => 'text',
+    'content' => 'https://h5.wps.cn/p/99711f94.html',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-01 08:50:59 response :
+------------
+Array:
+params : Array ;
+
+2017-08-01 14:24:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is5arXHgIgZNESlmQvwkpJas]]></FromUserName>
+<CreateTime>1501568668</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【我剁手都要买的宝贝（gb好孩子保温奶瓶宝宝水杯婴儿304不锈钢保温杯儿童保温水杯水壶），快来和我一起瓜分红包】，复制这条信息￥8Tw801ftq3V￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6449188322179164976</MsgId>
+</xml>
+
+2017-08-01 14:24:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is5arXHgIgZNESlmQvwkpJas',
+    'createtime' => '1501568668',
+    'msgtype' => 'text',
+    'content' => '【我剁手都要买的宝贝（gb好孩子保温奶瓶宝宝水杯婴儿304不锈钢保温杯儿童保温水杯水壶），快来和我一起瓜分红包】，复制这条信息￥8Tw801ftq3V￥后打开👉手机淘宝👈',
+    'msgid' => '6449188322179164976',
+    'from' => 'oRy3is5arXHgIgZNESlmQvwkpJas',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501568668',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-01 14:24:29 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is5arXHgIgZNESlmQvwkpJas ;
+MsgType : text ;
+Content : Hi,喻端儿
+系统繁忙！请稍后在试！ ;
+
+2017-08-01 23:46:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isyrs5ipYXuzKUDhzUE9utA8]]></FromUserName>
+<CreateTime>1501602368</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-08-01 23:46:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isyrs5ipYXuzKUDhzUE9utA8',
+    'createtime' => '1501602368',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3isyrs5ipYXuzKUDhzUE9utA8',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501602368',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-01 23:46:07 response :
+------------
+Array:
+params : Array ;
+

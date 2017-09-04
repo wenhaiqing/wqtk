@@ -1,0 +1,250 @@
+2017-07-22 10:16:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxFtmEO9J0BAYrKJ51ByMEI]]></FromUserName>
+<CreateTime>1500689798</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏】，点击链接再选择浏览器打开http://c.b1yt.com/h.NEm1mj?cv=vyTT0bUfvUK&sm=3107f4 ，或复制这条信息￥vyTT0bUfvUK￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6445413604271246276</MsgId>
+</xml>
+
+2017-07-22 10:16:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxFtmEO9J0BAYrKJ51ByMEI]]></FromUserName>
+<CreateTime>1500689798</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏】，点击链接再选择浏览器打开http://c.b1yt.com/h.NEm1mj?cv=vyTT0bUfvUK&sm=3107f4 ，或复制这条信息￥vyTT0bUfvUK￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6445413604271246276</MsgId>
+</xml>
+
+2017-07-22 10:16:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'createtime' => '1500689798',
+    'msgtype' => 'text',
+    'content' => '【HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏】，点击链接再选择浏览器打开http://c.b1yt.com/h.NEm1mj?cv=vyTT0bUfvUK&sm=3107f4 ，或复制这条信息￥vyTT0bUfvUK￥后打开👉手机淘宝👈',
+    'msgid' => '6445413604271246276',
+    'from' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500689798',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-22 10:16:42 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isxFtmEO9J0BAYrKJ51ByMEI ;
+MsgType : text ;
+Content : 昵称：Colourful 
+商品名称：HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏 
+原价：59.9 
+优惠券：0  
+返现：11.46 
+优惠金额：11.46 
+优惠价：48.44 
+淘口令：￥yBts0b6IXV0￥           复制此条消息，打开淘宝。 ;
+
+2017-07-22 10:16:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'createtime' => '1500689798',
+    'msgtype' => 'text',
+    'content' => '【HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏】，点击链接再选择浏览器打开http://c.b1yt.com/h.NEm1mj?cv=vyTT0bUfvUK&sm=3107f4 ，或复制这条信息￥vyTT0bUfvUK￥后打开👉手机淘宝👈',
+    'msgid' => '6445413604271246276',
+    'from' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500689798',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-22 10:16:45 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isxFtmEO9J0BAYrKJ51ByMEI ;
+MsgType : text ;
+Content : 昵称：Colourful 
+商品名称：HOF正品按压口红持久保湿不脱色防水咬唇妆学生豆沙色斩男色唇膏 
+原价：59.9 
+优惠券：0  
+返现：11.46 
+优惠金额：11.46 
+优惠价：48.44 
+淘口令：￥EANI0b6Ifcs￥           复制此条消息，打开淘宝。 ;
+
+2017-07-22 10:16:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isxFtmEO9J0BAYrKJ51ByMEI]]></FromUserName>
+<CreateTime>1500689819</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-22 10:16:58 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'createtime' => '1500689819',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3isxFtmEO9J0BAYrKJ51ByMEI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500689819',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&tj=1&do=catlist&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-22 10:16:58 response :
+------------
+Array:
+params : Array ;
+
+2017-07-22 21:27:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9ykXBVrDcTW4JfOUKczdmg]]></FromUserName>
+<CreateTime>1500730058</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-22 21:27:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9ykXBVrDcTW4JfOUKczdmg',
+    'createtime' => '1500730058',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is9ykXBVrDcTW4JfOUKczdmg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500730058',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=mfan1&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-22 21:27:37 response :
+------------
+Array:
+params : Array ;
+
+2017-07-22 21:28:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is9ykXBVrDcTW4JfOUKczdmg]]></FromUserName>
+<CreateTime>1500730106</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-22 21:28:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is9ykXBVrDcTW4JfOUKczdmg',
+    'createtime' => '1500730106',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is9ykXBVrDcTW4JfOUKczdmg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1500730106',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=orderlist&op=qb&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-22 21:28:25 response :
+------------
+Array:
+params : Array ;
+

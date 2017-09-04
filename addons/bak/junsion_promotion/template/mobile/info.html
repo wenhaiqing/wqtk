@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>完善信息</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<link type="text/css" rel="stylesheet" href="{RES}js/style.css?v={TIMESTAMP}" />
+<link type="text/css" rel="stylesheet" href="{RES}js/weui.css" />
+<script src="../app/resource/js/lib/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div class="container js_container" style="overflow-x: hidden;">
+	<div class="page">
+	{php $adv = $cfg['reg_adv'];}
+		{if $adv}<img src="{php echo toimage($adv)}" style="width: 100%;">{/if}
+	    <div class="hd">
+	        <h1 class="page_title">{$_W['account']['name']}</h1>
+	    </div>
+	    <div class="bd">
+	        <form action="" method="post" onsubmit="return onCheck()">
+	        	<div class="weui_cells weui_cells_form">
+	        	{php $types = array('','text','number','tel','','date');}
+		            {loop $cfg['cols'] $k $c}
+		            <div class="weui_cell">
+		                <div class="weui_cell_hd"><label class="weui_label">{$c['col_name']}</label></div>
+		                <div class="weui_cell_bd weui_cell_primary">
+		                    {if $c['col_type'] != 4}
+		                    <input {if $c['col_must']}required="required"{/if} {if $c['col_type']==3}maxlength="11"{/if} class="weui_input" type="{$types[$c['col_type']]}" id="col{$k}" name="col{$k}" placeholder="请输入{$c['col_name']}"/>
+		                    {else}
+		                    <textarea class="weui_input" name="col{$k}" placeholder="请输入{$c['col_name']}" {if $c['col_must']}required="required"{/if}></textarea>
+		                    {/if}
+		                </div>
+		            </div>
+		            {/loop}
+		        </div>
+		        <button type="submit" name="submit" value='1' class="weui_btn weui_btn_primary" style="width:90%;margin: 20px 5%">提交信息</button>
+		        <input type="hidden" name="token" value="{$_W['token']}">
+	        </form>
+		</div>
+	</div>
+	{if $cfg['copyright']}<div style="text-align: center;font-size: 15px;margin: 10px auto;">{$cfg['copyright']}</div>{/if}
+</div>
+<div class="weui_dialog_confirm" style="display: none">
+    <div class="weui_mask"></div>
+    <div class="weui_dialog">
+        <div class="weui_dialog_hd"><strong class="weui_dialog_title">温馨提示</strong></div>
+        <div style="text-align: center;" class="weui_dialog_bd" id="content"></div>
+        <div class="weui_dialog_ft">
+            <a href="#" class="weui_btn_dialog primary" onclick="$('.weui_dialog_confirm').hide()">确定</a>
+        </div>
+    </div>
+</div>
+<script>
+function onCheck(){
+	{loop $cfg['cols'] $k $c}
+		{if $c['col_must']}
+			if($.trim($('#col{$k}').val()) == ''){
+				$('#content').text('请填写{$c['col_name']}!');
+				$('#weui_dialog_confirm').show();
+				return false;
+			}
+			{if $c['col_type']==3}
+				if($.trim($('#col{$k}').val()) == '' || !$("#col{$k}").val().match(/^1[34578]\d{9}$/)){
+					$('#content').text('请输入正确的{$c['col_name']}！');
+					$('.weui_dialog_confirm').show();
+					return false;
+				}
+			{/if}
+		{/if}
+	{/loop}
+}
+</script>
+</body>
+</html>

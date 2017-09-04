@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{if !empty($title)}{$title}{else}系统提示{/if}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="{MODULE_URL}template/mobile/zmuicss/weui.min.css"/>
+</head>
+<body ontouchstart>
+<div class="page">
+    <div class="weui-msg">
+        <div class="weui-msg__icon-area">
+			{if $type=='err'||$type=='error'}
+			   <i class="weui-icon_msg weui-icon-warn"></i>
+			{elseif $type=='suc'||$type=='success'}
+			   <i class="weui-icon-success weui-icon_msg"></i>
+			{else}
+			   <i class="weui-icon_msg weui-icon-info"></i>
+			{/if}
+		</div>
+        <div class="weui-msg__text-area">
+            <h2 class="weui-msg__title">{if !empty($title)}{$title}{else}系统提示{/if}</h2>
+            <p class="weui-msg__desc">{$message}</p>
+        </div>
+        <div class="weui-msg__opr-area">
+			<p class="weui-btn-area">
+				{if empty($url)} {php $url='javascript:history.go(-1);';} {/if}
+				{if $type=='err'||$type=='error'}
+					<a href="{$url}" class="weui-btn weui-btn_warn">{if empty($buttontext)}确认！{else}{$buttontext}{/if}</a>
+				{elseif $type=='suc'||$type=='success'}
+					<a href="{$url}" class="weui-btn weui-btn_primary">{if empty($buttontext)}确定！{else}{$buttontext}{/if}</a>
+				{else}
+					<a href="{$url}" class="weui-btn weui-btn_default">{if empty($buttontext)}朕，知道了！{else}{$buttontext}{/if}</a>
+				{/if}
+			</p><script type="text/javascript">setTimeout(function () {location.href = "{$url}";}, 3000);</script>
+        </div>
+        <div class="weui-msg__extra-area">
+            <div class="weui-footer">
+                <p class="weui-footer__links">
+					{if !empty($xurl)}
+						<a href="{$xurl}" class="weui-footer__link">查看详情</a>
+					{else}	
+						<a href="javascript:history.go(-1);" class="weui-footer__link">点击这里返回上一页</a>
+					{/if}
+                </p>
+                <p class="weui-footer__text">Copyright &copy; 2008-{php echo date('Y')} {$_W['uniaccount']['name']}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <title>会员中心</title>
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/css/style.css" rel="stylesheet" />
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/css/swipper.css" rel="stylesheet" />
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/css/preload.css" rel="stylesheet" />
+    <link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/css/loading.css" rel="stylesheet" />
+    
+    <script>
+        var deviceWidth = document.documentElement.clientWidth;
+        if (deviceWidth > 750) deviceWidth = 750;
+        document.documentElement.style.fontSize = deviceWidth / 7.5 + "px";
+        document.documentElement.style.width = "100%";
+    </script>
+</head>
+<body>
+<div id="containter" class="container">
+        
+<div class="person-top back-w">
+    <div class="person-top-infor person-pad border-bottom">
+        <a href="javascript:;" class="persmess">
+            <div class="person-head"><img src="{php echo preg_replace('/\/0$/', '/96', stripslashes($fans['avatar']));}"></div>
+            <div class="person-top-text">
+                <h1>{$fans['nickname']}</h1>
+                <h2>{if $mc['credit1']}{$mc['credit1']}{else}0{/if}</h2>
+            </div>
+        </a>
+            <!--a href="" class="bevip">开通VIP</a-->
+    </div>
+    {if $cfg['fxkg']==1}
+    {if $cfg['fxtype']==2}
+    <div class="usertx"><span class="userpointer" style="font-size:16px;">余额：{if $mc['credit2']}{$mc['credit2']}{else}0.00{/if}</span><span class="usergotx">马上提现</span><div class="arrow"></div></div>
+    {/if}
+    <div class="usertopnav">
+        <div class="usertopnavheader">
+            <span>我的订单</span>
+            <a href="{php echo $this->createMobileUrl('addorder',array('op'=>'qb'))}"></a>
+            <div class="arrow"></div>
+        </div>
+        <ul>
+            <li>
+                    <a href="{php echo $this->createMobileUrl('addorder',array('op'=>'add'))}">
+                        <h1 class="user01"></h1>
+                        <p>添加订单</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="{php echo $this->createMobileUrl('orderlist',array('op'=>'qb'))}">
+                        <h1 class="user02"></h1>
+                        <p>全部订单</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="{php echo $this->createMobileUrl('orderlist',array('op'=>'df'))}">
+                        <h1 class="user03"></h1>
+                        <p>待返</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="{php echo $this->createMobileUrl('orderlist',array('op'=>'yf'))}">
+                        <h1 class="user04"></h1>
+                        <p>已返</p>
+                    </a>
+                </li>
+        </ul>
+    </div>
+{/if}
+
+</div>
+
+
+<div class="person-list back-w">
+    <ul>
+        <li>
+            <a href="{php echo $this->createMobileUrl('mfan1',array('uid'=>$fans['uid']))}" style="background-image: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/user/images/user01.png);">
+                我的伙伴
+            </a>
+            <div class="arrow"></div>
+        </li>
+        {if $cfg['qiandaourl']}
+        <li>
+            <a href="{$cfg['qiandaourl']}" style="background-image: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/user/images/user01.png);">
+                每日签到
+            </a>
+            <div class="arrow"></div>
+        </li>
+        {else}
+        <li>
+            <a href="{php echo murl('mc/card/sign_display',array('i'=>$_W['uniacid']));}" style="background-image: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/user/images/a1.png);">
+                每日签到
+            </a>
+            <div class="arrow"></div>
+        </li>
+        {/if}
+
+        <li>
+            <a href="{php echo $this->createMobileUrl('sdindex')}" style="background-image: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/user/images/a2.png);">
+                有奖晒单
+            </a>
+            <div class="arrow"></div>
+        </li>
+        <li>
+            <a href="{php echo $this->createMobileUrl('records',array('pid'=>$pid));}" style="background-image: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/user/images/a4.png);">
+                我的积分
+            </a>
+            <div class="arrow"></div>
+        </li>
+        {if $cfg['jfscurl']}
+        <li>
+            <a href="{$cfg['jfscurl']}" style="background-image: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/user/images/a3.png);">
+                积分商城
+            </a>
+            <div class="arrow"></div>
+        </li>
+        {else}
+        <li>
+            <a href="{php echo $this->createMobileUrl('goods')}" style="background-image: url({$_W['siteroot']}addons/tiger_taoke/template/mobile/user/images/a3.png);">
+                积分商城
+            </a>
+            <div class="arrow"></div>
+        </li>
+        {/if}
+        
+       {loop $fzlist $v}
+        <li>
+            <a href="{$v['wlurl']}"  style="background-image: url({php echo tomedia($v['picurl'])});">
+                {$v['title']}
+            </a>
+            <div class="arrow"></div>
+        </li>
+        {/loop}
+      
+
+        <!--li>
+            <a href="/Customer/AccountRecord" class="userlist03">
+                资金明细
+            </a>
+            <div class="arrow"></div>
+        </li>
+        <li>
+            <a href="/Customer/Qr" class="userlist04">
+                码上赚钱
+            </a>
+            <div class="arrow"></div>
+        </li>
+        <li>
+            <a href="/FAQ" class="userlist05">
+                常见问题
+            </a>
+            <div class="arrow"></div>
+        </li-->
+    </ul>
+</div>
+
+
+
+<!--底部菜单-->
+<link href="{$_W['siteroot']}addons/tiger_taoke/template/mobile/tbgoods/style5/css/style_v3.css" rel="stylesheet" type="text/css" />
+    <div class="nav_box" style="z-index:1000">
+     <nav class="nav" id="nav">
+      <ul class="">
+       <li><a {if $tj==''}class='active'{/if} href="{php echo $this->createMobileUrl('index')}" target="_self"><em class="icon icon-jz"></em><span>首页</span><em class="line"></em></a></li>
+       <li><a {if $tj==1}class='active'{/if} href="{php echo $this->createMobileUrl('index',array('tj'=>1))}" target="_self"><em class="icon icon-jk"></em><span>9.9专场</span><em class="line"></em></a></li>
+       <li><a {if $tj==2}class='active'{/if} href="{php echo $this->createMobileUrl('index',array('tj'=>2))}" target="_self"><em class="icon icon-sjk"></em><span>19.9专场</span><em class="line"></em></a></li>
+       <li class="_border"><a href="{php echo $this->createMobileUrl('member')}" target="_self"><em class="icon icon-yg"></em><span>个人中心</span><em class="line"></em></a></li>
+      </ul>
+     </nav>
+    </div>
+<!---->
+</div>
+
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/jquery-1.7.2.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/tool.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/asynloading.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/idangerous.swiper.min.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/common_phone1.js"></script>
+<script src="{$_W['siteroot']}addons/tiger_taoke/template/mobile/user/js/fun.js"></script>
+<script>
+/*动效弹出框*/
+function popwindow(title, content) {
+
+    var pop;
+    if (!document.querySelector(".popw")) {
+        var popw = document.createElement("div");
+        document.body.appendChild(popw);
+        popw.className = "popw";
+        popw.innerHTML = "<div class='popwbg'></div><div class='popwbox'><div class='popwtitle'></div><div class='popwcontent'></div><div><div class='popwcc'><a href='javascript:;' class='popwcancel'>取消</a><a href='javascript:;' class='popwcomfirm tixiancomfirm'>确定</a></div></div></div>"
+        canclepopw();
+    }
+    $(".popwtitle").html(title);
+    $(".popwcontent").html(content);
+    pop = document.querySelector(".popw")
+    pop.style.display = "-webkit-box";
+    $(".popwbox").addClass("popwboxshow");
+    $(".tixiancomfirm").click(function () {
+       
+        $.ajax({
+            type: "post",
+            url: "{php echo $this->createMobileUrl('tixianpost')}",
+            dataType: "json",
+            success: function (data) {
+                if (data.statusCode == "200") {
+                    alert("提现成功,客服会在24小时内审核发放！请耐心等待！");
+                }
+                else {
+                    alert(data.message);
+                }
+            }
+        });
+
+    })
+}
+</script>
+<style>
+
+</style>
+</body>
+</html>

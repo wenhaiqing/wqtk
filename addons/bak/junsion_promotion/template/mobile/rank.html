@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+<link type="text/css" rel="stylesheet" href="{RES}js/style.css" />
+<link type="text/css" rel="stylesheet" href="{RES}js/weui.css" />
+<script src="../app/resource/js/lib/jquery-1.11.1.min.js"></script>
+<title>推广排行</title>
+<style>
+.weui_cell:before{
+	left: 0;
+}
+.weui_cell img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+.weui_cell_ft {
+    color: orangered;
+    font-size: 25px;
+}
+.rank{
+    text-align: center;
+    border: 1px solid gainsboro;
+    margin: 5px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+.rank a{
+    display: inline-block;
+    font-size: 16px;
+    width: 33.3333333%;
+    padding: 3px 0;
+    color: inherit;
+}
+
+.rank a.left{
+	border-left: 0px solid transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.rank a.right{
+	border-right: 0px solid transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.rank a.active{
+	background: orangered;
+	color: white;
+}
+</style>
+</head>
+<body>
+<div class="container js_container">
+	<div class="page">
+	    <div class="bd">
+	    	<div class="rank"><a class="left {if !$type}active{/if}" href="{php echo $this->createMobileUrl('rank')}">今天排行</a><a class="{if $type==1}active{/if}" href="{php echo $this->createMobileUrl('rank',array('type'=>1))}">月排行</a><a class="right {if $type==2}active{/if}" href="{php echo $this->createMobileUrl('rank',array('type'=>2))}">总排行</a></div>
+	        <div class="weui_cells" style="margin: 0">
+	            {loop $list $l}
+	            <div class="weui_cell">
+	                <div class="weui_cell_hd"><img src="{$l['avatar']}"></div>
+	                <div class="weui_cell_bd weui_cell_primary">
+	                    <p>{$l['realname']}</p>
+	                </div>
+	                <div class="weui_cell_ft">{$l['num']}</div>
+	            </div>
+	            {/loop}
+	        </div>
+		</div>
+	</div>
+	{if $cfg['copyright']}<div style="text-align: center;font-size: 15px;margin: 10px auto;">{$cfg['copyright']}</div>{/if}
+	</div>
+{template 'loading'}
+<script>
+//下拉加载
+var range = 50; //距下边界长度/单位px
+var pageNo = 2;
+var totalheight = 0;
+var container = $(".page .bd .weui_cells");
+var loading = false;
+$(window).scroll(function(){
+	if(loading) return;
+    var srollPos = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+    totalheight = parseFloat($(window).height()) + parseFloat(srollPos);
+    if(($(document).height()-range) <= totalheight && pageNo > 1) {
+    	loading = true;
+    	LOADING(true);
+ 		$.ajax({
+ 			url:'{php echo $this->createMobileUrl("rank",array("type"=>$type))}',
+ 			type:'post',
+ 			data:{page:pageNo},
+ 			success:function(data){
+ 				if(data != '1'){
+ 					data = JSON.parse(data);
+ 					$.each(data, function(i, item){     
+ 					    var str = '<div class="weui_cell">';
+ 					    str += '<div class="weui_cell_hd"><img src="'+item['avatar']+'"></div>';
+ 					    str += '<div class="weui_cell_bd weui_cell_primary">';
+ 					    str += '<p>'+item['realname']+'</p></div>';
+ 					    str += '<div class="weui_cell_ft">'+item['num']+'</div></div>';
+ 						container.append(str);
+ 					});  
+ 					pageNo++;
+ 					
+ 				}else pageNo = 0;
+ 				loading = false;
+ 				LOADING(false);
+ 			}
+ 		});
+    }            
+});
+</script>
+</body>
+</html>

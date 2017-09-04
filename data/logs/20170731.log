@@ -1,0 +1,554 @@
+2017-07-31 00:49:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1501433382</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-31 00:49:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1501433382',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501433382',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-31 00:49:41 response :
+------------
+Array:
+params : Array ;
+
+2017-07-31 00:51:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4TtqXXbHM2GL0_11O6OXfg]]></FromUserName>
+<CreateTime>1501433464</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke]]></EventKey>
+<MenuId>416162317</MenuId>
+</xml>
+
+2017-07-31 00:51:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'createtime' => '1501433464',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'menuid' => '416162317',
+    'from' => 'oRy3is4TtqXXbHM2GL0_11O6OXfg',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501433464',
+    'type' => 'text',
+    'content' => 'http://wqadmin.fanlicool.com/app/index.php?i=2&c=entry&do=member&m=tiger_taoke',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-31 00:51:03 response :
+------------
+Array:
+params : Array ;
+
+2017-07-31 01:10:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is4Gn1oYngjA32fjADSItNmE]]></FromUserName>
+<CreateTime>1501434608</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（软底凉鞋女夏学生2017新款平底鞋简约韩版百搭露趾一字带罗马凉鞋），快来和我一起瓜分红包】￥iHqpG4CyJW￥http://c.b3ww.com/h.MM5XWS?cv=iHqpG4CyJW&sm=66b8ab]]></Content>
+<MsgId>6448612538863391697</MsgId>
+</xml>
+
+2017-07-31 01:10:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is4Gn1oYngjA32fjADSItNmE',
+    'createtime' => '1501434608',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（软底凉鞋女夏学生2017新款平底鞋简约韩版百搭露趾一字带罗马凉鞋），快来和我一起瓜分红包】￥iHqpG4CyJW￥http://c.b3ww.com/h.MM5XWS?cv=iHqpG4CyJW&sm=66b8ab',
+    'msgid' => '6448612538863391697',
+    'from' => 'oRy3is4Gn1oYngjA32fjADSItNmE',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501434608',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-31 01:10:10 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is4Gn1oYngjA32fjADSItNmE ;
+MsgType : text ;
+Content : 昵称：妍 
+商品名称：软底凉鞋女夏学生2017新款平底鞋简约韩版百搭露趾一字带罗马凉鞋 
+原价：79 
+优惠券：0  
+返现：6.40 
+优惠金额：6.4 
+优惠价：72.6 
+淘口令：￥2wSE0YzPvHr￥           复制此条消息，打开淘宝。 ;
+
+2017-07-31 11:31:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3iswtxppHgIPbV1IprFYlCCeI]]></FromUserName>
+<CreateTime>1501471864</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（韩国进口方便面三养超辣火鸡面辣鸡面速食泡面拉面干拌面整箱包邮），快来和我一起瓜分红包】￥jMYnG4zUGv￥http://c.b3za.com/h.MphnsP?cv=jMYnG4zUGv&sm=c2d4d4]]></Content>
+<MsgId>6448772552164986921</MsgId>
+</xml>
+
+2017-07-31 11:31:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'createtime' => '1501471864',
+    'msgtype' => 'text',
+    'content' => '复制这条信息，打开👉手机淘宝👈即可看到【我剁手都要买的宝贝（韩国进口方便面三养超辣火鸡面辣鸡面速食泡面拉面干拌面整箱包邮），快来和我一起瓜分红包】￥jMYnG4zUGv￥http://c.b3za.com/h.MphnsP?cv=jMYnG4zUGv&sm=c2d4d4',
+    'msgid' => '6448772552164986921',
+    'from' => 'oRy3iswtxppHgIPbV1IprFYlCCeI',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501471864',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-31 11:31:08 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3iswtxppHgIPbV1IprFYlCCeI ;
+MsgType : text ;
+Content : 昵称：  D。 
+商品名称：韩国进口方便面三养超辣火鸡面辣鸡面速食泡面拉面干拌面整箱包邮 
+原价：25.99 
+优惠券：0  
+返现：0.23 
+优惠金额：0.23 
+优惠价：25.76 
+淘口令：￥g3OT01ZNDLw￥           复制此条消息，打开淘宝。 ;
+
+2017-07-31 13:49:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isyOfBjMvet2NvmzeIOOKCSc]]></FromUserName>
+<CreateTime>1501480145</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-31 19:33:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2dgh6Y5RAWOePSpvLBlGeo]]></FromUserName>
+<CreateTime>1501500835</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【英发温泉泳衣女连体三角 泳装大码专业款游泳衣显瘦舒适遮肚修身】，复制这条信息￥nMTB01XsPpq￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6448896981662543307</MsgId>
+</xml>
+
+2017-07-31 19:33:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'createtime' => '1501500835',
+    'msgtype' => 'text',
+    'content' => '【英发温泉泳衣女连体三角 泳装大码专业款游泳衣显瘦舒适遮肚修身】，复制这条信息￥nMTB01XsPpq￥后打开👉手机淘宝👈',
+    'msgid' => '6448896981662543307',
+    'from' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501500835',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-31 19:33:55 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2dgh6Y5RAWOePSpvLBlGeo ;
+MsgType : text ;
+Content : Hi,后来呐
+系统繁忙！请稍后在试！ ;
+
+2017-07-31 19:33:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2dgh6Y5RAWOePSpvLBlGeo]]></FromUserName>
+<CreateTime>1501500840</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【英发温泉泳衣女连体三角 泳装大码专业款游泳衣显瘦舒适遮肚修身】，复制这条信息￥nMTB01XsPpq￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6448897003137379790</MsgId>
+</xml>
+
+2017-07-31 19:34:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'createtime' => '1501500840',
+    'msgtype' => 'text',
+    'content' => '【英发温泉泳衣女连体三角 泳装大码专业款游泳衣显瘦舒适遮肚修身】，复制这条信息￥nMTB01XsPpq￥后打开👉手机淘宝👈',
+    'msgid' => '6448897003137379790',
+    'from' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501500840',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-31 19:34:00 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2dgh6Y5RAWOePSpvLBlGeo ;
+MsgType : text ;
+Content : Hi,后来呐
+系统繁忙！请稍后在试！ ;
+
+2017-07-31 19:34:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2dgh6Y5RAWOePSpvLBlGeo]]></FromUserName>
+<CreateTime>1501500845</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【英发温泉泳衣女连体三角 泳装大码专业款游泳衣显瘦舒适遮肚修身】，复制这条信息￥nMTB01XsPpq￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6448897024612216273</MsgId>
+</xml>
+
+2017-07-31 19:34:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'createtime' => '1501500845',
+    'msgtype' => 'text',
+    'content' => '【英发温泉泳衣女连体三角 泳装大码专业款游泳衣显瘦舒适遮肚修身】，复制这条信息￥nMTB01XsPpq￥后打开👉手机淘宝👈',
+    'msgid' => '6448897024612216273',
+    'from' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501500845',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-31 19:34:05 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2dgh6Y5RAWOePSpvLBlGeo ;
+MsgType : text ;
+Content : Hi,后来呐
+系统繁忙！请稍后在试！ ;
+
+2017-07-31 19:34:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is2dgh6Y5RAWOePSpvLBlGeo]]></FromUserName>
+<CreateTime>1501500852</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【英发温泉泳衣女连体三角 泳装大码专业款游泳衣显瘦舒适遮肚修身】，复制这条信息￥nMTB01XsPpq￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6448897054676987352</MsgId>
+</xml>
+
+2017-07-31 19:34:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'createtime' => '1501500852',
+    'msgtype' => 'text',
+    'content' => '【英发温泉泳衣女连体三角 泳装大码专业款游泳衣显瘦舒适遮肚修身】，复制这条信息￥nMTB01XsPpq￥后打开👉手机淘宝👈',
+    'msgid' => '6448897054676987352',
+    'from' => 'oRy3is2dgh6Y5RAWOePSpvLBlGeo',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501500852',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-31 19:34:12 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is2dgh6Y5RAWOePSpvLBlGeo ;
+MsgType : text ;
+Content : Hi,后来呐
+系统繁忙！请稍后在试！ ;
+
+2017-07-31 23:24:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3is12Nwvp8gKKGYQkYdhz330k]]></FromUserName>
+<CreateTime>1501514698</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【迪卡侬 户外皮肤衣男女防风防晒轻薄皮肤风衣 防风衣外套 QUECHUA】http://c.b3wt.com/h.MGVa6u?cv=SU4wGfcWCg&sm=91998c 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥SU4wGfcWCg￥]]></Content>
+<MsgId>6448956522794175004</MsgId>
+</xml>
+
+2017-07-31 23:24:58 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3is12Nwvp8gKKGYQkYdhz330k',
+    'createtime' => '1501514698',
+    'msgtype' => 'text',
+    'content' => '【迪卡侬 户外皮肤衣男女防风防晒轻薄皮肤风衣 防风衣外套 QUECHUA】http://c.b3wt.com/h.MGVa6u?cv=SU4wGfcWCg&sm=91998c 点击链接，再选择浏览器打开；或复制这条信息，打开👉手机淘宝👈￥SU4wGfcWCg￥',
+    'msgid' => '6448956522794175004',
+    'from' => 'oRy3is12Nwvp8gKKGYQkYdhz330k',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501514698',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-31 23:24:58 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3is12Nwvp8gKKGYQkYdhz330k ;
+MsgType : text ;
+Content : Hi,李
+该商品暂无优惠,请查看其他商品 ;
+
+2017-07-31 23:52:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_421c55699f6c]]></ToUserName>
+<FromUserName><![CDATA[oRy3isy_gdwwonm86KRvJW4NThuM]]></FromUserName>
+<CreateTime>1501516358</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[【皮衣女长款大衣2017冬装新款女装时尚大牌修身风衣长款外套皮大衣】，复制这条信息￥rYXI01W8yAK￥后打开👉手机淘宝👈]]></Content>
+<MsgId>6448963652439886850</MsgId>
+</xml>
+
+2017-07-31 23:52:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_421c55699f6c',
+    'fromusername' => 'oRy3isy_gdwwonm86KRvJW4NThuM',
+    'createtime' => '1501516358',
+    'msgtype' => 'text',
+    'content' => '【皮衣女长款大衣2017冬装新款女装时尚大牌修身风衣长款外套皮大衣】，复制这条信息￥rYXI01W8yAK￥后打开👉手机淘宝👈',
+    'msgid' => '6448963652439886850',
+    'from' => 'oRy3isy_gdwwonm86KRvJW4NThuM',
+    'to' => 'gh_421c55699f6c',
+    'time' => '1501516358',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'tiger_taoke',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '11',
+    'uniacid' => '2',
+    'module' => 'tiger_taoke',
+    'content' => '￥',
+    'type' => '3',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-31 23:52:38 response :
+------------
+Array:
+FromUserName : gh_421c55699f6c ;
+ToUserName : oRy3isy_gdwwonm86KRvJW4NThuM ;
+MsgType : text ;
+Content : 该商品暂无优惠,请查看其他商品 ;
+
